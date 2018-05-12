@@ -21,8 +21,14 @@ namespace SDG_Site.Managers {
 				string commandText = "INSERT INTO " + USERTABLE + "(User_Id, Password, Name, Email) VALUES ('" + user.UserID + "', '" + user.Password + "', '" + user.Name + "', '" + user.Email + "')";
 				var cmd = new MySqlCommand(commandText, conn);
 
-				// The number of rows affected
-				int result = cmd.ExecuteNonQuery();
+				int result;
+				try {
+					// The number of rows affected
+					result = cmd.ExecuteNonQuery();
+				} catch(MySqlException e) {
+					// Returns -1 on exception
+					return -1;
+				}
 
 				// Connection Close
 				conn.Close();
