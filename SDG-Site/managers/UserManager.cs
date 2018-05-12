@@ -68,5 +68,31 @@ namespace SDG_Site.Managers {
 			return result;
 		}
 
+		/// <summary>
+		/// Returns the amount of the <c>User</c>'s Uni 
+		/// </summary>
+		/// <param name="UserID">A member variable of the User class</param>  
+		/// <see cref="User.UserID"/>
+		public static int GetUniByUserID(string UserID) {
+            // If the Uni read fails, 0 is returned.
+            int Uni = 0;
+
+			// Connect to DB
+			using (var conn = new MySqlConnection(System.Configuration.ConfigurationManager.ConnectionStrings["sdgDB"].ConnectionString)) {
+				conn.Open();
+
+				// Command Text - Select Password
+				string commandText = "SELECT Uni FROM " + USERTABLE + " WHERE Id='" + UserID + "';";
+				var cmd = new MySqlCommand(commandText, conn);
+
+                // Read User's Uni
+				Uni = (int)cmd.ExecuteScalar();
+
+				// Connection Close
+				conn.Close();
+			}
+
+			return Uni;
+		}
 	}
 }
