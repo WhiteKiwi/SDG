@@ -16,7 +16,7 @@ namespace SDG_Site {
                 Email = Email.Text
             });
 
-            Response.Redirect("/");
+            Response.Redirect("/Login.aspx");
         }
 	}
 }
