@@ -9,21 +9,25 @@
 		// User's ID
 		public string UserID { get; set; }
 
-		// User's Password
+        // User's Password
+        private string password;
 		public string Password {
 			get {
 				// password Returns a hash value on request
-				return Password.GetHashCode().ToString();
+				return password.GetHashCode().ToString();
 			}
 			set {
-				Password = value;
+				password = value;
 			}
 		}
 
-		// User's Name
-		public string Name { get; set; }
-		
-		// User's Uni
-		public int Uni { get; set; }
+        // User's Name
+        public string Name { get; set; }
+
+        // User's Email
+        public string Email { get; set; }
+
+        // User's Uni
+        public int Uni { get; set; }
 	}
 }

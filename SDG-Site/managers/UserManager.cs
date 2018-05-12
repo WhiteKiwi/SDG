@@ -18,7 +18,7 @@ namespace SDG_Site.Managers {
 				conn.Open();
 
 				// Command Text - Insert new user
-				string commandText = "INSERT INTO " + USERTABLE + "(User_Id, Password, Name) VALUES (" + user.UserID + ", " + user.Password + ", " + user.Name + ")";
+				string commandText = "INSERT INTO " + USERTABLE + "(User_Id, Password, Name, Email) VALUES ('" + user.UserID + "', '" + user.Password + "', '" + user.Name + "', '" + user.Email + "')";
 				var cmd = new MySqlCommand(commandText, conn);
 
 				// The number of rows affected
