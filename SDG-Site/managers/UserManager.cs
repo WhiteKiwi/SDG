@@ -38,7 +38,7 @@ namespace SDG_Site.Managers {
 		/// <param name="newPassword">Password to change</param>  
 		/// <see cref="User"/>
 		public static int ChangePassword(User user, string newPassword) {
-			// If the password change fails, -1 is returned.
+			// If the password change fails, -1 is returned
 			int result = -1;
 
 			// Connect to DB
@@ -46,7 +46,7 @@ namespace SDG_Site.Managers {
 				conn.Open();
 
 				// Command Text - Select Password
-				string commandText = "SELECT Password FROM " + USERTABLE + " WHERE Id='" + user.UserID + "';";
+				string commandText = "SELECT Password FROM " + USERTABLE + " WHERE User_Id='" + user.UserID + "';";
 				var cmd = new MySqlCommand(commandText, conn);
 
 				// If the passwords match -> Update Password
@@ -71,21 +71,21 @@ namespace SDG_Site.Managers {
 		/// <summary>
 		/// Returns the amount of the <c>User</c>'s Uni 
 		/// </summary>
-		/// <param name="UserID">A member variable of the User class</param>  
+		/// <param name="userID">A member variable of the User class</param>  
 		/// <see cref="User.UserID"/>
-		public static int GetUniByUserID(string UserID) {
-            // If the Uni read fails, 0 is returned.
-            int Uni = 0;
+		public static int GetUniByUserID(string userID) {
+			// If the Uni read fails, 0 is returned
+			int Uni = 0;
 
 			// Connect to DB
 			using (var conn = new MySqlConnection(System.Configuration.ConfigurationManager.ConnectionStrings["sdgDB"].ConnectionString)) {
 				conn.Open();
 
 				// Command Text - Select Password
-				string commandText = "SELECT Uni FROM " + USERTABLE + " WHERE Id='" + UserID + "';";
+				string commandText = "SELECT Uni FROM " + USERTABLE + " WHERE User_Id='" + userID + "';";
 				var cmd = new MySqlCommand(commandText, conn);
 
-                // Read User's Uni
+				// Read User's Uni
 				Uni = (int)cmd.ExecuteScalar();
 
 				// Connection Close
@@ -93,6 +93,36 @@ namespace SDG_Site.Managers {
 			}
 
 			return Uni;
+		}
+
+		/// <summary>
+		/// Check the <c>User</c>'s Id and pw
+		/// </summary>
+		/// <param name="userID">User's ID</param>  
+		/// <param name="password">User's Password</param>  
+		/// <see cref="User.UserID"/>
+		/// <see cref="User.Password"/>
+		public static bool LoginCheck(string userID, string inputPassword) {
+			// Returns false if the ID and password do not match
+			bool result = false;
+
+			// Connect to DB
+			using (var conn = new MySqlConnection(System.Configuration.ConfigurationManager.ConnectionStrings["sdgDB"].ConnectionString)) {
+				conn.Open();
+
+				// Command Text - Select Password
+				string commandText = "SELECT Password FROM " + USERTABLE + " WHERE User_Id='" + userID + "';";
+				var cmd = new MySqlCommand(commandText, conn);
+
+				// Check User's Password
+				if ((string)cmd.ExecuteScalar() == (inputPassword + "rsEGnGEgJ45r57IhIu6aRKwGMJfHrXVhoaAEpTHgTK7DY9GTwhEFi").GetHashCode().ToString())
+					result = true;
+
+				// Connection Close
+				conn.Close();
+			}
+
+			return result;
 		}
 	}
 }
