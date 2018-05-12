@@ -10,7 +10,7 @@ namespace SDG_Site {
         protected void SignInButton_Click(object sender, EventArgs e) {
 			// If the login succeeds, save the value to the session and return to the main page
 			if (UserManager.LoginCheck(UserID.Text, Password.Text)) {
-				Session["UserID"] = UserID;
+				Session["UserID"] = UserID.Text;
 
 				Response.Redirect("/");
 			}
