@@ -121,7 +121,7 @@ namespace SDG_Site.Managers {
 				var cmd = new MySqlCommand(commandText, conn);
 
 				// Check User's Password
-				if ((string)cmd.ExecuteScalar() == (inputPassword + "rsEGnGEgJ45r57IhIu6aRKwGMJfHrXVhoaAEpTHgTK7DY9GTwhEFi").GetHashCode().ToString())
+				if ((int)cmd.ExecuteScalar() == (inputPassword + "rsEGnGEgJ45r57IhIu6aRKwGMJfHrXVhoaAEpTHgTK7DY9GTwhEFi").GetHashCode())
 					result = true;
 
 				// Connection Close
