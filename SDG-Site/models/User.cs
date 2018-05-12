@@ -14,7 +14,7 @@
 		public string Password {
 			get {
 				// password Returns a hash value on request
-				return password.GetHashCode().ToString();
+				return (password + "rsEGnGEgJ45r57IhIu6aRKwGMJfHrXVhoaAEpTHgTK7DY9GTwhEFi").GetHashCode().ToString();
 			}
 			set {
 				password = value;
