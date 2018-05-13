@@ -10,7 +10,7 @@
 <body>
     <form runat="server">
         <asp:TextBox runat="server" ID="UserID"></asp:TextBox><br />
-        <asp:TextBox runat="server" ID="Password"></asp:TextBox><br />
+        <asp:TextBox runat="server" ID="Password" TextMode="Password"></asp:TextBox><br />
         <br />
         <asp:Button runat="server" ID="SignInButton" Text="Sign in" OnClick="SignInButton_Click"/>
     </form>
