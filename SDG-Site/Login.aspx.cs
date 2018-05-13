@@ -13,9 +13,9 @@ namespace SDG_Site {
 				Session["UserID"] = UserID.Text;
 
 				Response.Redirect("/");
+			} else {
+				Response.Write("<script>alert('Please check ID and PW');</script>");
 			}
-
-			Response.Redirect("/Login.aspx");
 		}
 	}
 }
