@@ -6,7 +6,6 @@ namespace SDG_Site.Managers {
 		// Table Name
 		private const string USERTABLE = "users";
 
-
 		/// <summary>
 		/// Register by <c>User</c> class
 		/// </summary>
@@ -14,7 +13,7 @@ namespace SDG_Site.Managers {
 		/// <see cref="User"/>
 		public static int Register(User user) {
 			// Connect to DB
-			using (var conn = new MySqlConnection(System.Configuration.ConfigurationManager.ConnectionStrings["sdgDB"].ConnectionString)) {
+			using (var conn = new MySqlConnection(System.Configuration.ConfigurationManager.ConnectionStrings["SDGDB"].ConnectionString)) {
 				conn.Open();
 
 				// Command Text - Insert new user
@@ -48,7 +47,7 @@ namespace SDG_Site.Managers {
 			int result = -1;
 
 			// Connect to DB
-			using (var conn = new MySqlConnection(System.Configuration.ConfigurationManager.ConnectionStrings["sdgDB"].ConnectionString)) {
+			using (var conn = new MySqlConnection(System.Configuration.ConfigurationManager.ConnectionStrings["SDGDB"].ConnectionString)) {
 				conn.Open();
 
 				// Command Text - Select Password
@@ -84,7 +83,7 @@ namespace SDG_Site.Managers {
 			int Uni = 0;
 
 			// Connect to DB
-			using (var conn = new MySqlConnection(System.Configuration.ConfigurationManager.ConnectionStrings["sdgDB"].ConnectionString)) {
+			using (var conn = new MySqlConnection(System.Configuration.ConfigurationManager.ConnectionStrings["SDGDB"].ConnectionString)) {
 				conn.Open();
 
 				// Command Text - Select Password
@@ -113,7 +112,7 @@ namespace SDG_Site.Managers {
 			bool result = false;
 
 			// Connect to DB
-			using (var conn = new MySqlConnection(System.Configuration.ConfigurationManager.ConnectionStrings["sdgDB"].ConnectionString)) {
+			using (var conn = new MySqlConnection(System.Configuration.ConfigurationManager.ConnectionStrings["SDGDB"].ConnectionString)) {
 				conn.Open();
 
 				// Command Text - Select Password
