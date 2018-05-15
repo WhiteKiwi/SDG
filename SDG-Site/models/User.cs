@@ -3,9 +3,6 @@
 	/// users table Model
 	/// </summary>
 	public class User {
-		// User's Serial Number
-		public int Id { get; set; }
-
 		// User's ID
 		public string UserID { get; set; }
 
