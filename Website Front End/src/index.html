@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+
+<head>
+  <title>Bootstrap 4 Layout</title>
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,800">
+  <link rel='stylesheet' href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp">
+  <link rel="stylesheet" href="/css/bootstrap.css">
+  <link rel="stylesheet" href="/css/styles.css">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-md fixed-top navbar-dark bg-primary navbar-header mb-5">
+
+    <a class="navbar-brand brand-font" href="#Home">Out of Well</a>
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-nav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+    <div class="collapse navbar-collapse navbar-nav">
+      <a class="nav-link nav-item" href="#">About Us</a>
+      <a class="nav-link nav-item" href="#">Features</a>
+      <a class="nav-link nav-item" href="#">Policies</a>
+      <a class="nav-link nav-item" href="#">Contact Us</a>
+    </div>
+  </nav>
+  <div class="col-sm-9 col-md-6 col-lg-5 row-lg-4 mx-auto mt-5">
+    <div class="card">
+      <div class="card-body text-center">
+        <div class="container">
+
+          <form class="form-signin">
+            <h2 class="form-signin-heading">Please Sign In</h2>
+            <label for="inputEmail" class="sr-only">Email address</label>
+            <input id="inputEmail" class="form-control" placeholder="Email address" required="" autofocus="" type="email">
+            <label for="inputPassword" class="sr-only">Password</label>
+            <input id="inputPassword" class="form-control" placeholder="Password" required="" type="password">
+            <div class="checkbox">
+              <label>
+                         <input value="remember-me" type="checkbox"> Remember me
+                       </label>
+            </div>
+            <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
+          </form>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="/js/jquery.min.js"></script>
+  <script src="/js/popper.min.js"></script>
+  <script src="/js/bootstrap.min.js"></script>
+</body>
+
+</html>
