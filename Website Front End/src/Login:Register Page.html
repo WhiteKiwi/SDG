@@ -30,22 +30,15 @@
             <li><a href="#">About</a></li>
             <li><a href="#">Features</a></li>
             <li><a href="#">Policies</a></li>
-            <li><a href="#">Contact Us</a></li>
-            <li>
-              <a href="#">
-                <container class: "cool">
-                  <button type="button" class="btn btn-success">Log In</button>
-
-                </container>
-              </a>
-            </li>
+            <li><a href="#">Connect</a></li>
+            <li><a href="#">Resources</a></li>
+            <li><a href="#">Account</a></li>
           </ul>
         </nav>
         <label for="nav-toggle" class="nav-toggle-label">
-    <span></span>
-  </label>
+      <span></span>
+    </label>
       </header>
-
 
       <div class="card col-sm-9 col-md-6 col-lg-5 mx-auto">
         <div class="card-body text-center">
@@ -62,8 +55,8 @@
               <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
                 <form class="form-signin">
                   <h2 class="form-signin-heading">Log In</h2>
-                  <label for="inputEmail" class="sr-only mb-3">Username</label>
-                  <input id="inputEmail" class="form-control mb-3" placeholder="Username" required="" autofocus="" type="email">
+                  <label for="inputUsername" class="sr-only mb-3">Username</label>
+                  <input id="inputUsername" class="form-control mb-3" placeholder="Username" required="" autofocus="" type="Username">
                   <label for="inputPassword" class="sr-only">Password</label>
                   <input id="inputPassword" class="form-control mb-2" placeholder="Password" required="" type="password">
                   <div class="checkbox">
@@ -77,19 +70,20 @@
               <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
                 <div class="tab-content" id="myTabContent">
                   <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
-                    <form class="form-signin">
-                      <h2 class="form-signin-heading">Log In</h2>
-                      <label for="inputEmail" class="sr-only mb-3">Username</label>
-                      <input id="inputEmail" class="form-control mb-3" placeholder="Username" required="" autofocus="" type="email">
+                    <form class="form-regiter">
+                      <h2 class="form-register-heading">Register</h2>
+                      <label for="inputUsername" class="sr-only mb-3">Username</label>
+                      <input id="inputEmail" class="form-control mb-3" placeholder="Username" required="" autofocus="" type="Username">
+                      <label for="inputEmail" class="sr-only mb-3">email</label>
+                      <input id="inputUsername" class="form-control mb-3" placeholder="Email Address" required="" autofocus="" type="email">
                       <label for="inputPassword" class="sr-only">Password</label>
                       <input id="inputPassword" class="form-control mb-2" placeholder="Password" required="" type="password">
-                      <div class="checkbox">
-                        <label>
-                               <input value="remember-me" type="checkbox"> Remember me
-                             </label>
-                        <button class="btn btn-lg btn-success btn-block" type="submit">Sign in</button>
+                      <label for="inputPassword" class="sr-only"> Confirm Password</label>
+                      <input id="inputPassword" class="form-control mb-2" placeholder="Confirm Password" required="" type="password">
+
+                      <button class="btn btn-lg btn-success btn-block" type="submit">Register</button>
                     </form>
-                    </div>
+
                   </div>
                 </div>
               </div>

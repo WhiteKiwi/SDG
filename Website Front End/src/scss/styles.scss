@@ -22,7 +22,6 @@ body {
 
 .content {
   height: 200vh;
-  background-image: url(//unsplash.it/1000/1000);
   background-color: #333;
   background-blend-mode: multiply;
   background-size: cover;
@@ -189,4 +188,16 @@ nav a:hover {
   width: 300px;
   border: 3px solid #73AD21;
   padding: 10px;
+}
+
+#loginRegisterButton {
+  text-align: right;
+}
+
+.alignleft {
+  float: left;
+}
+
+.alignright {
+  float: right;
 }
