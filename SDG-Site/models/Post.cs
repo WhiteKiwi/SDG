@@ -16,6 +16,6 @@
 		public string Classification { get; set; }
 
 		// Stage
-		public int Stage { get; set; }
+		public string Stage { get; set; }
 	}
 }
