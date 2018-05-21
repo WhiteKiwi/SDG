@@ -5060,6 +5060,9 @@ button.bg-dark:focus {
 .w-50 {
   width: 50% !important; }
 
+.w-74.5 {
+  width: 74.5% !important; }
+
 .w-75 {
   width: 75% !important; }
 
@@ -5074,6 +5077,9 @@ button.bg-dark:focus {
 
 .h-50 {
   height: 50% !important; }
+
+.h-74.5 {
+  height: 74.5% !important; }
 
 .h-75 {
   height: 75% !important; }
@@ -6293,7 +6299,7 @@ a.text-dark:hover, a.text-dark:focus {
 
 body {
   margin: 0;
-  background: #fff;
+  background: #222;
   font-family: 'Work Sans', sans-serif;
   font-weight: 400; }
 
@@ -6367,7 +6373,8 @@ nav ul {
 
 nav li {
   margin-bottom: 1em;
-  margin-left: 1em; }
+  margin-left: 1em;
+  margin-top: 0.5em; }
 
 nav a {
   color: white;
@@ -6399,12 +6406,12 @@ nav a:hover {
     all: unset;
     grid-column: 3 / 4;
     display: flex;
-    justify-content: flex-end;
+    justify-content: flex-start;
     align-items: center; }
   nav ul {
     display: flex; }
   nav li {
-    margin-left: 3em;
+    margin-left: 1em;
     margin-bottom: 0; }
   nav a {
     opacity: 1;
@@ -6432,11 +6439,20 @@ nav a:hover {
   border: 3px solid #73AD21;
   padding: 10px; }
 
-#loginRegisterButton {
-  text-align: right; }
-
 .alignleft {
   float: left; }
 
 .alignright {
   float: right; }
+
+.centered {
+  position: fixed;
+  top: 40%;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%); }
+
+.logInHeading {
+  font-size: 50px;
+  margin-bottom: 1em;
+  margin-top: -1em; }
