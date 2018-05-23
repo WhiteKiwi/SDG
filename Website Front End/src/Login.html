@@ -3,7 +3,7 @@
 
 <head>
   <title>
-    Register Page
+    Login Page
   </title>
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -36,8 +36,8 @@
             <li><a href="#">Resources</a></li>
             <li><a href="#">Policies</a></li>
             <li><a href="#">Connect</a></li>
-            <li class="loginRegisterButton" style="position:relative;top:-5px;left:-10px;"><a href="#"><button type="button" class="btn btn-success">Login</button></a></li>
-            <li class="loginRegisterButton ml-auto" style="position:relative;top:-5px;"><a href="#"><button type="button" class="btn btn-success">Register</button></a></li>
+            <li class="loginRegisterButton"><a href="#"><button type="button" class="btn btn-success">Login</button></a></li>
+            <li class="loginRegisterButton ml-1"><a href="#"><button type="button" class="btn btn-success">Register</button></a></li>
           </ul>
         </nav>
         <label for="nav-toggle" class="nav-toggle-label">
@@ -45,23 +45,18 @@
     </label>
       </header>
 
-      <div class="card col-sm-9 col-md-6 col-lg-5 mx-auto centerRegister w-75 h-74.5 mt-5">
+      <div class="card col-sm-9 col-md-6 col-lg-5 mx-auto centered w-75 h-74.5">
         <div class="card-body text-center">
           <div class="container mt-3">
             <form class="form-signin">
-              <h6 class="logInHeading mt-3 mb-4">Register</h6>
-              <label for="inputEmail" class="sr-only mb-4">Email</label>
-              <input id="inputEmail" class="form-control mb-4" placeholder="Email" required="" autofocus="" type="email">
-              <label for="inputUsername" class="sr-only mb-4"></label>
+              <h6 class="logInHeading mt-3 mb-4">Log In</h6>
+              <label for="inputUsername" class="sr-only mb-4">Username</label>
               <input id="inputUsername" class="form-control mb-4" placeholder="Username" required="" autofocus="" type="Username">
               <label for="inputPassword" class="sr-only">Password</label>
               <input id="inputPassword" class="form-control mb-4" placeholder="Password" required="" type="password">
-              <label for="inputPassword" class="sr-only">Password</label>
-              <input id="inputPassword" class="form-control mb-4" placeholder=" Confirm Password" required="" type="password">
-              <label for="inputPassword" class="sr-only">Age</label>
-              <input id="inputPassword" class="form-control mb-4" placeholder="Age" required="" type="password">
               <div class="checkbox">
                 <label class="mb-4">
+                           <input value="remember-me" type="checkbox"> Remember me
                          </label>
                 <button class="btn btn-lg btn-success btn-block" type="submit">Log In</button>
             </form>

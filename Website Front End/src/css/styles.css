@@ -6452,7 +6452,36 @@ nav a:hover {
   /* bring your own prefixes */
   transform: translate(-50%, -50%); }
 
+.centerRegister {
+  position: fixed;
+  top: 45%;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%); }
+
+.centerContent {
+  position: fixed;
+  top: 40%;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%); }
+
 .logInHeading {
   font-size: 50px;
   margin-bottom: 1em;
   margin-top: -1em; }
+
+.scroll-box {
+  overflow-y: scroll;
+  height: 100px;
+  padding: 1rem; }
+
+.loginRegisterButton {
+  position: relative;
+  top: -5px;
+  left: -10px; }
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .loginRegisterButton {
+    top: -500px;
+    left: -100px; } }
