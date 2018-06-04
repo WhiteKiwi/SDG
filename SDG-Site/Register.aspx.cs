@@ -3,7 +3,7 @@ using SDG_Site.Models;
 using System;
 
 namespace SDG_Site {
-	public partial class Login : System.Web.UI.Page {
+	public partial class Register : System.Web.UI.Page {
 		protected void Page_Load(object sender, EventArgs e) {
 
 		}
