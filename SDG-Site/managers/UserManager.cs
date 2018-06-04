@@ -108,6 +108,11 @@ namespace SDG_Site.Managers {
 		/// <see cref="User.UserID"/>
 		/// <see cref="User.Password"/>
 		public static bool LoginCheck(string userID, string inputPassword) {
+			// If ID or Password is null, return false
+			if (string.IsNullOrEmpty(userID) || string.IsNullOrEmpty(userID)) {
+				return false;
+			}
+
 			// Returns false if the ID and password do not match
 			bool result = false;
 
