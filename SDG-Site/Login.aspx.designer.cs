@@ -10,7 +10,7 @@
 namespace SDG_Site {
     
     
-    public partial class Login1 {
+    public partial class Login {
         
         /// <summary>
         /// UserID 컨트롤입니다.

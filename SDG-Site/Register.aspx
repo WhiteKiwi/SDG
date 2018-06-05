@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Register.aspx.cs" Inherits="SDG_Site.Login" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Register.aspx.cs" Inherits="SDG_Site.Register" %>
 
 <!DOCTYPE html>
 
@@ -17,7 +17,7 @@
         <asp:TextBox runat="server" ID="Email"></asp:TextBox><br />
 
         <br />
-        <asp:Button runat="server" ID="signInButton" Text="Sign up" OnClick="SignUpButton_Click" />
+        <asp:Button runat="server" ID="SignInButton" Text="Sign up" OnClick="SignUpButton_Click" />
     </form>
 </body>
 </html>

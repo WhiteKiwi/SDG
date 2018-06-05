@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27428.2011
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SDG", "SDG\SDG.csproj", "{03DC763C-C4A9-42E7-B08A-FE91C15C1371}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SDG-Site", "SDG-Site\SDG-Site.csproj", "{236C98E6-8CD1-4025-8580-AEC3009FEB2C}"
 EndProject
 Global
@@ -13,12 +11,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{03DC763C-C4A9-42E7-B08A-FE91C15C1371}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{03DC763C-C4A9-42E7-B08A-FE91C15C1371}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{03DC763C-C4A9-42E7-B08A-FE91C15C1371}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
-		{03DC763C-C4A9-42E7-B08A-FE91C15C1371}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{03DC763C-C4A9-42E7-B08A-FE91C15C1371}.Release|Any CPU.Build.0 = Release|Any CPU
-		{03DC763C-C4A9-42E7-B08A-FE91C15C1371}.Release|Any CPU.Deploy.0 = Release|Any CPU
 		{236C98E6-8CD1-4025-8580-AEC3009FEB2C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{236C98E6-8CD1-4025-8580-AEC3009FEB2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{236C98E6-8CD1-4025-8580-AEC3009FEB2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
