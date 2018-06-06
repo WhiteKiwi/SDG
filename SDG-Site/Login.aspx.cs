@@ -1,20 +1,20 @@
-﻿using SDG_Site.Managers;
-using System;
+﻿using System;
 
 namespace SDG_Site {
-    public partial class Login : System.Web.UI.Page {
+	public partial class Login : System.Web.UI.Page {
         protected void Page_Load(object sender, EventArgs e) {
+			if (Managers.UserManager.LoginCheck(Request.Form["UserID"], Request.Form["Password"])) {
+				Response.Write("Authorized");
 
-        }
+				// Authorized
+				Response.StatusCode = 200;
 
-        protected void SignInButton_Click(object sender, EventArgs e) {
-			// If the login succeeds, save the value to the session and return to the main page
-			if (UserManager.LoginCheck(UserID.Text, Password.Text)) {
-				Session["UserID"] = UserID.Text;
-				
-				Response.Redirect("/");
+				Session["UserID"] = Request.Form["UserID"];
 			} else {
-				Response.Write("<script>alert('Please check ID and PW');</script>");
+				Response.Write("Unauthorized");
+
+				// Unauthorized
+				Response.StatusCode = 401;
 			}
 		}
 	}

@@ -1,30 +1,29 @@
 ﻿using SDG_Site.Managers;
 using SDG_Site.Models;
 using System;
+using System.Text.RegularExpressions;
 
 namespace SDG_Site {
 	public partial class Register : System.Web.UI.Page {
 		protected void Page_Load(object sender, EventArgs e) {
-
-		}
-
-		protected void SignUpButton_Click(object sender, EventArgs e) {
-			if (Password.Text == Password2.Text) {
-				if (UserManager.Register(new User {
-					Name = Name.Text,
-					UserID = UserID.Text,
-					Password = Password.Text,
-					Email = Email.Text
-				}) == -1) {
-					// Notify if ID is already in use
-					Response.Write("<script>alert('ID already in use');</script>");
+			if (Regex.IsMatch(Request.Form["Email"] == null ? "" : Request.Form["Email"], @"[a-zA-Z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-zA-Z0-9!#$%&'*+/=?^_`{|}~-]+)*@(?:[a-zA-Z0-9](?:[a-zA-Z0-9-]*[a-zA-Z0-9])?\.)+[a-zA-Z0-9](?:[a-zA-Z0-9-]*[a-zA-Z0-9])?")) {
+				if (Request.Form["Password"] == Request.Form["Password2"]) {
+					if (UserManager.Register(new User {
+						Name = Request.Form["Name"],
+						UserID = Request.Form["UserID"],
+						Password = Request.Form["Password"],
+						Email = Request.Form["Email"]
+					}) == -1) {
+						// if ID is already in use
+						Response.Write("ID Already in use.");
+					}
 				} else {
-					// Return to login page if no exception occurs
-					Response.Redirect("/Login.aspx");
+					// If passwords do not match
+					Response.Write("Password do not match.");
 				}
 			} else {
-				// Notify If passwords do not match
-				Response.Write("<script>alert('Passwords do not match');</script>");
+				// If not an email
+				Response.Write("This is not an email.");
 			}
 		}
 	}
