@@ -35,5 +35,31 @@ namespace SDG_Site.Managers {
 				return result;
 			}
 		}
+		/// <summary>
+		/// Get Post's Count by Stage
+		/// </summary>
+		/// <param name="stage">Member variable of Post class</param>  
+		/// <see cref="Post.Stage"/>
+		public static int GetPostsCount(int stage) {
+			int result = 0;
+
+			// Connect to DB
+			using (var conn = new MySqlConnection(System.Configuration.ConfigurationManager.ConnectionStrings["SDGDB"].ConnectionString)) {
+				conn.Open();
+
+				string whereStage = stage == 0 ? "" : " WHERE Stage='" + stage + "'";
+
+				// Command Text - Select Password
+				string commandText = "SELECT COUNT(*) FROM " + POSTTABLE + whereStage + ";";
+				var cmd = new MySqlCommand(commandText, conn);
+
+				result = (int)cmd.ExecuteScalar();
+
+				// Connection Close
+				conn.Close();
+			}
+
+			return result;
+		}
 	}
 }
