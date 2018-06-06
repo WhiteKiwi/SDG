@@ -177,6 +177,12 @@ nav a:hover {
   margin-top: 100px;
 }
 
+.article {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+}
+
 .registerHeading {
   font-size: 3em;
   font-weight: bold;
@@ -192,3 +198,57 @@ nav a:hover {
     top:-5px;
     left: 100px;
   }
+
+
+@media (max-width: 600px) {
+  .article {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 70px;
+  }
+  .loginRegisterButton {
+    display: flex;
+    position: relative;
+    left: 0px;
+  }
+}
+
+@media (max-width: 768px) {
+  .article {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 70px;
+  }
+  .loginRegisterButton {
+    display: flex;
+    position: relative;
+    left: 0px;
+  }
+}
+
+@media (max-width: 768px) {
+  .article {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 70px;
+    width: 90%;
+  }
+  .loginRegisterButton {
+    display: flex;
+    position: relative;
+    left: 0px;
+  }
+}
+
+@media (min-width: 1398px) {
+  .article {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 70px;
+    width: 90%;
+  }
+  .loginRegisterButton {
+    display: flex;
+    position: relative;
+  }
+}
