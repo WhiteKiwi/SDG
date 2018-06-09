@@ -6,11 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Main.unity
-    guid: dc24748efe2dcbf4280db7cac846a9b8
-  - enabled: 1
-    path: Assets/Scenes/ChooseSex.unity
-    guid: 8f06ce68c87d7cc48aeb223cee27aea8
+    path: Assets/Scenes/Start.unity
+    guid: 99c9720ab356a0642a771bea13969a05
   - enabled: 1
     path: Assets/Scenes/Stage1.unity
-    guid: ece6b94bfa8b9204ba7f11772ed2dbcf
+    guid: 7d3ea3424a333444884c08dbc1aa8677
+  m_configObjects: {}
