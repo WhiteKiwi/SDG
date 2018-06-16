@@ -78,6 +78,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+    <None Include="Properties\PublishProfiles\OutOfWell.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -87,6 +88,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="AboutUs.aspx" />
+    <Content Include="assets\css\style.css" />
     <Content Include="Connect.aspx" />
     <Content Include="Default.aspx" />
     <Content Include="Features.aspx" />
@@ -178,7 +180,6 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="assets\css\" />
     <Folder Include="assets\images\" />
   </ItemGroup>
   <PropertyGroup>
