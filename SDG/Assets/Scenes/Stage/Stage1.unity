@@ -122,6 +122,7 @@ GameObject:
   m_Component:
   - component: {fileID: 115029210}
   - component: {fileID: 115029211}
+  - component: {fileID: 115029212}
   m_Layer: 0
   m_Name: DialogueMan
   m_TagString: Untagged
@@ -158,9 +159,12 @@ MonoBehaviour:
   defaultImg: {fileID: 0}
   defaultAudio: {fileID: 0}
   dialogue:
-  - name: OOO
-    longText: "Dogon tribe\u2019s performance is very interesting. I love their traditional
-      clothing especially."
+  - name: 
+    longText: '[OOO] just graduated Trinity School, and plans to travel around the
+      world, which was labeled number 1 in [his/her] bucket list from long ago. [He/She]
+      starts to plan [his/her] tour route, thrilled. The goal of this trip is to travel
+      all 5 continents. First country to travel is Mali, in African continent. [OOO]
+      plans to experience African traditional culture.'
     img: {fileID: 0}
     choices: []
     choiceMode: 1
@@ -178,9 +182,8 @@ MonoBehaviour:
     mode: 0
     narration: []
     script: 
-  - name: Aziza
-    longText: "I\u2019m happy that you loved it. Now, let\u2019s get back to the car.
-      I will take you to your hotel."
+  - name: 
+    longText: '------- at the airport -------'
     img: {fileID: 0}
     choices: []
     choiceMode: 1
@@ -198,9 +201,8 @@ MonoBehaviour:
     mode: 0
     narration: []
     script: 
-  - name: 
-    longText: OOO stops at a child who seems to be emaciated- a child is holding empty
-      bowl, and his eyes are blank.
+  - name: OOO
+    longText: "Finally! I\u2019m so excited to travel Mali!"
     img: {fileID: 0}
     choices: []
     choiceMode: 1
@@ -214,12 +216,12 @@ MonoBehaviour:
       shortText: Exit
       next: 0
       editor: 0
-    align: 0
+    align: 1
     mode: 0
     narration: []
-    script: 
-  - name: OOO
-    longText: "Wait, what\u2019s wrong with this child? He\u2019s just like a skeleton!"
+    script: this.GetComponenet("BackGroundManager").Change("d");
+  - name: 
+    longText: OOO packs his/her suitcase in hurry, and gets on the plane
     img: {fileID: 0}
     choices: []
     choiceMode: 1
@@ -233,14 +235,12 @@ MonoBehaviour:
       shortText: Exit
       next: 0
       editor: 0
-    align: 1
+    align: 0
     mode: 0
     narration: []
     script: 
-  - name: Aziza
-    longText: (sighing) The driver parked the car a little far from sightseeing spot.
-      Outside of sightseeing spot is just like this. Please be patient and walk a
-      few minutes more.
+  - name: 
+    longText: on the plane
     img: {fileID: 0}
     choices: []
     choiceMode: 1
@@ -259,9 +259,10 @@ MonoBehaviour:
     narration: []
     script: 
   - name: OOO
-    longText: "I\u2019m not complaining about this, and I\u2019m not annoyed with
-      it. But I want to know why people here, even a young children like him, are
-      starving."
+    longText: "(Whoo! I\u2019m just too excited and scared for this trip! This is
+      first time for me to travel alone, for this long time. What kind of people will
+      I meet? What would I experience? I wish I could learn and widen my view by this
+      trip.)"
     img: {fileID: 0}
     choices: []
     choiceMode: 1
@@ -279,11 +280,9 @@ MonoBehaviour:
     mode: 0
     narration: []
     script: 
-  - name: Aziza
-    longText: (worried) Most of our villagers used to earn their livelihood by farming,
-      but the drought lasted for several years. So villagers decided to start sightseeing
-      enterprise. They intentionally made the center of village into tourist spot
-      and moved all their neighbors and homes to outskirts of the village.
+  - name: 
+    longText: OOO arrives at Bamako Airport. He/She meets his/her local guide at the
+      exit.
     img: {fileID: 0}
     choices: []
     choiceMode: 1
@@ -498,11 +497,7 @@ MonoBehaviour:
     align: 0
     mode: 3
     narration: []
-    script: 'UnityEngine.SceneManagement.SceneManager.LoadScene("Start");
-
-      UnityEngine.PlayerPrefs.SetInt("Stage", 1);
-
-      UnityEngine.PlayerPrefs.Save();'
+    script: UnityEngine.SceneManagement.SceneManager.LoadScene("Login");
   bools: 00000000
   ints: 00000000000000000000000000000000
   strings:
@@ -510,6 +505,20 @@ MonoBehaviour:
   - 
   - 
   - 
+  airport: {fileID: 0}
+--- !u!114 &115029212
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 115029209}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 12f752759ed32924287b5fd2388045de, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  background: {fileID: 491950085}
+  airport: {fileID: 21300000, guid: 232e0cd133c3ac244ab3ac468a83e63d, type: 3}
 --- !u!1 &307536810
 GameObject:
   m_ObjectHideFlags: 0
@@ -575,6 +584,74 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!1 &491950083
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 491950084}
+  - component: {fileID: 491950086}
+  - component: {fileID: 491950085}
+  m_Layer: 5
+  m_Name: Image
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &491950084
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 491950083}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1212807939}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &491950085
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 491950083}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 21300000, guid: 232e0cd133c3ac244ab3ac468a83e63d, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+--- !u!222 &491950086
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 491950083}
 --- !u!1 &990154438
 GameObject:
   m_ObjectHideFlags: 0
@@ -769,7 +846,7 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_Children:
-  - {fileID: 1366298860}
+  - {fileID: 491950084}
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -778,73 +855,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
---- !u!1 &1366298859
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 1366298860}
-  - component: {fileID: 1366298862}
-  - component: {fileID: 1366298861}
-  m_Layer: 5
-  m_Name: RawImage
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1366298860
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1366298859}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1212807939}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.0000061989, y: 0.000015259}
-  m_SizeDelta: {x: 933, y: 559}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1366298861
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1366298859}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -98529514, guid: f70555f144d8491a825f0804e09c671c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Texture: {fileID: 2800000, guid: 232e0cd133c3ac244ab3ac468a83e63d, type: 3}
-  m_UVRect:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 1
-    height: 1
---- !u!222 &1366298862
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1366298859}
 --- !u!1 &1800632077
 GameObject:
   m_ObjectHideFlags: 0

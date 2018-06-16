@@ -59,6 +59,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\LowPolyEarth\EarthSpinScript.cs" />
     <Compile Include="Assets\Resources\Scripts\ButtonManager.cs" />
     <Compile Include="Assets\Resources\Scripts\DialogueManager.cs" />
     <Compile Include="Assets\Resources\Scripts\GetText.cs" />

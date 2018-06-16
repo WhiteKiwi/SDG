@@ -26,7 +26,10 @@ var ints : int[] = [0,0,0,0];
 var strings : String[] = ["","","",""];
 private var jumpto : int;
 private var s : Vector2 = Vector2.zero;
-	
+
+// Background Images
+var airport : Texture2D;
+
 class DialogueEntry {
 	var name : String;
 	var longText : String;
