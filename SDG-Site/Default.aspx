@@ -1,44 +1,44 @@
-﻿
-<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="SDG_Site.Default" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="SDG_Site.Default" %>
 
-	<!DOCTYPE html>
-	<html lang="en">
+<!DOCTYPE html>
+<html lang="en">
 
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-		<link rel="stylesheet" href="assets/css/styles.css">
-		<title>
-			About Page
-		</title>
-	</head>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link rel="stylesheet" href="assets/css/style.css">
+	<title>About Page
+	</title>
+</head>
 
-	<body>
-		<header>
-			<h1 class="logo">Out of Well</h1>
-			<input type="checkbox" id="nav-toggle" class="nav-toggle">
-			<nav>
-				<ul>
-					<li><a href="#">About</a></li>
-					<li><a href="#">Features</a></li>
-					<li><a href="#">Resources</a></li>
-					<li><a href="#">Policies</a></li>
-					<li><a href="#">Connect</a></li>
-					<li class="loginRegisterButton"><a href="#"><button type="button" class="btn btn-success">Login</button></a></li>
-					<li class="loginRegisterButton"><a href="#"><button type="button" class="btn btn-success">Register</button></a></li>
-				</ul>
-			</nav>
-			<label for="nav-toggle" class="nav-toggle-label">
-      <span></span>
-    </label>
-		</header>
-		<div class="card article col-sm-11">
-			<div class="card-body text-center">
-				<div class="container">
-					<h3><strong>About</strong></h3>
-					<p>
-						number of units Rich Text HTML Copy Lorem ipsum dolor sit amet consectetur adipiscing elit sodales, phasellus nunc mus eros parturient netus faucibus vel, dis inceptos egestas quisque curabitur sociis porta. Euismod mauris lacus risus lobortis metus volutpat
+<body>
+	<header>
+		<h1 class="logo">Out of Well</h1>
+		<input type="checkbox" id="nav-toggle" class="nav-toggle">
+		<nav>
+			<ul>
+				<li><a href="#">About</a></li>
+				<li><a href="#">Features</a></li>
+				<li><a href="#">Resources</a></li>
+				<li><a href="#">Policies</a></li>
+				<li><a href="#">Connect</a></li>
+				<li class="loginRegisterButton"><a href="#">
+					<button type="button" class="btn btn-success">Login</button></a></li>
+				<li class="loginRegisterButton"><a href="#">
+					<button type="button" class="btn btn-success">Register</button></a></li>
+			</ul>
+		</nav>
+		<label for="nav-toggle" class="nav-toggle-label">
+			<span></span>
+		</label>
+	</header>
+	<div class="card article col-sm-11">
+		<div class="card-body text-center">
+			<div class="container">
+				<h3><strong>About</strong></h3>
+				<p>
+					number of units Rich Text HTML Copy Lorem ipsum dolor sit amet consectetur adipiscing elit sodales, phasellus nunc mus eros parturient netus faucibus vel, dis inceptos egestas quisque curabitur sociis porta. Euismod mauris lacus risus lobortis metus volutpat
 						magna elementum a, proin venenatis ligula sed praesent tincidunt hac bibendum pulvinar, mi netus maecenas quisque ultricies ullamcorper eu vitae. Pharetra cubilia tristique sollicitudin dictumst magna sodales suspendisse augue, gravida conubia eleifend
 						praesent netus morbi euismod eros, suscipit scelerisque mollis facilisis odio iaculis etiam. Hendrerit mus nunc dapibus eu nisl, curae luctus risus duis, diam enim nascetur molestie. Dapibus ultricies class est sociis ligula pellentesque dignissim
 						taciti tempor, euismod accumsan purus libero velit nam felis feugiat dictumst enim, lobortis mauris eros nibh proin gravida ac scelerisque. Nisi mus cubilia orci tellus lacus, etiam metus varius duis laoreet nibh, ante quisque nunc platea. Nascetur
@@ -113,15 +113,14 @@
 						pharetra, augue iaculis enim hendrerit semper ornare. Nullam dui class conubia facilisi venenatis varius imperdiet hendrerit, mus felis diam ultricies vel tempor pharetra, curabitur taciti nisi mollis inceptos convallis at. Velit purus libero ullamcorper
 						mi tristique quis, eu hac sed morbi volutpat magna torquent, ultrices dictum phasellus conubia nostra.
 
-					</p>
-				</div>
-				<footer>
-				</footer>
-				<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-				<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-				<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-	</body>
-
-
-
-	</html>
+				</p>
+			</div>
+		</div>
+	</div>
+	<footer>
+	</footer>
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
