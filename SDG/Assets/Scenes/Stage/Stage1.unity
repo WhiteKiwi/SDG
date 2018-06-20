@@ -122,7 +122,6 @@ GameObject:
   m_Component:
   - component: {fileID: 115029210}
   - component: {fileID: 115029211}
-  - component: {fileID: 115029212}
   m_Layer: 0
   m_Name: DialogueMan
   m_TagString: Untagged
@@ -160,14 +159,13 @@ MonoBehaviour:
   defaultAudio: {fileID: 0}
   dialogue:
   - name: 
-    longText: '[OOO] just graduated Trinity School, and plans to travel around the
-      world, which was labeled number 1 in [his/her] bucket list from long ago. [He/She]
-      starts to plan [his/her] tour route, thrilled. The goal of this trip is to travel
-      all 5 continents. First country to travel is Mali, in African continent. [OOO]
-      plans to experience African traditional culture.'
+    longText: Jack just graduated from Trinity School, and plans to travel around
+      the world, which was labeled number one in his bucket list from long ago. He
+      starts to plan his tour route, thrilled. First country to travel is Mali, in
+      African continent. Jack plans to experience African traditional culture.
     img: {fileID: 0}
     choices: []
-    choiceMode: 1
+    choiceMode: 0
     links: []
     next: 1
     editor: 0
@@ -175,18 +173,18 @@ MonoBehaviour:
     passwords: []
     incorrect: 0
     exit:
-      shortText: Exit
+      shortText: 
       next: 0
       editor: 0
-    align: 1
-    mode: 0
+    align: 0
+    mode: 3
     narration: []
     script: 
   - name: 
-    longText: '------- at the airport -------'
+    longText: '--- at the airport ---'
     img: {fileID: 0}
     choices: []
-    choiceMode: 1
+    choiceMode: 0
     links: []
     next: 2
     editor: 0
@@ -194,18 +192,18 @@ MonoBehaviour:
     passwords: []
     incorrect: 0
     exit:
-      shortText: Exit
+      shortText: 
       next: 0
       editor: 0
     align: 0
     mode: 0
     narration: []
     script: 
-  - name: OOO
-    longText: "Finally! I\u2019m so excited to travel Mali!"
-    img: {fileID: 0}
+  - name: Jack
+    longText: "\rFinally! I\u2019m so excited to travel to Mali!\r"
+    img: {fileID: 2800000, guid: 159f1fcc373533f418eabc87a9ca7618, type: 3}
     choices: []
-    choiceMode: 1
+    choiceMode: 0
     links: []
     next: 3
     editor: 0
@@ -213,18 +211,18 @@ MonoBehaviour:
     passwords: []
     incorrect: 0
     exit:
-      shortText: Exit
+      shortText: 
       next: 0
       editor: 0
     align: 1
     mode: 0
     narration: []
-    script: this.GetComponenet("BackGroundManager").Change("d");
+    script: 
   - name: 
-    longText: OOO packs his/her suitcase in hurry, and gets on the plane
+    longText: Jack packs his suitcase in hurry, and gets on the plane.
     img: {fileID: 0}
     choices: []
-    choiceMode: 1
+    choiceMode: 0
     links: []
     next: 4
     editor: 0
@@ -232,18 +230,18 @@ MonoBehaviour:
     passwords: []
     incorrect: 0
     exit:
-      shortText: Exit
+      shortText: 
       next: 0
       editor: 0
     align: 0
-    mode: 0
+    mode: 3
     narration: []
     script: 
   - name: 
-    longText: on the plane
+    longText: '--- on the plane ---'
     img: {fileID: 0}
     choices: []
-    choiceMode: 1
+    choiceMode: 0
     links: []
     next: 5
     editor: 0
@@ -251,21 +249,21 @@ MonoBehaviour:
     passwords: []
     incorrect: 0
     exit:
-      shortText: Exit
+      shortText: 
       next: 0
       editor: 0
     align: 0
     mode: 0
     narration: []
     script: 
-  - name: OOO
+  - name: Jack
     longText: "(Whoo! I\u2019m just too excited and scared for this trip! This is
-      first time for me to travel alone, for this long time. What kind of people will
-      I meet? What would I experience? I wish I could learn and widen my view by this
-      trip.)"
-    img: {fileID: 0}
+      first time I have to travel alone and for this long of a time. What kind of
+      people will I meet? What will I experience? I wish I could learn and widen my
+      view by this trip.)"
+    img: {fileID: 2800000, guid: 159f1fcc373533f418eabc87a9ca7618, type: 3}
     choices: []
-    choiceMode: 1
+    choiceMode: 0
     links: []
     next: 6
     editor: 0
@@ -273,19 +271,18 @@ MonoBehaviour:
     passwords: []
     incorrect: 0
     exit:
-      shortText: Exit
+      shortText: 
       next: 0
       editor: 0
     align: 1
-    mode: 0
+    mode: 3
     narration: []
     script: 
   - name: 
-    longText: OOO arrives at Bamako Airport. He/She meets his/her local guide at the
-      exit.
+    longText: (Jack arrives at Bamako Airport. He meets his local guide at the exit.)
     img: {fileID: 0}
     choices: []
-    choiceMode: 1
+    choiceMode: 0
     links: []
     next: 7
     editor: 0
@@ -293,19 +290,19 @@ MonoBehaviour:
     passwords: []
     incorrect: 0
     exit:
-      shortText: Exit
+      shortText: 
       next: 0
       editor: 0
     align: 0
     mode: 0
     narration: []
     script: 
-  - name: OOO
-    longText: "That is the reason why tourist spot and its surroundings are so different!
-      But people here don\u2019t seem have gotten better."
-    img: {fileID: 0}
+  - name: ???
+    longText: "Hi Jack! I\u2019m Aziza, and I will be your guide for your three days
+      in Mali. Welcome to Bamako!"
+    img: {fileID: 2800000, guid: b75b7996081f4bc4fadb906f90b2a136, type: 3}
     choices: []
-    choiceMode: 1
+    choiceMode: 0
     links: []
     next: 8
     editor: 0
@@ -313,7 +310,326 @@ MonoBehaviour:
     passwords: []
     incorrect: 0
     exit:
-      shortText: Exit
+      shortText: 
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Jack
+    longText: Hi! Thanks for the warm welcome :)
+    img: {fileID: 2800000, guid: e803eb93a737e3e41b7d384e80703537, type: 3}
+    choices: []
+    choiceMode: 0
+    links: []
+    next: 9
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: 
+      next: 0
+      editor: 0
+    align: 1
+    mode: 0
+    narration: []
+    script: 
+  - name: Aziza
+    longText: Please give your luggage to me and get in the car. We are going to visit
+      the village of Askia first. It takes about 30 minutes to get there.
+    img: {fileID: 2800000, guid: b30a173ac797a1c4e9c5589870167fb5, type: 3}
+    choices: []
+    choiceMode: 0
+    links: []
+    next: 10
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: 
+      next: 0
+      editor: 0
+    align: 0
+    mode: 3
+    narration: []
+    script: 
+  - name: 
+    longText: '--- in the car ---'
+    img: {fileID: 0}
+    choices: []
+    choiceMode: 0
+    links: []
+    next: 11
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: 
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Jack
+    longText: "I\u2019m so thrilled to visit Mali\u2019s local village! Could you
+      explain a little bit about that village?"
+    img: {fileID: 2800000, guid: 159f1fcc373533f418eabc87a9ca7618, type: 3}
+    choices: []
+    choiceMode: 0
+    links: []
+    next: 12
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: 
+      next: 0
+      editor: 0
+    align: 1
+    mode: 0
+    narration: []
+    script: 
+  - name: Aziza
+    longText: "Actually, the village that we are visiting now is my hometown.(smiling)
+      \ Most of the residents in the village are of the Dogon tribes. We are going
+      to visit there and watch a traditional dance performance, and see the local
+      residents\u2019 living style."
+    img: {fileID: 2800000, guid: b75b7996081f4bc4fadb906f90b2a136, type: 3}
+    choices: []
+    choiceMode: 0
+    links: []
+    next: 13
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: 
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Jack
+    longText: Sounds interesting!
+    img: {fileID: 2800000, guid: e803eb93a737e3e41b7d384e80703537, type: 3}
+    choices: []
+    choiceMode: 0
+    links: []
+    next: 14
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: 
+      next: 0
+      editor: 0
+    align: 1
+    mode: 3
+    narration: []
+    script: 
+  - name: 
+    longText: "--- Jack\u2019s group arrives at Askia village ---"
+    img: {fileID: 0}
+    choices: []
+    choiceMode: 0
+    links: []
+    next: 15
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: 
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Jack
+    longText: "The Dogon tribe\u2019s performance is very interesting. I love their
+      traditional clothing."
+    img: {fileID: 2800000, guid: e803eb93a737e3e41b7d384e80703537, type: 3}
+    choices: []
+    choiceMode: 0
+    links: []
+    next: 16
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: 
+      next: 0
+      editor: 0
+    align: 1
+    mode: 0
+    narration: []
+    script: 
+  - name: Aziza
+    longText: "I\u2019m happy that you loved it. Now, let\u2019s get back to the car.
+      I will take you to your hotel."
+    img: {fileID: 2800000, guid: b75b7996081f4bc4fadb906f90b2a136, type: 3}
+    choices: []
+    choiceMode: 0
+    links: []
+    next: 17
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: 
+      next: 0
+      editor: 0
+    align: 0
+    mode: 3
+    narration: []
+    script: 
+  - name: 
+    longText: (Jack and Aziza is walking to the car)
+    img: {fileID: 0}
+    choices: []
+    choiceMode: 0
+    links: []
+    next: 18
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: 
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: 
+    longText: Jack stops at a child who seems to be emaciated- a child is holding
+      empty bowl, and his eyes are blank.
+    img: {fileID: 0}
+    choices: []
+    choiceMode: 0
+    links: []
+    next: 19
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: 
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Jack
+    longText: "Wait, what\u2019s wrong with this child? He\u2019s just like a skeleton!"
+    img: {fileID: 2800000, guid: 41cf2285524ee924a9a576931d43ae8d, type: 3}
+    choices: []
+    choiceMode: 0
+    links: []
+    next: 20
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: 
+      next: 0
+      editor: 0
+    align: 1
+    mode: 0
+    narration: []
+    script: 
+  - name: Aziza
+    longText: (sighing) The driver parked the car a little far from a sightseeing
+      spot. Outside of sightseeing spot is just like this. Please be patient and walk
+      a few minutes more.
+    img: {fileID: 2800000, guid: b75b7996081f4bc4fadb906f90b2a136, type: 3}
+    choices: []
+    choiceMode: 0
+    links: []
+    next: 21
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: 
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Jack
+    longText: "I\u2019m not complaining about this, and I\u2019m not annoyed. But
+      I want to know why people here, even a young child like him, is starving."
+    img: {fileID: 2800000, guid: 41cf2285524ee924a9a576931d43ae8d, type: 3}
+    choices: []
+    choiceMode: 0
+    links: []
+    next: 22
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: 
+      next: 0
+      editor: 0
+    align: 1
+    mode: 0
+    narration: []
+    script: 
+  - name: Aziza
+    longText: (worried) Most of our villagers used to earn their livelihood by farming,
+      but the drought lasted for several years. So villagers decided to start sightseeing
+      enterprises. They intentionally made the center of village into a tourist spot
+      and moved all their neighbors and homes to the outskirts of the village.
+    img: {fileID: 2800000, guid: 2aa74f103d9b8a6419d6ee2d5d737d42, type: 3}
+    choices: []
+    choiceMode: 0
+    links: []
+    next: 23
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: 
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Jack
+    longText: "That is the reason why the tourist spots and its surroundings are so
+      different! But people here don\u2019t seem have gotten any better."
+    img: {fileID: 2800000, guid: 41cf2285524ee924a9a576931d43ae8d, type: 3}
+    choices: []
+    choiceMode: 0
+    links: []
+    next: 24
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: 
       next: 0
       editor: 0
     align: 1
@@ -322,40 +638,235 @@ MonoBehaviour:
     script: 
   - name: Aziza
     longText: "The village is not famous as a tourist spot, so most tourists don\u2019t
-      know our village. That is the reason why I became the guide for this village.
-      Actually, I\u2019m the only one who finished high school education in our village.
-      So I decided to help my village with my English skill. Now, there\u2019s our
-      car! It\u2019s hot, so get on it quickly! Let\u2019s go back to your hotel."
-    img: {fileID: 0}
+      know our village. That is the reason why I became the guide for this village."
+    img: {fileID: 2800000, guid: 2aa74f103d9b8a6419d6ee2d5d737d42, type: 3}
     choices: []
-    choiceMode: 1
+    choiceMode: 0
     links: []
-    next: 9
+    next: 25
     editor: 0
     pos: 1
     passwords: []
     incorrect: 0
     exit:
-      shortText: Exit
+      shortText: 
       next: 0
       editor: 0
     align: 0
     mode: 0
     narration: []
     script: 
-  - name: OOO
-    longText: "Yes\u2026. (OOO keeps turning back to see the village and people)"
-    img: {fileID: 0}
+  - name: Jack
+    longText: What do you mean?
+    img: {fileID: 2800000, guid: 41cf2285524ee924a9a576931d43ae8d, type: 3}
     choices: []
-    choiceMode: 1
+    choiceMode: 0
     links: []
-    next: 10
+    next: 26
     editor: 0
     pos: 1
     passwords: []
     incorrect: 0
     exit:
-      shortText: Exit
+      shortText: 
+      next: 0
+      editor: 0
+    align: 1
+    mode: 0
+    narration: []
+    script: 
+  - name: Aziza
+    longText: "Actually, I\u2019m the only one who finished elementary school education
+      in our village. So I decided to help my village with skill in speaking English
+      fluently."
+    img: {fileID: 2800000, guid: 2aa74f103d9b8a6419d6ee2d5d737d42, type: 3}
+    choices: []
+    choiceMode: 0
+    links: []
+    next: 27
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: 
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Jack
+    longText: How did you learn English?
+    img: {fileID: 2800000, guid: e803eb93a737e3e41b7d384e80703537, type: 3}
+    choices: []
+    choiceMode: 0
+    links: []
+    next: 28
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: 
+      next: 0
+      editor: 0
+    align: 1
+    mode: 0
+    narration: []
+    script: 
+  - name: Aziza
+    longText: I walked to downtown to visit the tourist spots every day. I tried to
+      talk to foreign travelers. After a few years, I was able to speak few words.
+    img: {fileID: 2800000, guid: b30a173ac797a1c4e9c5589870167fb5, type: 3}
+    choices: []
+    choiceMode: 0
+    links: []
+    next: 29
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: 
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Jack
+    longText: Wow! Your effort is just amazing.
+    img: {fileID: 2800000, guid: e803eb93a737e3e41b7d384e80703537, type: 3}
+    choices: []
+    choiceMode: 0
+    links: []
+    next: 30
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: 
+      next: 0
+      editor: 0
+    align: 1
+    mode: 0
+    narration: []
+    script: 
+  - name: Aziza
+    longText: "But the situation is not getting better. Sometimes I can\u2019t even
+      eat 1 meal in a day. But I\u2019m much better than other villagers, since I
+      get much better pay compared to others, thanks to my English skills."
+    img: {fileID: 2800000, guid: 2aa74f103d9b8a6419d6ee2d5d737d42, type: 3}
+    choices: []
+    choiceMode: 0
+    links: []
+    next: 31
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: 
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Jack
+    longText: "It\u2019s heartbreaking young children starving. Have you applied for
+      fund-raising or help from relief organization?"
+    img: {fileID: 2800000, guid: 41cf2285524ee924a9a576931d43ae8d, type: 3}
+    choices: []
+    choiceMode: 0
+    links: []
+    next: 32
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: 
+      next: 0
+      editor: 0
+    align: 1
+    mode: 0
+    narration: []
+    script: 
+  - name: Aziza
+    longText: Financial aids and relief organizations are all limited. They tend to
+      go to more serious, urgent places.
+    img: {fileID: 2800000, guid: b75b7996081f4bc4fadb906f90b2a136, type: 3}
+    choices: []
+    choiceMode: 0
+    links: []
+    next: 33
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: 
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Jack
+    longText: But the villagers here need help, too.
+    img: {fileID: 2800000, guid: 41cf2285524ee924a9a576931d43ae8d, type: 3}
+    choices: []
+    choiceMode: 0
+    links: []
+    next: 34
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: 
+      next: 0
+      editor: 0
+    align: 1
+    mode: 0
+    narration: []
+    script: 
+  - name: Aziza
+    longText: "(smiling) There\u2019s car. It\u2019s hot, so let\u2019s hurry. I will
+      take you to the restaurant for lunch."
+    img: {fileID: 2800000, guid: b30a173ac797a1c4e9c5589870167fb5, type: 3}
+    choices: []
+    choiceMode: 0
+    links: []
+    next: 35
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: 
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Jack
+    longText: Okay...
+    img: {fileID: 2800000, guid: 41cf2285524ee924a9a576931d43ae8d, type: 3}
+    choices: []
+    choiceMode: 0
+    links: []
+    next: 36
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: 
       next: 0
       editor: 0
     align: 1
@@ -363,18 +874,37 @@ MonoBehaviour:
     narration: []
     script: 
   - name: 
-    longText: "(OOO\u2019s car arrives at the hotel)"
+    longText: (Jack keeps turning back to see the village and people)
     img: {fileID: 0}
     choices: []
-    choiceMode: 1
+    choiceMode: 0
     links: []
-    next: 11
+    next: 37
     editor: 0
     pos: 1
     passwords: []
     incorrect: 0
     exit:
-      shortText: Exit
+      shortText: 
+      next: 0
+      editor: 0
+    align: 0
+    mode: 3
+    narration: []
+    script: 
+  - name: 
+    longText: "(Jack\u2019s car arrives at the hotel)"
+    img: {fileID: 0}
+    choices: []
+    choiceMode: 0
+    links: []
+    next: 38
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: 
       next: 0
       editor: 0
     align: 0
@@ -383,37 +913,37 @@ MonoBehaviour:
     script: 
   - name: Aziza
     longText: It was very pleasant to guide you. (smiling)
-    img: {fileID: 0}
+    img: {fileID: 2800000, guid: b75b7996081f4bc4fadb906f90b2a136, type: 3}
     choices: []
-    choiceMode: 1
+    choiceMode: 0
     links: []
-    next: 12
+    next: 39
     editor: 0
     pos: 1
     passwords: []
     incorrect: 0
     exit:
-      shortText: Exit
+      shortText: 
       next: 0
       editor: 0
     align: 0
     mode: 0
     narration: []
     script: 
-  - name: OOO
+  - name: Jack
     longText: Thank you for your great explanation and guidance through the village!
       It was such an awesome experience for me.
-    img: {fileID: 0}
+    img: {fileID: 2800000, guid: 159f1fcc373533f418eabc87a9ca7618, type: 3}
     choices: []
-    choiceMode: 1
+    choiceMode: 0
     links: []
-    next: 13
+    next: 40
     editor: 0
     pos: 1
     passwords: []
     incorrect: 0
     exit:
-      shortText: Exit
+      shortText: 
       next: 0
       editor: 0
     align: 1
@@ -421,83 +951,124 @@ MonoBehaviour:
     narration: []
     script: 
   - name: Aziza
-    longText: Next time, bring your friend! I will guide you again.
-    img: {fileID: 0}
+    longText: Next time, bring a friend! I will guide you again.
+    img: {fileID: 2800000, guid: b30a173ac797a1c4e9c5589870167fb5, type: 3}
     choices: []
-    choiceMode: 1
+    choiceMode: 0
     links: []
-    next: 14
+    next: 41
     editor: 0
     pos: 1
     passwords: []
     incorrect: 0
     exit:
-      shortText: Exit
+      shortText: 
       next: 0
       editor: 0
     align: 0
     mode: 0
     narration: []
     script: 
-  - name: OOO
+  - name: Jack
     longText: Sure. (smiling) Thank you!
-    img: {fileID: 0}
+    img: {fileID: 2800000, guid: e803eb93a737e3e41b7d384e80703537, type: 3}
     choices: []
-    choiceMode: 1
+    choiceMode: 0
     links: []
-    next: 15
+    next: 42
     editor: 0
     pos: 1
     passwords: []
     incorrect: 0
     exit:
-      shortText: Exit
+      shortText: 
       next: 0
       editor: 0
     align: 1
     mode: 0
     narration: []
     script: 
-  - name: 
-    longText: OOO sits at the desk after taking shower. He/She opens his/her diary
-      and writes down his feelings.
-    img: {fileID: 0}
+  - name: Jack
+    longText: (Jack sits at the desk after taking shower. He opens his diary and writes
+      down his feelings.)
+    img: {fileID: 2800000, guid: e803eb93a737e3e41b7d384e80703537, type: 3}
     choices: []
-    choiceMode: 1
+    choiceMode: 0
     links: []
-    next: 16
+    next: 43
     editor: 0
     pos: 1
     passwords: []
     incorrect: 0
     exit:
-      shortText: Exit
+      shortText: 
       next: 0
       editor: 0
-    align: 0
+    align: 1
     mode: 0
     narration: []
     script: 
-  - name: OOO
+  - name: Jack
     longText: "It was such a miserable sight today. Is it fair for those children
-      to starve like that? I should leave what I\u2019m feeling today. "
-    img: {fileID: 0}
+      to starve like that? I should leave what I\u2019m feeling today."
+    img: {fileID: 2800000, guid: 159f1fcc373533f418eabc87a9ca7618, type: 3}
     choices: []
-    choiceMode: 1
+    choiceMode: 0
     links: []
-    next: 0
+    next: 44
     editor: 0
     pos: 1
     passwords: []
     incorrect: 0
     exit:
-      shortText: Exit
+      shortText: 
       next: 0
       editor: 0
-    align: 0
+    align: 1
+    mode: 0
+    narration: []
+    script: 
+  - name: Jack
+    longText: My first part of trip, Mali, is finished. It was very different, to
+      travel alone. I could see many hardships which I could not experienced when
+      I traveled with my parents.
+    img: {fileID: 2800000, guid: e803eb93a737e3e41b7d384e80703537, type: 3}
+    choices: []
+    choiceMode: 0
+    links: []
+    next: 45
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: 
+      next: 0
+      editor: 0
+    align: 1
+    mode: 0
+    narration: []
+    script: 
+  - name: Jack
+    longText: (But, it was most meaningful and peaceful compared to my trips so far.
+      Especially, I was able to see and learn what I could not before.)
+    img: {fileID: 2800000, guid: 159f1fcc373533f418eabc87a9ca7618, type: 3}
+    choices: []
+    choiceMode: 0
+    links: []
+    next: 45
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: 
+      next: 0
+      editor: 0
+    align: 1
     mode: 3
     narration: []
-    script: UnityEngine.SceneManagement.SceneManager.LoadScene("Login");
+    script: UnityEngine.SceneManagement.SceneManager.LoadScene("HashTag");
   bools: 00000000
   ints: 00000000000000000000000000000000
   strings:
@@ -505,20 +1076,15 @@ MonoBehaviour:
   - 
   - 
   - 
-  airport: {fileID: 0}
---- !u!114 &115029212
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 115029209}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 12f752759ed32924287b5fd2388045de, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  backgroundImages:
+  - {fileID: 21300000, guid: 232e0cd133c3ac244ab3ac468a83e63d, type: 3}
+  - {fileID: 21300000, guid: d2ad017529ed326409b62a96ce6aba47, type: 3}
+  - {fileID: 21300000, guid: ca046d9871c421b49a15a47674c469a5, type: 3}
+  - {fileID: 21300000, guid: c7af60c52f41ab34dbd5b22951ec4e6f, type: 3}
+  - {fileID: 21300000, guid: c7a1e64a6a164e948900d97b2a0b6a4b, type: 3}
+  - {fileID: 21300000, guid: c7af60c52f41ab34dbd5b22951ec4e6f, type: 3}
+  - {fileID: 21300000, guid: fabad39d80dac74478451c7999426843, type: 3}
   background: {fileID: 491950085}
-  airport: {fileID: 21300000, guid: 232e0cd133c3ac244ab3ac468a83e63d, type: 3}
 --- !u!1 &307536810
 GameObject:
   m_ObjectHideFlags: 0
@@ -638,7 +1204,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 232e0cd133c3ac244ab3ac468a83e63d, type: 3}
+  m_Sprite: {fileID: 0}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -679,8 +1245,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8da5c3c4942977a4c9341c36251f03cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dialogueMan: {fileID: 0}
-  dialogueWoman: {fileID: 0}
+  dialogueMan: {fileID: 115029209}
+  dialogueWoman: {fileID: 1132886136}
 --- !u!224 &990154440
 RectTransform:
   m_ObjectHideFlags: 0
@@ -760,6 +1326,979 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1132886136
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1132886138}
+  - component: {fileID: 1132886137}
+  m_Layer: 0
+  m_Name: DialogueWoman
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1132886137
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1132886136}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 469236168daaae04a8053f8f414d2434, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogueSkin: {fileID: 11400000, guid: bcb23eae559494fb7b26ddfd27aa676e, type: 2}
+  startOn: 0
+  defaultImg: {fileID: 0}
+  defaultAudio: {fileID: 0}
+  dialogue:
+  - name: 
+    longText: Janice just graduated from Trinity School, and plans to travel around
+      the world, which was labeled number one in her bucket list from long ago. She
+      starts to plan her tour route, thrilled. First country to travel is Mali, in
+      African continent. Janice plans to experience African traditional culture.
+    img: {fileID: 0}
+    choices: []
+    choiceMode: 0
+    links: []
+    next: 1
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: 
+      next: 0
+      editor: 0
+    align: 0
+    mode: 3
+    narration: []
+    script: 
+  - name: 
+    longText: '--- at the airport ---'
+    img: {fileID: 0}
+    choices: []
+    choiceMode: 0
+    links: []
+    next: 2
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: 
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Janice
+    longText: "\rFinally! I\u2019m so excited to travel to Mali!\r"
+    img: {fileID: 2800000, guid: ecad5b8a47d7c884e9bd530449ae3e50, type: 3}
+    choices: []
+    choiceMode: 0
+    links: []
+    next: 3
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: 
+      next: 0
+      editor: 0
+    align: 1
+    mode: 0
+    narration: []
+    script: 
+  - name: 
+    longText: Janice packs her suitcase in hurry, and gets on the plane.
+    img: {fileID: 0}
+    choices: []
+    choiceMode: 0
+    links: []
+    next: 4
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: 
+      next: 0
+      editor: 0
+    align: 0
+    mode: 3
+    narration: []
+    script: 
+  - name: 
+    longText: '--- on the plane ---'
+    img: {fileID: 0}
+    choices: []
+    choiceMode: 0
+    links: []
+    next: 5
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: 
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Janice
+    longText: "(Whoo! I\u2019m just too excited and scared for this trip! This is
+      first time I have to travel alone and for this long of a time. What kind of
+      people will I meet? What will I experience? I wish I could learn and widen my
+      view by this trip.)"
+    img: {fileID: 2800000, guid: e87d8e2e19d2821489afc0cbafdf8254, type: 3}
+    choices: []
+    choiceMode: 0
+    links: []
+    next: 6
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: 
+      next: 0
+      editor: 0
+    align: 1
+    mode: 3
+    narration: []
+    script: 
+  - name: 
+    longText: (Janice arrives at Bamako Airport. She meets her local guide at the
+      exit.)
+    img: {fileID: 0}
+    choices: []
+    choiceMode: 0
+    links: []
+    next: 7
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: 
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: ???
+    longText: "Hi Janice! I\u2019m Aziza, and I will be your guide for your three
+      days in Mali. Welcome to Bamako!"
+    img: {fileID: 2800000, guid: b75b7996081f4bc4fadb906f90b2a136, type: 3}
+    choices: []
+    choiceMode: 0
+    links: []
+    next: 8
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: 
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Janice
+    longText: Hi! Thanks for the warm welcome :)
+    img: {fileID: 2800000, guid: ecad5b8a47d7c884e9bd530449ae3e50, type: 3}
+    choices: []
+    choiceMode: 0
+    links: []
+    next: 9
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: 
+      next: 0
+      editor: 0
+    align: 1
+    mode: 0
+    narration: []
+    script: 
+  - name: Aziza
+    longText: Please give your luggage to me and get in the car. We are going to visit
+      the village of Askia first. It takes about 30 minutes to get there.
+    img: {fileID: 2800000, guid: b30a173ac797a1c4e9c5589870167fb5, type: 3}
+    choices: []
+    choiceMode: 0
+    links: []
+    next: 10
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: 
+      next: 0
+      editor: 0
+    align: 0
+    mode: 3
+    narration: []
+    script: 
+  - name: 
+    longText: '--- in the car ---'
+    img: {fileID: 0}
+    choices: []
+    choiceMode: 0
+    links: []
+    next: 11
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: 
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Janice
+    longText: "I\u2019m so thrilled to visit Mali\u2019s local village! Could you
+      explain a little bit about that village?"
+    img: {fileID: 2800000, guid: e87d8e2e19d2821489afc0cbafdf8254, type: 3}
+    choices: []
+    choiceMode: 0
+    links: []
+    next: 12
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: 
+      next: 0
+      editor: 0
+    align: 1
+    mode: 0
+    narration: []
+    script: 
+  - name: Aziza
+    longText: "Actually, the village that we are visiting now is my hometown.(smiling)
+      Most of the residents in the village are of the Dogon tribes. We are going to
+      visit there and watch a traditional dance performance, and see the local residents\u2019
+      living style."
+    img: {fileID: 2800000, guid: b75b7996081f4bc4fadb906f90b2a136, type: 3}
+    choices: []
+    choiceMode: 0
+    links: []
+    next: 13
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: 
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Janice
+    longText: Sounds interesting!
+    img: {fileID: 2800000, guid: ecad5b8a47d7c884e9bd530449ae3e50, type: 3}
+    choices: []
+    choiceMode: 0
+    links: []
+    next: 14
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: 
+      next: 0
+      editor: 0
+    align: 1
+    mode: 3
+    narration: []
+    script: 
+  - name: 
+    longText: "--- Janice\u2019s group arrives at Askia village ---"
+    img: {fileID: 0}
+    choices: []
+    choiceMode: 0
+    links: []
+    next: 15
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: 
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Janice
+    longText: "The Dogon tribe\u2019s performance is very interesting. I love their
+      traditional clothing."
+    img: {fileID: 2800000, guid: e87d8e2e19d2821489afc0cbafdf8254, type: 3}
+    choices: []
+    choiceMode: 0
+    links: []
+    next: 16
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: 
+      next: 0
+      editor: 0
+    align: 1
+    mode: 0
+    narration: []
+    script: 
+  - name: Aziza
+    longText: "I\u2019m happy that you loved it. Now, let\u2019s get back to the car.
+      I will take you to your hotel."
+    img: {fileID: 2800000, guid: b75b7996081f4bc4fadb906f90b2a136, type: 3}
+    choices: []
+    choiceMode: 0
+    links: []
+    next: 17
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: 
+      next: 0
+      editor: 0
+    align: 0
+    mode: 3
+    narration: []
+    script: 
+  - name: 
+    longText: (Janice and Aziza is walking to the car)
+    img: {fileID: 0}
+    choices: []
+    choiceMode: 0
+    links: []
+    next: 18
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: 
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: 
+    longText: Janice stops at a child who seems to be emaciated- a child is holding
+      empty bowl, and his eyes are blank.
+    img: {fileID: 0}
+    choices: []
+    choiceMode: 0
+    links: []
+    next: 19
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: 
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Janice
+    longText: "Wait, what\u2019s wrong with this child? He\u2019s just like a skeleton!"
+    img: {fileID: 2800000, guid: 9ca753577d356844a9b49d743e48a1aa, type: 3}
+    choices: []
+    choiceMode: 0
+    links: []
+    next: 20
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: 
+      next: 0
+      editor: 0
+    align: 1
+    mode: 0
+    narration: []
+    script: 
+  - name: Aziza
+    longText: (sighing) The driver parked the car a little far from a sightseeing
+      spot. Outside of sightseeing spot is just like this. Please be patient and walk
+      a few minutes more.
+    img: {fileID: 2800000, guid: b75b7996081f4bc4fadb906f90b2a136, type: 3}
+    choices: []
+    choiceMode: 0
+    links: []
+    next: 21
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: 
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Janice
+    longText: "I\u2019m not complaining about this, and I\u2019m not annoyed. But
+      I want to know why people here, even a young child like him, is starving."
+    img: {fileID: 2800000, guid: 9ca753577d356844a9b49d743e48a1aa, type: 3}
+    choices: []
+    choiceMode: 0
+    links: []
+    next: 22
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: 
+      next: 0
+      editor: 0
+    align: 1
+    mode: 0
+    narration: []
+    script: 
+  - name: Aziza
+    longText: (worried) Most of our villagers used to earn their livelihood by farming,
+      but the drought lasted for several years. So villagers decided to start sightseeing
+      enterprises. They intentionally made the center of village into a tourist spot
+      and moved all their neighbors and homes to the outskirts of the village.
+    img: {fileID: 2800000, guid: 2aa74f103d9b8a6419d6ee2d5d737d42, type: 3}
+    choices: []
+    choiceMode: 0
+    links: []
+    next: 23
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: 
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Janice
+    longText: "That is the reason why the tourist spots and its surroundings are so
+      different! But people here don\u2019t seem have gotten any better."
+    img: {fileID: 2800000, guid: 9ca753577d356844a9b49d743e48a1aa, type: 3}
+    choices: []
+    choiceMode: 0
+    links: []
+    next: 24
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: 
+      next: 0
+      editor: 0
+    align: 1
+    mode: 0
+    narration: []
+    script: 
+  - name: Aziza
+    longText: "The village is not famous as a tourist spot, so most tourists don\u2019t
+      know our village. That is the reason why I became the guide for this village."
+    img: {fileID: 2800000, guid: 2aa74f103d9b8a6419d6ee2d5d737d42, type: 3}
+    choices: []
+    choiceMode: 0
+    links: []
+    next: 25
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: 
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Janice
+    longText: What do you mean?
+    img: {fileID: 2800000, guid: 9ca753577d356844a9b49d743e48a1aa, type: 3}
+    choices: []
+    choiceMode: 0
+    links: []
+    next: 26
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: 
+      next: 0
+      editor: 0
+    align: 1
+    mode: 0
+    narration: []
+    script: 
+  - name: Aziza
+    longText: "Actually, I\u2019m the only one who finished elementary school education
+      in our village. So I decided to help my village with skill in speaking English
+      fluently."
+    img: {fileID: 2800000, guid: 2aa74f103d9b8a6419d6ee2d5d737d42, type: 3}
+    choices: []
+    choiceMode: 0
+    links: []
+    next: 27
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: 
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Janice
+    longText: How did you learn English?
+    img: {fileID: 2800000, guid: e87d8e2e19d2821489afc0cbafdf8254, type: 3}
+    choices: []
+    choiceMode: 0
+    links: []
+    next: 28
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: 
+      next: 0
+      editor: 0
+    align: 1
+    mode: 0
+    narration: []
+    script: 
+  - name: Aziza
+    longText: I walked to downtown to visit the tourist spots every day. I tried to
+      talk to foreign travelers. After a few years, I was able to speak few words.
+    img: {fileID: 2800000, guid: b30a173ac797a1c4e9c5589870167fb5, type: 3}
+    choices: []
+    choiceMode: 0
+    links: []
+    next: 29
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: 
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Janice
+    longText: Wow! Your effort is just amazing.
+    img: {fileID: 2800000, guid: ecad5b8a47d7c884e9bd530449ae3e50, type: 3}
+    choices: []
+    choiceMode: 0
+    links: []
+    next: 30
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: 
+      next: 0
+      editor: 0
+    align: 1
+    mode: 0
+    narration: []
+    script: 
+  - name: Aziza
+    longText: "But the situation is not getting better. Sometimes I can\u2019t even
+      eat 1 meal in a day. But I\u2019m much better than other villagers, since I
+      get much better pay compared to others, thanks to my English skills."
+    img: {fileID: 2800000, guid: 2aa74f103d9b8a6419d6ee2d5d737d42, type: 3}
+    choices: []
+    choiceMode: 0
+    links: []
+    next: 31
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: 
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Janice
+    longText: "It\u2019s heartbreaking young children starving. Have you applied for
+      fund-raising or help from relief organization?"
+    img: {fileID: 2800000, guid: 9ca753577d356844a9b49d743e48a1aa, type: 3}
+    choices: []
+    choiceMode: 0
+    links: []
+    next: 32
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: 
+      next: 0
+      editor: 0
+    align: 1
+    mode: 0
+    narration: []
+    script: 
+  - name: Aziza
+    longText: Financial aids and relief organizations are all limited. They tend to
+      go to more serious, urgent places.
+    img: {fileID: 2800000, guid: b75b7996081f4bc4fadb906f90b2a136, type: 3}
+    choices: []
+    choiceMode: 0
+    links: []
+    next: 33
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: 
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Janice
+    longText: But the villagers here need help, too.
+    img: {fileID: 2800000, guid: 9ca753577d356844a9b49d743e48a1aa, type: 3}
+    choices: []
+    choiceMode: 0
+    links: []
+    next: 34
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: 
+      next: 0
+      editor: 0
+    align: 1
+    mode: 0
+    narration: []
+    script: 
+  - name: Aziza
+    longText: "(smiling) There\u2019s car. It\u2019s hot, so let\u2019s hurry. I will
+      take you to the restaurant for lunch."
+    img: {fileID: 2800000, guid: b30a173ac797a1c4e9c5589870167fb5, type: 3}
+    choices: []
+    choiceMode: 0
+    links: []
+    next: 35
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: 
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Janice
+    longText: Okay...
+    img: {fileID: 2800000, guid: 9ca753577d356844a9b49d743e48a1aa, type: 3}
+    choices: []
+    choiceMode: 0
+    links: []
+    next: 36
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: 
+      next: 0
+      editor: 0
+    align: 1
+    mode: 0
+    narration: []
+    script: 
+  - name: 
+    longText: (Janice keeps turning back to see the village and people)
+    img: {fileID: 0}
+    choices: []
+    choiceMode: 0
+    links: []
+    next: 37
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: 
+      next: 0
+      editor: 0
+    align: 0
+    mode: 3
+    narration: []
+    script: 
+  - name: 
+    longText: "(Janice\u2019s car arrives at the hotel)"
+    img: {fileID: 0}
+    choices: []
+    choiceMode: 0
+    links: []
+    next: 38
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: 
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Aziza
+    longText: It was very pleasant to guide you. (smiling)
+    img: {fileID: 2800000, guid: b75b7996081f4bc4fadb906f90b2a136, type: 3}
+    choices: []
+    choiceMode: 0
+    links: []
+    next: 39
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: 
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Janice
+    longText: Thank you for your great explanation and guidance through the village!
+      It was such an awesome experience for me.
+    img: {fileID: 2800000, guid: e87d8e2e19d2821489afc0cbafdf8254, type: 3}
+    choices: []
+    choiceMode: 0
+    links: []
+    next: 40
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: 
+      next: 0
+      editor: 0
+    align: 1
+    mode: 0
+    narration: []
+    script: 
+  - name: Aziza
+    longText: Next time, bring a friend! I will guide you again.
+    img: {fileID: 2800000, guid: b30a173ac797a1c4e9c5589870167fb5, type: 3}
+    choices: []
+    choiceMode: 0
+    links: []
+    next: 41
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: 
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Janice
+    longText: Sure. (smiling) Thank you!
+    img: {fileID: 2800000, guid: ecad5b8a47d7c884e9bd530449ae3e50, type: 3}
+    choices: []
+    choiceMode: 0
+    links: []
+    next: 42
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: 
+      next: 0
+      editor: 0
+    align: 1
+    mode: 0
+    narration: []
+    script: 
+  - name: Janice
+    longText: (Janice sits at the desk after taking shower. She opens her diary and
+      writes down his feelings.)
+    img: {fileID: 2800000, guid: e87d8e2e19d2821489afc0cbafdf8254, type: 3}
+    choices: []
+    choiceMode: 0
+    links: []
+    next: 43
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: 
+      next: 0
+      editor: 0
+    align: 1
+    mode: 0
+    narration: []
+    script: 
+  - name: Janice
+    longText: "It was such a miserable sight today. Is it fair for those children
+      to starve like that? I should leave what I\u2019m feeling today."
+    img: {fileID: 2800000, guid: e87d8e2e19d2821489afc0cbafdf8254, type: 3}
+    choices: []
+    choiceMode: 0
+    links: []
+    next: 44
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: 
+      next: 0
+      editor: 0
+    align: 1
+    mode: 0
+    narration: []
+    script: 
+  - name: Janice
+    longText: My first part of trip, Mali, is finished. It was very different, to
+      travel alone. I could see many hardships which I could not experienced when
+      I traveled with my parents.
+    img: {fileID: 2800000, guid: ecad5b8a47d7c884e9bd530449ae3e50, type: 3}
+    choices: []
+    choiceMode: 0
+    links: []
+    next: 45
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: 
+      next: 0
+      editor: 0
+    align: 1
+    mode: 0
+    narration: []
+    script: 
+  - name: Janice
+    longText: (But, it was most meaningful and peaceful compared to my trips so far.
+      Especially, I was able to see and learn what I could not before.)
+    img: {fileID: 2800000, guid: e87d8e2e19d2821489afc0cbafdf8254, type: 3}
+    choices: []
+    choiceMode: 0
+    links: []
+    next: 45
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: 
+      next: 0
+      editor: 0
+    align: 1
+    mode: 3
+    narration: []
+    script: UnityEngine.SceneManagement.SceneManager.LoadScene("HashTag");
+  bools: 00000000
+  ints: 00000000000000000000000000000000
+  strings:
+  - 
+  - 
+  - 
+  - 
+  backgroundImages:
+  - {fileID: 21300000, guid: 232e0cd133c3ac244ab3ac468a83e63d, type: 3}
+  - {fileID: 21300000, guid: d2ad017529ed326409b62a96ce6aba47, type: 3}
+  - {fileID: 21300000, guid: ca046d9871c421b49a15a47674c469a5, type: 3}
+  - {fileID: 21300000, guid: c7af60c52f41ab34dbd5b22951ec4e6f, type: 3}
+  - {fileID: 21300000, guid: c7a1e64a6a164e948900d97b2a0b6a4b, type: 3}
+  - {fileID: 21300000, guid: c7af60c52f41ab34dbd5b22951ec4e6f, type: 3}
+  - {fileID: 21300000, guid: fabad39d80dac74478451c7999426843, type: 3}
+  background: {fileID: 491950085}
+--- !u!4 &1132886138
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1132886136}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 355.1392, y: 258.02634, z: 8.5}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1212807935
 GameObject:
