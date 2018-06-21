@@ -15,15 +15,15 @@ namespace SDG_Site {
 						Email = Request.Form["Email"]
 					}) == -1) {
 						// if ID is already in use
-						Response.Write("ID Already in use.");
+						Response.Write("2-ID");
 					}
 				} else {
 					// If passwords do not match
-					Response.Write("Password do not match.");
+					Response.Write("2-PW");
 				}
 			} else {
 				// If not an email
-				Response.Write("This is not an email.");
+				Response.Write("2-Email");
 			}
 		}
 	}
