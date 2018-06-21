@@ -63,7 +63,9 @@
     <Compile Include="Assets\Resources\Scripts\ButtonManager.cs" />
     <Compile Include="Assets\Resources\Scripts\DialogueManager.cs" />
     <Compile Include="Assets\Resources\Scripts\GetSolution.cs" />
+    <Compile Include="Assets\Resources\Scripts\GetStage0.cs" />
     <Compile Include="Assets\Resources\Scripts\GetText.cs" />
+    <Compile Include="Assets\Resources\Scripts\StickyManager.cs" />
     <Reference Include="UnityEditor.StandardEvents">
       <HintPath>D:/Github/SDG/SDG/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>

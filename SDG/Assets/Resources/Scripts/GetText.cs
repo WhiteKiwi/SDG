@@ -17,4 +17,18 @@ public class GetText : MonoBehaviour {
 
 	// alert
 	public Text alert;
+
+	// Id check
+	public Image IDCheck;
+
+	// Password check
+	public Image PasswordCheck;
+
+	// Email Check
+	public Image EmailCheck;
+
+	// check sprite images
+	public Sprite Check;
+	public Sprite Check_No;
+	public Sprite Check_Ok;
 }

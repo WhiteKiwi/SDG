@@ -5,6 +5,8 @@ using UnityEngine.SceneManagement;
 
 public class ButtonManager : MonoBehaviour {
 	const string address = "http://outofwell.com";
+	int classification = 0;
+	// 0 : Political
 
 	#region Scene Start
 	// Scene Start - Start Button
@@ -70,6 +72,7 @@ public class ButtonManager : MonoBehaviour {
 			PlayerPrefs.SetString("User_ID", getText.id.text);
 			PlayerPrefs.SetString("Password", getText.pw.text);
 			PlayerPrefs.Save();
+			getText.alert.color = Color.blue;
 			getText.alert.text = "Login Success!";
 			SceneManager.LoadScene("Stage" + PlayerPrefs.GetInt("Stage", 0).ToString());
 		}
@@ -79,16 +82,26 @@ public class ButtonManager : MonoBehaviour {
 	#region Scene Stage0
 	// Scene Stage0 - Man Button
 	public void Press_ManButton() {
+		GetStage0 getStage0 = gameObject.GetComponent<GetStage0>();
 		// 0 : Man
 		PlayerPrefs.SetInt("Sex", 0);
 		PlayerPrefs.Save();
+
+		getStage0.BoyButtonText.color = new Color(157 / 256f, 195 / 256f, 230 / 256f);
+		getStage0.GirlButtonText.color = new Color(0f, 0f, 0f, 0.8f);
+		getStage0.ConfirmButton.image.color = new Color(157 / 256f, 195 / 256f, 230 / 256f);
 	}
 
 	// Scene Stage0 - Woman Button
 	public void Press_WomanButton() {
+		GetStage0 getStage0 = gameObject.GetComponent<GetStage0>();
 		// 1 : Woman
 		PlayerPrefs.SetInt("Sex", 1);
 		PlayerPrefs.Save();
+
+		getStage0.BoyButtonText.color = new Color(0f, 0f, 0f, 0.8f);
+		getStage0.GirlButtonText.color = new Color(255 / 256f, 168 / 256f, 201 / 256f);
+		getStage0.ConfirmButton.image.color = new Color(255 / 256f, 168 / 256f, 201 / 256f);
 	}
 
 	// Scene Stage0 - Confirm Button
@@ -132,6 +145,11 @@ public class ButtonManager : MonoBehaviour {
 	public void Press_LoadSolutionButton() {
 		Application.OpenURL(address);
 		SceneManager.LoadScene("Solution");
+	}
+
+	// Scene Solution - Classidication Buttons
+	public void Press_PoliticalButton() {
+
 	}
 	#endregion
 

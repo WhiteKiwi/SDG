@@ -118,6 +118,7 @@ function Update() {
 }
 
 function OnGUI() {
+    GUI.contentColor = Color.black;
     if (dialogue) {
         if (dialogue.length > 0) {
             if (display) {
@@ -136,9 +137,12 @@ function OnGUI() {
                             if (display.align == 1) p = Screen.width - 400;
                             var p2 = 20;
                             if (display.align == 1) p2 = Screen.width - 220;
+                            // image not text - color white
+                            GUI.contentColor = Color.white;
                             // character location and scale
                             GUI.Label(Rect(p, Screen.height - 517, 400, 600), display.img);
-                            GUI.Box(Rect(p2, Screen.height - 41 - 117, 200, 41), display.name, "namebar");
+                            GUI.contentColor = Color.black;
+                            GUI.Box(Rect(p2, Screen.height - 44 - 117, 200, 40), display.name, "namebar");
                             GUI.Box(Rect(0, Screen.height - 120, Screen.width, 120), curContent, "textboxplayer");
                             break;
                         case 2:
@@ -333,14 +337,11 @@ function EndGlow() {
 }
 
 function PlayClip(i: int) {
-    if (aud.clip) {
-        if (aud.isPlaying) aud.Stop();
-    }
     if (dialogue[i].narration) {
         if (dialogue[i].narration.length > lineCount) {
             if (dialogue[i].narration[lineCount]) {
                 aud.clip = dialogue[i].narration[lineCount];
-                aud.loop = false;
+                aud.loop = true;
                 aud.Play();
             }
         }
