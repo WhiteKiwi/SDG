@@ -15,9 +15,6 @@ EditorBuildSettings:
     path: Assets/Scenes/Solutions/Solution.unity
     guid: bbb65c08730f56044a4d456c29c214c8
   - enabled: 1
-    path: Assets/Scenes/Stage/Stage1.unity
-    guid: b4c241650f0fcf244bf56952491a10b9
-  - enabled: 1
     path: Assets/Scenes/Stage/Stage0.unity
     guid: 688dbf0c31778814d92b01805ba8ef12
   - enabled: 1
@@ -26,4 +23,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Solutions/HashTag.unity
     guid: 19cd331d0ec98794288e816e3ad515c0
+  - enabled: 1
+    path: Assets/Scenes/Stage/Stage1.unity
+    guid: 2660f03cfa99e7d46b57762ac3a5c8b3
   m_configObjects: {}
