@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/Account/Register.unity
+- path: Assets/Scenes/Solutions/HashTag.unity
   isLoaded: 1
   isActive: 1

@@ -141,8 +141,9 @@ function OnGUI() {
                             GUI.contentColor = Color.white;
                             // character location and scale
                             GUI.Label(Rect(p, Screen.height - 517, 400, 600), display.img);
-                            GUI.contentColor = Color.black;
+                            GUI.contentColor = Color.blue;
                             GUI.Box(Rect(p2, Screen.height - 44 - 117, 200, 40), display.name, "namebar");
+                            GUI.contentColor = Color.black;
                             GUI.Box(Rect(0, Screen.height - 120, Screen.width, 120), curContent, "textboxplayer");
                             break;
                         case 2:

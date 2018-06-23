@@ -177,7 +177,7 @@ MonoBehaviour:
       next: 0
       editor: 0
     align: 0
-    mode: 3
+    mode: 0
     narration:
     - {fileID: 0}
     script: 
@@ -1079,7 +1079,6 @@ MonoBehaviour:
   - 
   - 
   backgroundImages:
-  - {fileID: 21300000, guid: 232e0cd133c3ac244ab3ac468a83e63d, type: 3}
   - {fileID: 21300000, guid: d2ad017529ed326409b62a96ce6aba47, type: 3}
   - {fileID: 21300000, guid: ca046d9871c421b49a15a47674c469a5, type: 3}
   - {fileID: 21300000, guid: c7af60c52f41ab34dbd5b22951ec4e6f, type: 3}
@@ -1380,7 +1379,7 @@ MonoBehaviour:
       next: 0
       editor: 0
     align: 0
-    mode: 3
+    mode: 0
     narration: []
     script: 
   - name: 
@@ -2281,7 +2280,6 @@ MonoBehaviour:
   - 
   - 
   backgroundImages:
-  - {fileID: 21300000, guid: 232e0cd133c3ac244ab3ac468a83e63d, type: 3}
   - {fileID: 21300000, guid: d2ad017529ed326409b62a96ce6aba47, type: 3}
   - {fileID: 21300000, guid: ca046d9871c421b49a15a47674c469a5, type: 3}
   - {fileID: 21300000, guid: c7af60c52f41ab34dbd5b22951ec4e6f, type: 3}

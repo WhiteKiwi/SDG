@@ -1,3 +1,5 @@
+import UnityEngine;
+import UnityEngine.UI;
 // Copyright 2010 Royce Kimmons | royce@kimmonsdesign.com
 // Released under Creative Commons Attribution 3.0 License
 // http://creativecommons.org/licenses/by/3.0/
@@ -115,7 +117,7 @@ function ShowEntryEditor(i: int) {
             GUILayout.BeginVertical();
             if (dialogue[i].passwords) {
                 j = 0;
-                for (var p in dialogue[i].passwords) {
+                for (var p: String in dialogue[i].passwords) {
                     GUILayout.BeginHorizontal();
                     GUILayout.Box("" + j);
                     p.shortText = GUILayout.TextField(p.shortText, GUILayout.Width(120));
