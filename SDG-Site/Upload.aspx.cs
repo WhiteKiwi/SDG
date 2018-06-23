@@ -12,10 +12,10 @@ namespace SDG_Site {
 					Stage = Request.Form["Stage"]
 				});
 
-				Response.Redirect("/");
+				Response.Write("Success!");
 			} else {
 				// Unauthorized
-				Response.StatusCode = 401;
+				Response.Write("Unauthorized");
 			}
 		}
 	}
