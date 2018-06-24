@@ -1,0 +1,29 @@
+.main-nav {
+  display: flex;
+  padding: 0;
+  transition: all 0.2s ease;
+  background: #0197f6;
+  .logo {
+    font-family: $logo-font;
+    margin-right: auto;
+    padding-top: 13px;
+    font-size: 2.25em;
+  }
+  a {
+    text-decoration: none;
+    display: block;
+    color: white;
+    padding: 25px 30px;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-family: $general-font;
+    transition: all 0.2s ease;
+  }
+  li {
+    list-style: none;
+    display: inline-block;
+  }
+  li:first-child {
+    margin-right: auto;
+  }
+}
