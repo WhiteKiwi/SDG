@@ -1,37 +1,69 @@
-.main-nav {
-  display: flex;
-  padding: 0;
-  transition: all 0.2s ease;
+nav {
   background: #0197f6;
-  .logo {
-    font-family: $logo-font;
-    margin-right: auto;
-    padding-top: 13px;
-    font-size: 2.25em;
-  }
-  a {
-    text-decoration: none;
-    display: block;
-    color: white;
-    padding: 25px 30px;
-    font-weight: 900;
-    text-transform: uppercase;
-    font-family: $general-font;
+  .main-nav {
+    display: flex;
+    padding: 0;
     transition: all 0.2s ease;
+    .logo {
+      font-family: $logo-font;
+      margin-right: auto;
+      padding-top: 13px;
+      font-size: 2.25em;
+    }
+    a {
+      text-decoration: none;
+      display: block;
+      color: white;
+      padding: 25px 30px;
+      font-weight: 900;
+      text-transform: uppercase;
+      font-family: $general-font;
+      transition: all 0.2s ease;
+    }
+    li {
+      list-style: none;
+      display: inline-block;
+    }
+    li:first-child {
+      margin-right: auto;
+    }
+    li .toggle {
+      width: 10px;
+      position: relative;
+      right: 50px;
+      z-index: 99;
+    }
+    .nav-toggle {
+      width: 35px;
+      height: 5px;
+      background-color: white;
+      margin: 6px 0;
+      margin-left: 30px;
+    }
+
+    .toggle {
+      position: relative;
+      bottom: 10px;
+      visibility: hidden;
+    }
   }
-  li {
-    list-style: none;
-    display: inline-block;
+}
+
+@media (max-width: 800px) {
+  #begone1,
+  #begone2 {
+    display: none;
   }
   li:first-child {
-    margin-right: auto;
+    display: block;
+    text-align: center;
+  }
+  .nav-toggle {
+    visibility: visible;
   }
 }
 
-@media only screen and (max-width: $phone) {
-}
-
-@media only screen and (min-width: $tablet) and (max-width: $small-laptop) {
+@media screen and (min-width: $tablet) and (max-width: $small-laptop) {
 }
 
 @media only screen and (min-width: $small-laptop) and (max-width: $large-laptop) {
