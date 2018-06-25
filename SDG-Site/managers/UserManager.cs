@@ -17,7 +17,7 @@ namespace SDG_Site.Managers {
 				conn.Open();
 
 				// Command Text - Insert new user
-				string commandText = "INSERT INTO " + USERTABLE + "(User_Id, Password, Name, Email) VALUES ('" + user.UserID + "', '" + (user.Password + "rsEGnGEgJ45r57IhIu6aRKwGMJfHrXVhoaAEpTHgTK7DY9GTwhEFi").GetHashCode() + "', '" + user.Name + "', '" + user.Email + "')";
+				string commandText = "INSERT INTO " + USERTABLE + "(User_Id, Password, Name, Email) VALUES ('" + user.UserID + "', '" + user.Password + "', '" + user.Name + "', '" + user.Email + "')";
 				var cmd = new MySqlCommand(commandText, conn);
 
 				int result;
@@ -42,7 +42,7 @@ namespace SDG_Site.Managers {
 		/// <param name="user">User class in Models</param>  
 		/// <param name="newPassword">Password to change</param>  
 		/// <see cref="User"/>
-		public static int ChangePassword(User user, string newPassword) {
+		public static int ChangePassword(User user, string newPassword)	 {
 			// If the password change fails, -1 is returned
 			int result = -1;
 
@@ -57,10 +57,10 @@ namespace SDG_Site.Managers {
 				// If the passwords match -> Update Password
 				if (user.Password == (string)cmd.ExecuteScalar()) {
 					// Change user's password
-					user.Password = (newPassword + "rsEGnGEgJ45r57IhIu6aRKwGMJfHrXVhoaAEpTHgTK7DY9GTwhEFi").GetHashCode().ToString();
+					user.Password = newPassword;
 
 					// Command Text - Update Password
-					commandText = "UPDATE " + USERTABLE + " SET Password='" + (user.Password + "rsEGnGEgJ45r57IhIu6aRKwGMJfHrXVhoaAEpTHgTK7DY9GTwhEFi").GetHashCode() + "' Where User_Id='" + user.UserID + "';";
+					commandText = "UPDATE " + USERTABLE + " SET Password='" + user.Password + "' Where User_Id='" + user.UserID + "';";
 					cmd.CommandText = commandText;
 
 					// The number of rows affected
