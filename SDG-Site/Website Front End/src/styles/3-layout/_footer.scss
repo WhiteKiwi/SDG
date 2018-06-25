@@ -1,0 +1,30 @@
+#footer {
+  text-align: center;
+  font-family: $general-font;
+  color: white;
+  margin-top: 20px;
+  background: black;
+  padding-top: 20px;
+  li {
+    list-style: none;
+    padding: 20px 15px;
+  }
+  a {
+    padding: 0px 20px;
+    text-transform: uppercase;
+    color: white;
+    text-decoration: none;
+  }
+}
+
+@media only screen and (max-width: $phone) {
+}
+
+@media only screen and (min-width: $tablet) and (max-width: $small-laptop) {
+}
+
+@media only screen and (min-width: $small-laptop) and (max-width: $large-laptop) {
+}
+
+@media only screen and (min-width: $large-laptop) {
+}

@@ -1,0 +1,27 @@
+#header {
+  height: 650px;
+  background-image: url(../img/smilinggirl.png);
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+  h1 {
+    text-align: center;
+    padding-top: 100px;
+    font-size: 4em;
+  }
+  img {
+    padding-left: 700px;
+  }
+}
+
+@media only screen and (max-width: $phone) {
+}
+
+@media only screen and (min-width: $tablet) and (max-width: $small-laptop) {
+}
+
+@media only screen and (min-width: $small-laptop) and (max-width: $large-laptop) {
+}
+
+@media only screen and (min-width: $large-laptop) {
+}
