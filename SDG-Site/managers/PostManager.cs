@@ -81,25 +81,33 @@ namespace SDG_Site.Managers {
 		}
 
 		/// <summary>
-		/// Get Post's Count by Stage
+		/// Get Post by Id
 		/// </summary>
-		/// <param name="stage">Member variable of Post class</param>  
-		/// <see cref="Post.Stage"/>
-		public static int GetPostsCount(int stage) {
-			int result = 0;
+		/// <param name="Id">Member variable of Post class</param>  
+		/// <see cref="Post.Id"/>
+		public static Post GetPostById(int Id) {
+			Post result = new Post();
 
 			// Connect to DB
 			using (var conn = new MySqlConnection(System.Configuration.ConfigurationManager.ConnectionStrings["SDGDB"].ConnectionString)) {
 				conn.Open();
 
-				// If stage is 0, not where sql
-				string whereStage = stage == 0 ? "" : " WHERE Stage='" + stage + "'";
+				string sql = "SELECT * FROM " + POSTTABLE + " WHERE Id='" + Id + "';";
+				MySqlCommand cmd = new MySqlCommand(sql, conn);
 
-				// Command Text - Select Password
-				string commandText = "SELECT COUNT(*) FROM " + POSTTABLE + whereStage + ";";
-				var cmd = new MySqlCommand(commandText, conn);
+				var rdr = cmd.ExecuteReader();
+				rdr.Read();
 
-				result = (int)cmd.ExecuteScalar();
+				// TODO: Check the table
+				result = new Post{
+					Id = (int)rdr["Id"],
+					Title = (string)rdr["Title"],
+					Content = (string)rdr["Content"],
+					Classification = (string)rdr["Content"],
+					Stage = (string)rdr["Stage"],
+					Writer = (string)rdr["Writer"],
+					UploadAt = (DateTime)rdr["Upload_At"]
+				};
 
 				// Connection Close
 				conn.Close();
