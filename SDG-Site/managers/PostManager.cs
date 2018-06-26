@@ -1,5 +1,6 @@
 ﻿using MySql.Data.MySqlClient;
 using SDG_Site.Models;
+using System;
 using System.Collections.Generic;
 
 namespace SDG_Site.Managers {
@@ -18,7 +19,7 @@ namespace SDG_Site.Managers {
 				conn.Open();
 
 				// Command Text - Upload new post
-				string commandText = "INSERT INTO " + POSTTABLE + "(Title, Contents, Classification, Stage) VALUES ('" + post.Title + "', '" + post.Content + "', '" + post.Classification + "', '" + post.Stage + "')";
+				string commandText = "INSERT INTO " + POSTTABLE + "(Title, Contents, Classification, Stage, Writer, Upload_At) VALUES ('" + post.Title + "', '" + post.Content + "', '" + post.Classification + "', '" + post.Stage + "', '" + post.Writer + "', '" + DateTime.Now.ToString("yyyy-MM-dd") + "')";
 				var cmd = new MySqlCommand(commandText, conn);
 
 				int result;
