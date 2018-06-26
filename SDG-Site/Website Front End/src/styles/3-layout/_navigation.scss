@@ -51,20 +51,43 @@ nav {
 }
 
 @media only screen and (max-width: 600px) and (max-height: 1024px) {
-  #begone1,
-  #begone2 {
+  .main-nav {
+    background: #0197f6;
+  }
+  .responsive-nav {
     display: none;
+    z-index: 999;
   }
   li:first-child {
     display: block;
     text-align: center;
     position: relative;
-    left: 160px;
-    top: 10px;
+    z-index: 999;
+    width: auto;
+    margin: 12px 170px;
   }
+
   .nav-toggle {
     visibility: visible;
     position: relative;
-    top: 8px;
+    top: 2px;
+    z-index: 9999;
+  }
+  .responsive-nav.unfold {
+    display: block;
+    width: 100%;
+    height: auto;
+    background: #0197f6;
+    position: absolute;
+  }
+  .responsive-nav.unfold li {
+    display: block;
+    width: 100%;
+    margin-left: 0;
+  }
+  .responsive-nav.unfold a {
+    padding: 30px;
+    display: block;
+    text-align: center;
   }
 }

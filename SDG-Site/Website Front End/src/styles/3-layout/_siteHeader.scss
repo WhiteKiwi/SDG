@@ -21,3 +21,28 @@
     }
   }
 }
+
+#noheader {
+  height: 450px;
+  background-image: url(../img/lightbulb.png);
+  background-size: cover;
+  background-repeat: none;
+  overflow: hidden;
+  h1 {
+    text-align: center;
+    font-size: 1em;
+    color: white;
+  }
+  img {
+    padding-left: 700px;
+  }
+}
+
+@media only screen and (max-width: 600px) and (max-height: 1024px) {
+  #noheader {
+    h1 {
+      font-size: 3.75em;
+      margin-top: 200px;
+    }
+  }
+}
