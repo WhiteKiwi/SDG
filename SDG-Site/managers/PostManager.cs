@@ -41,27 +41,11 @@ namespace SDG_Site.Managers {
 		/// <summary>
 		/// Get Posts by page
 		/// </summary>
-		/// <param name="page">Post class in Models</param>  
-		/// <see cref="Post"/>
-		public static List<Post> GetContents(int page, int stage) {
-			var result = new List<Post>();
-
-			#region TotalPage
-			// Number of postings
-			int totalCount = GetPostsCount(stage);
-
-			// Number of postings to float on one page
-			const int listCount = 10;
-
-			// Number of pages
-			int totalPage = totalCount / listCount;
-			if (totalCount % listCount > 0)
-				totalPage++;
-
-			// If the requested page is more than the total page
-			if (page > totalPage)
-				page = totalPage;
-			#endregion
+		/// <param name="stage">Member variable of Post class</param>  
+		/// <param name="page">requested page number</param>  
+		/// <see cref="Post.Stage"/>
+		public static List<Post> GetPostsByPage(int page, int stage = 0) {
+			List<Post> result = new List<Post>();
 
 			// Connect to DB
 			using (var conn = new MySqlConnection(System.Configuration.ConfigurationManager.ConnectionStrings["SDGDB"].ConnectionString)) {
@@ -70,19 +54,26 @@ namespace SDG_Site.Managers {
 				// If stage is 0, not where sql
 				string whereStage = stage == 0 ? "" : " WHERE Stage='" + stage + "'";
 
-				// Command Text - Get Id and Title of Post
-				string commandText = "SELECT Id, Title FROM " + POSTTABLE + whereStage + " LIMIT " + (page - 1) + ", " + listCount + ";";
-				var cmd = new MySqlCommand(commandText, conn);
+				// Command Text - Select Password
+				string sql = "SELECT COUNT(*) FROM " + POSTTABLE + whereStage + ";";
+				var cmd = new MySqlCommand(sql, conn);
 
-				// Return only title and id for paging purposes.
+				int postsCount = (int)cmd.ExecuteScalar();
+
+				// Get Notices
+				sql = "SELECT Id, Title, Upload_At FROM " + POSTTABLE + whereStage + " ORDER BY Id DESC LIMIT 10 OFFSET " + ((page - 1) * 10) + ";";
+				cmd.CommandText = sql;
+
 				var rdr = cmd.ExecuteReader();
 				while (rdr.Read()) {
 					result.Add(new Post {
 						Id = (int)rdr["Id"],
-						Title = (string)rdr["Id"]
+						Title = (string)rdr["Title"],
+						UploadAt = (DateTime)rdr["Upload_At"]
 					});
 				}
 
+				// Connection Close
 				conn.Close();
 			}
 
