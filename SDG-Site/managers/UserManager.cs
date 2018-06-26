@@ -137,5 +137,28 @@ namespace SDG_Site.Managers {
 
 			return result;
 		}
+
+		/// <summary>
+		/// Add User's Uni
+		/// </summary>
+		/// <param name="userID">User's ID</param>  
+		/// <param name="addedUni">Added uni's mount</param>  
+		/// <see cref="User.UserID"/>
+		/// <see cref="User.Uni"/>
+		public static void AddUni(string userID, int addedUni) {
+			// Connect to DB
+			using (var conn = new MySqlConnection(System.Configuration.ConfigurationManager.ConnectionStrings["SDGDB"].ConnectionString)) {
+				conn.Open();
+
+				// Command Text - Select Password
+				string commandText = "UPDATE " + USERTABLE + " SET Uni = Uni + " + addedUni + " WHERE User_Id='" + userID + "';";
+				var cmd = new MySqlCommand(commandText, conn);
+
+				cmd.ExecuteNonQuery();
+
+				// Connection Close
+				conn.Close();
+			}
+		}
 	}
 }
