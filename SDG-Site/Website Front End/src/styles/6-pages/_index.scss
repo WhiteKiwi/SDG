@@ -1,6 +1,5 @@
 #about {
   height: auto;
-  background: black;
   padding: 30px;
   margin-bottom: 20px;
   h1 {
@@ -74,7 +73,6 @@
 
 #CTA {
   .CTA {
-    background: black;
     padding: 2em;
     margin: 10px 60px;
     h1 {
@@ -85,11 +83,7 @@
     p {
       width: 60%;
       line-height: 1.5em;
-    }
-    img {
-      float: right;
-      position: relative;
-      bottom: 70px;
+      padding-bottom: 40px;
     }
   }
 }
@@ -130,11 +124,15 @@
       }
       p {
         width: 100%;
-        line-height: 20px;
+        display: block;
+        line-height: 30px;
+        border-bottom: 30px;
       }
       img {
-        float: none;
-        margin-top: 200px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
       }
     }
   }

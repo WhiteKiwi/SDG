@@ -57,6 +57,9 @@ nav {
   .responsive-nav {
     display: none;
     z-index: 999;
+    li:first-child {
+      width: auto;
+    }
   }
   li:first-child {
     display: block;
@@ -83,11 +86,17 @@ nav {
   .responsive-nav.unfold li {
     display: block;
     width: 100%;
-    margin-left: 0;
+    margin-left: auto;
+    margin-right: auto;
   }
   .responsive-nav.unfold a {
     padding: 30px;
     display: block;
     text-align: center;
+  }
+  .responsive-nav .unfold {
+    li:first-child {
+      width: auto;
+    }
   }
 }
