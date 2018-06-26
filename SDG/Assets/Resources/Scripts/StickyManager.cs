@@ -13,7 +13,7 @@ public class StickyManager : MonoBehaviour {
 			// 1
 			new string[]{ "Poverty", "Hunger", "Food" },
 			// 2
-			new string[]{ "", "", "" },
+			new string[]{ "Waterborne\nDiseases", "Water\nsanitation\nfacilities", "Water-use\nefficiency" },
 			// 3
 			new string[]{ "", "", "" },
 			// 4
