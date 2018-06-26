@@ -4,6 +4,7 @@ html {
 
 body {
   background: #272727;
+  position: relative;
 }
 
 *,
@@ -14,18 +15,6 @@ body {
 
 .container {
   width: 100%;
-  max-width: 2000px;
+  max-width: 1024px;
   margin: 0;
-}
-
-@media only screen and (max-width: $phone) {
-}
-
-@media only screen and (min-width: $tablet) and (max-width: $small-laptop) {
-}
-
-@media only screen and (min-width: $small-laptop) and (max-width: $large-laptop) {
-}
-
-@media only screen and (min-width: $large-laptop) {
 }

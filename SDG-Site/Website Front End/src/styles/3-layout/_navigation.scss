@@ -4,6 +4,7 @@ nav {
     display: flex;
     padding: 0;
     transition: all 0.2s ease;
+    overflow: hidden;
     .logo {
       font-family: $logo-font;
       margin-right: auto;
@@ -49,7 +50,7 @@ nav {
   }
 }
 
-@media (max-width: 800px) {
+@media only screen and (max-width: 600px) and (max-height: 1024px) {
   #begone1,
   #begone2 {
     display: none;
@@ -57,17 +58,13 @@ nav {
   li:first-child {
     display: block;
     text-align: center;
+    position: relative;
+    left: 160px;
+    top: 10px;
   }
   .nav-toggle {
     visibility: visible;
+    position: relative;
+    top: 8px;
   }
-}
-
-@media screen and (min-width: $tablet) and (max-width: $small-laptop) {
-}
-
-@media only screen and (min-width: $small-laptop) and (max-width: $large-laptop) {
-}
-
-@media only screen and (min-width: $large-laptop) {
 }

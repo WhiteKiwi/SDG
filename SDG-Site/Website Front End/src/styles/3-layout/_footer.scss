@@ -7,7 +7,8 @@
   padding-top: 20px;
   li {
     list-style: none;
-    padding: 20px 15px;
+    padding: 20px 0px;
+    width: auto;
   }
   a {
     padding: 0px 20px;
@@ -17,14 +18,13 @@
   }
 }
 
-@media only screen and (max-width: $phone) {
-}
-
-@media only screen and (min-width: $tablet) and (max-width: $small-laptop) {
-}
-
-@media only screen and (min-width: $small-laptop) and (max-width: $large-laptop) {
-}
-
-@media only screen and (min-width: $large-laptop) {
+@media only screen and (max-width: 600px) and (max-height: 1024px) {
+  #footer {
+    width: 600px;
+    font-size: 15px;
+    padding-bottom: 10px;
+    li {
+      left: 0;
+    }
+  }
 }

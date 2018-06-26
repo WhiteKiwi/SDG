@@ -94,7 +94,7 @@
   }
 }
 
-@media only screen and (max-width: $phone) {
+@media only screen and (max-width: 600px) and (max-height: 1024px) {
   #SDG {
     h1 {
       font-size: 2rem;
@@ -103,18 +103,39 @@
     .SDG-grid {
       display: grid;
       grid-template-columns: repeat(3, 1fr);
-      grid-gap: 2px;
+      grid-gap: 10px;
       width: auto;
-      margin-left: 0px;
+      margin-left: 70px;
     }
   }
-}
+  #features {
+    .cards {
+      display: flex;
+      flex-direction: column;
+    }
+    p {
+      text-align: center;
+    }
+  }
 
-@media only screen and (min-width: $tablet) and (max-width: $small-laptop) {
-}
-
-@media only screen and (min-width: $small-laptop) and (max-width: $large-laptop) {
-}
-
-@media only screen and (min-width: $large-laptop) {
+  #CTA {
+    .CTA {
+      width: 85%;
+      margin: 5px 40px;
+      padding: 1.5em;
+      h1 {
+        font-size: 1.75em;
+        width: 100%;
+        line-height: 40px;
+      }
+      p {
+        width: 100%;
+        line-height: 20px;
+      }
+      img {
+        float: none;
+        margin-top: 200px;
+      }
+    }
+  }
 }
