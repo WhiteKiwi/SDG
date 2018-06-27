@@ -1106,6 +1106,13 @@
 		"oAP": "\/build\/leaderboard.html",
 		"oF": 0
 		},
+	"\/build\/solution-reveal.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/build\/solution-reveal.html",
+		"oF": 0
+		},
 	"\/build\/solutions.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -1366,6 +1373,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/src\/styles\/6-pages\/_leaderboard.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/src\/styles\/6-pages\/_solutions-reveal.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/src\/styles\/6-pages\/_solutions-reveal.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1

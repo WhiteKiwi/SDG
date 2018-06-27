@@ -1,0 +1,20 @@
+html {
+  box-sizing: border-box;
+}
+
+body {
+  background: #272727;
+  position: relative;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+.container {
+  width: 100%;
+  max-width: 1024px;
+  margin: 0;
+}

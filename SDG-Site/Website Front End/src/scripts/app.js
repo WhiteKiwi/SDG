@@ -8,12 +8,32 @@ function showNav() {
   }
 }
 
-function showSolutions() {
+function showSolution() {
   console.log("this is working");
-  var x = document.getElementById("responsive-solution");
-  if (x.className === "responsive-solution") {
-    x.className += "reveal";
+  var x = document.getElementById("solution");
+  if (x.className === "stage") {
+    x.className += " show-solutions";
   } else {
-    x.className = "responsive-solution";
+    x.className = "stage";
+  }
+}
+
+function showSolution() {
+  console.log("this is working");
+  var x = document.getElementsByClassName("solution");
+  if (x.className === "solution") {
+    x.className += " show-solutions";
+  } else {
+    x.className = "solution";
+  }
+}
+
+function showSolution() {
+  console.log("this is working");
+  var x = document.getElementsByClassName("date-submitted");
+  if (x.className === "date-submitted") {
+    x.className += " show-solutions";
+  } else {
+    x.className = "date-submitted";
   }
 }

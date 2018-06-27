@@ -5,9 +5,6 @@
     border: 1px solid white;
     padding: 20px;
     text-align: center;
-    a {
-      text-decoration: none;
-    }
   }
 
   table {
@@ -27,43 +24,5 @@
 
   td {
     line-height: 25px;
-  }
-
-  .solution-revealed {
-    display: none;
-  }
-
-  .responsive-solution.reveal {
-    table {
-      display: none;
-    }
-    .solution-revealed {
-      display: block;
-      background: #454545;
-      margin-top: 20px;
-      width: 90%;
-      margin-right: auto;
-      margin-left: auto;
-      line-height: 20px;
-      padding: 20px;
-      h1 {
-        font-size: 30px;
-        text-emphasis: 900;
-        margin-bottom: 13px;
-      }
-      h2 {
-        font-size: 18px;
-        margin-bottom: 13px;
-      }
-      h3 {
-        font-size: 17px;
-        margin-bottom: 13px;
-      }
-      img {
-        float: right;
-        padding-left: 1px;
-        padding-bottom: 2px;
-      }
-    }
   }
 }
