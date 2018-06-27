@@ -121,7 +121,7 @@
         <div class="CTA">
 
             <img src="/assets/img/logo.png" width="220px" height="220px" class="app-icon">
-            <img src="/ assets/img/downloadbutton.png " width="50%" alt=" " class="download-button ">
+            <img src="/assets/img/downloadbutton.png " width="50%" alt=" " class="download-button ">
 
         </div>
     </section>
