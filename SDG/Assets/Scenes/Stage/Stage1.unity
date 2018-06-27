@@ -181,6 +181,2412 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 421282820}
+--- !u!1 &706934143
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 706934145}
+  - component: {fileID: 706934144}
+  m_Layer: 0
+  m_Name: DialogueWoman
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &706934144
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 706934143}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 469236168daaae04a8053f8f414d2434, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogueSkin: {fileID: 11400000, guid: bcb23eae559494fb7b26ddfd27aa676e, type: 2}
+  startOn: 0
+  defaultImg: {fileID: 0}
+  defaultAudio: {fileID: 0}
+  dialogue:
+  - name: Janice
+    longText: Janice arrives at Jomo Kenyatta International Airport.
+    img: {fileID: 2800000, guid: ecad5b8a47d7c884e9bd530449ae3e50, type: 3}
+    choices: []
+    choiceMode: 0
+    links: []
+    next: 1
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: 
+      next: 0
+      editor: 0
+    align: 1
+    mode: 3
+    narration: []
+    script: 
+  - name: Janice
+    longText: "Phew, Kenya is just too hot. But I get to go on a Safari! Oh my god,
+      I\u2019m just so excited!"
+    img: {fileID: 2800000, guid: ecad5b8a47d7c884e9bd530449ae3e50, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 2
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 1
+    mode: 0
+    narration: []
+    script: 
+  - name: ???
+    longText: "Hi, Janice! I\u2019m here! (waving his hand)\r"
+    img: {fileID: 2800000, guid: 9e4d44f2c7ac497469b455fb57ad3ac4, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 3
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Janice
+    longText: Oh, Hi! Are you Sharon?
+    img: {fileID: 2800000, guid: e87d8e2e19d2821489afc0cbafdf8254, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 4
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 1
+    mode: 0
+    narration: []
+    script: 
+  - name: Sharon
+    longText: Yes I am! Welcome to Kenya. I will guide you during the Safari programme.
+      Kenya is pretty hot, right?
+    img: {fileID: 2800000, guid: 9d4503fa0ffc7f64da9eccf02ddf9b39, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 5
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Janice
+    longText: Yes it is! But I am very excited for the Safari programme because it
+      was on my bucket list for long!
+    img: {fileID: 2800000, guid: ecad5b8a47d7c884e9bd530449ae3e50, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 6
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 1
+    mode: 0
+    narration: []
+    script: 
+  - name: Sharon
+    longText: "I\u2019m glad you are excited. It\u2019s 5pm now, so take a rest tonight.
+      Me and the driver will pick you up from the hotel tomorrow by 8am, and we will
+      visit Tsavo East National Park. "
+    img: {fileID: 2800000, guid: 9e4d44f2c7ac497469b455fb57ad3ac4, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 7
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Janice
+    longText: Thank you!
+    img: {fileID: 2800000, guid: ecad5b8a47d7c884e9bd530449ae3e50, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 8
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 1
+    mode: 3
+    narration: []
+    script: 
+  - name: 
+    longText: '--- a day after ---'
+    img: {fileID: 0}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 9
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Sharon
+    longText: Hi Janice! How are you feeling today?
+    img: {fileID: 2800000, guid: 9d4503fa0ffc7f64da9eccf02ddf9b39, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 10
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Janice
+    longText: "Good! I slept well last night, and I am definitely ready for today\u2019s
+      journey. "
+    img: {fileID: 2800000, guid: ecad5b8a47d7c884e9bd530449ae3e50, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 11
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 1
+    mode: 0
+    narration: []
+    script: 
+  - name: Sharon
+    longText: 'Please give me your bag and get in the car. '
+    img: {fileID: 2800000, guid: 9d4503fa0ffc7f64da9eccf02ddf9b39, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 12
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 3
+    narration: []
+    script: 
+  - name: 
+    longText: '--- in the car ---'
+    img: {fileID: 0}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 13
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Sharon
+    longText: So Janice, I will briefly tell you the overall schedule of the programme.
+    img: {fileID: 2800000, guid: 9d4503fa0ffc7f64da9eccf02ddf9b39, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 14
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Janice
+    longText: Okay
+    img: {fileID: 2800000, guid: ecad5b8a47d7c884e9bd530449ae3e50, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 15
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 1
+    mode: 0
+    narration: []
+    script: 
+  - name: Sharon
+    longText: For today, we will drive along the Liboi-Nairobi road to Tsavo East
+      National Park. We will enter the park via Bachuma gate and embark on game viewing
+      drive. In this season, we have chances of encountering elephants, lions , buffalos,
+      and etc. You will then visit the famous Aruba dam where lots of game animals
+      and bird species can be found.
+    img: {fileID: 2800000, guid: 9d4503fa0ffc7f64da9eccf02ddf9b39, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 16
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Janice
+    longText: How about meals? Do we have meals on the jeep?
+    img: {fileID: 2800000, guid: ecad5b8a47d7c884e9bd530449ae3e50, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 17
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 1
+    mode: 0
+    narration: []
+    script: 
+  - name: Sharon
+    longText: No, you will have your buffet lunch after proceeding to Voi Safari Lodge
+      and checking in. After lunch and a short rest, we will be departing for an afternoon
+      game drive through the Tsavo East National Park in search for more game animals
+      before returning back to Voi Safari Lodge for dinner and an overnight stay.
+    img: {fileID: 2800000, guid: 9d4503fa0ffc7f64da9eccf02ddf9b39, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 18
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Janice
+    longText: Wow, it will be such a busy day!
+    img: {fileID: 2800000, guid: e87d8e2e19d2821489afc0cbafdf8254, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 19
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 1
+    mode: 0
+    narration: []
+    script: 
+  - name: Sharon
+    longText: (smiling) It will take about 3hrs to get there, so get some sleep now.
+    img: {fileID: 2800000, guid: 9e4d44f2c7ac497469b455fb57ad3ac4, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 20
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 3
+    narration: []
+    script: 
+  - name: 
+    longText: "--- Janice\u2019s group arrive at Tsavo East National Park ---"
+    img: {fileID: 0}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 21
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Janice
+    longText: I thought there would be many tourists, but there are fewer than I expected.
+    img: {fileID: 2800000, guid: e87d8e2e19d2821489afc0cbafdf8254, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 22
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 1
+    mode: 0
+    narration: []
+    script: 
+  - name: Sharon
+    longText: The park became open to tourists only about a year ago, so it is not
+      well-known as tourist spot. But there are diverse wild species living in this
+      region, so look forward to it.
+    img: {fileID: 2800000, guid: 9e4d44f2c7ac497469b455fb57ad3ac4, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 23
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 3
+    narration: []
+    script: 
+  - name: Janice
+    longText: "I\u2019m already excited! "
+    img: {fileID: 2800000, guid: e87d8e2e19d2821489afc0cbafdf8254, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 24
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 1
+    mode: 0
+    narration: []
+    script: 
+  - name: Sharon
+    longText: "(looking anxious) But why is that door closed? That\u2019s the main
+      entrance and it should be open. "
+    img: {fileID: 2800000, guid: 9d4503fa0ffc7f64da9eccf02ddf9b39, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 25
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: 
+    longText: (Sharon goes to janitor nearby and asks why the gate is closed)
+    img: {fileID: 0}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 26
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Sharon
+    longText: What? But our agency was not informed. The guest is already here!
+    img: {fileID: 2800000, guid: 9d4503fa0ffc7f64da9eccf02ddf9b39, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 27
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Janitor
+    longText: "I don\u2019t exactly know about the situation. But it was closed since
+      last week."
+    img: {fileID: 0}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 28
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Sharon
+    longText: "(sighs) Oh my\u2026 Thank you. "
+    img: {fileID: 2800000, guid: 9e4d44f2c7ac497469b455fb57ad3ac4, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 29
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: 
+    longText: (Sharon gets back to the car)
+    img: {fileID: 0}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 30
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Sharon
+    longText: "Janice, I\u2019m very sorry. The Park is closed due to drought. This
+      drought is the most serious drought for last 40 years. Our agency was not informed.
+      I think they made a mistake while creating the contact list. "
+    img: {fileID: 2800000, guid: 9d4503fa0ffc7f64da9eccf02ddf9b39, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 31
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Janice
+    longText: Oh, really?..
+    img: {fileID: 2800000, guid: e87d8e2e19d2821489afc0cbafdf8254, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 32
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 1
+    mode: 0
+    narration: []
+    script: 
+  - name: Janice
+    longText: (Safari programme, cancelled? This is what I was most excited about.)
+    img: {fileID: 2800000, guid: ecad5b8a47d7c884e9bd530449ae3e50, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 33
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 1
+    mode: 0
+    narration: []
+    script: 
+  - name: Sharon
+    longText: "I will take you to a nearby hotel. I heard from the staff that we can
+      look around the surroundings. Let\u2019s figure out how to solve this. "
+    img: {fileID: 2800000, guid: 9e4d44f2c7ac497469b455fb57ad3ac4, type: 3}
+    choices:
+    - shortText: 'Janice: Then can we just look around the surroundings before going
+        to the hotel?'
+      next: 34
+      editor: 0
+    - shortText: 'Janice: Sharon, let''s just go back to hotel. Don;t be sorry, I
+        actually felt litte bit tired.'
+      next: 35
+      editor: 0
+    choiceMode: 0
+    links: []
+    next: 34
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 1
+    narration: []
+    script: 
+  - name: Sharon
+    longText: Sure! Oh, I used to take tourists to a low hill near here at the end
+      of tour for sunset-viewing. I will take you there and show you the most beautiful
+      sunset in Kenya!
+    img: {fileID: 2800000, guid: 9d4503fa0ffc7f64da9eccf02ddf9b39, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 36
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 3
+    narration: []
+    script: 
+  - name: Sharon
+    longText: Oh, I used to take tourists to a low hill near here at the end of tour
+      for sunset-viewing. I will take you there and show you the most beautiful sunset
+      in Kenya!
+    img: {fileID: 2800000, guid: 9d4503fa0ffc7f64da9eccf02ddf9b39, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 36
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 3
+    narration: []
+    script: 
+  - name: 
+    longText: 'Janice and Sharon is in the jeep, looking around the surroundings of
+      the National Park. '
+    img: {fileID: 0}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 37
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 3
+    narration: []
+    script: 
+  - name: Sharon
+    longText: 'Janice, see that village? That village is a Kenyan local village. '
+    img: {fileID: 2800000, guid: 9e4d44f2c7ac497469b455fb57ad3ac4, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 38
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Janice
+    longText: "Oh, interesting! It\u2019s small, but it seems very peaceful and calm."
+    img: {fileID: 2800000, guid: e87d8e2e19d2821489afc0cbafdf8254, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 39
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 1
+    mode: 0
+    narration: []
+    script: 
+  - name: 
+    longText: (Sharon drives the jeep)
+    img: {fileID: 0}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 40
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Janice
+    longText: 'Sharon, can you stop the jeep? There are children over there. '
+    img: {fileID: 2800000, guid: 9ca753577d356844a9b49d743e48a1aa, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 41
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 1
+    mode: 3
+    narration: []
+    script: 
+  - name: 
+    longText: (Janice gets off the car)
+    img: {fileID: 0}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 42
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Sharon
+    longText: "Guys, what are you doing? It\u2019s dangerous! This road is driveway. "
+    img: {fileID: 2800000, guid: 9d4503fa0ffc7f64da9eccf02ddf9b39, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 43
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Child1
+    longText: But we heard that yesterday our friends found water in this pit.
+    img: {fileID: 0}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 44
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 3
+    narration: []
+    script: 
+  - name: 
+    longText: (Children are holding cracked plastic buckets)
+    img: {fileID: 0}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 45
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Child 2
+    longText: 'There I see water! '
+    img: {fileID: 0}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 46
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Children
+    longText: Really? where? (Children rushing to the pit)
+    img: {fileID: 0}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 47
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Janice
+    longText: 'Why are they digging the pit so hard? '
+    img: {fileID: 2800000, guid: ecad5b8a47d7c884e9bd530449ae3e50, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 48
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 1
+    mode: 3
+    narration: []
+    script: 
+  - name: Sharon
+    longText: "Water ran out due to long drought. I heard that southern region is
+      suffering from water shortages and the effect on both the farming and ranching
+      industries is especially serious, but I didn\u2019t expect this severe sight."
+    img: {fileID: 2800000, guid: 9e4d44f2c7ac497469b455fb57ad3ac4, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 49
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Child1
+    longText: "All of our goats and cows died! There is no water, so we can\u2019t
+      eat and drink water soundly. "
+    img: {fileID: 0}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 50
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 3
+    narration: []
+    script: 
+  - name: 
+    longText: This is so heartbreaking to see. Is there anything I can do for them?
+    img: {fileID: 0}
+    choices:
+    - shortText: Sharon, Isaw water in the back.
+      next: 51
+      editor: 0
+    - shortText: Sharon, Can you ask the children if it is okay for me to take pictures
+        of them and their pit?
+      next: 54
+      editor: 0
+    choiceMode: 0
+    links: []
+    next: 0
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 1
+    narration: []
+    script: 
+  - name: Sharon
+    longText: (looking sympathetic) Sure. OOO, can you bring bottles of water at the
+      back?
+    img: {fileID: 2800000, guid: 9e4d44f2c7ac497469b455fb57ad3ac4, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 52
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 3
+    narration: []
+    script: 
+  - name: 
+    longText: 'Janice brings number of water bottles and give them to children. '
+    img: {fileID: 0}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 53
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Children
+    longText: "Wow! This water is very clean! It\u2019s transparent!"
+    img: {fileID: 0}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 62
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 3
+    narration: []
+    script: 
+  - name: Sharon
+    longText: "But why do you need pictures of them? It is far from pleasant, memorable
+      trip photos.\r\n"
+    img: {fileID: 2800000, guid: 9e4d44f2c7ac497469b455fb57ad3ac4, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 55
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 1
+    mode: 0
+    narration: []
+    script: 
+  - name: Janice
+    longText: 'No, it is not for my own recollection. I actually never expected that
+      there would be such people suffering from water shortage. I want to upload photo
+      of this pit to my SNS. People will be shocked. '
+    img: {fileID: 2800000, guid: e803eb93a737e3e41b7d384e80703537, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 56
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 1
+    mode: 0
+    narration: []
+    script: 
+  - name: Sharon
+    longText: 'I will ask them now. '
+    img: {fileID: 2800000, guid: 9e4d44f2c7ac497469b455fb57ad3ac4, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 57
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Janice
+    longText: "\u2026."
+    img: {fileID: 2800000, guid: e87d8e2e19d2821489afc0cbafdf8254, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 58
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 1
+    mode: 0
+    narration: []
+    script: 
+  - name: Sharon
+    longText: 'Janice, They said it is okay. '
+    img: {fileID: 2800000, guid: 9e4d44f2c7ac497469b455fb57ad3ac4, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 59
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Janice
+    longText: "Thank you, Sharon. \r\n"
+    img: {fileID: 2800000, guid: e87d8e2e19d2821489afc0cbafdf8254, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 60
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 1
+    mode: 0
+    narration: []
+    script: 
+  - name: 
+    longText: "Jack uploads photos to his SNS with the phrase \u2018Still, there are
+      numerous young children suffering from water shortage. They are out of our awareness,
+      but we should recognize them.\u2019, with the hashtag #UNICEF #UN. "
+    img: {fileID: 0}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 61
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 3
+    narration: []
+    script: 
+  - name: 
+    longText: "Janice\u2019s post was shared with several users and eventually UNICEF
+      shared his photo and uploaded on its account. "
+    img: {fileID: 0}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 62
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 3
+    narration: []
+    script: 
+  - name: 
+    longText: (Sharon and Janice driving to Voi Safari Lodge)
+    img: {fileID: 0}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 63
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Sharon
+    longText: 'Janice, I am very sorry again for today. I did not expect any of this
+      to happen today. '
+    img: {fileID: 2800000, guid: 9e4d44f2c7ac497469b455fb57ad3ac4, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 64
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Janice
+    longText: "Oh, it\u2019s okay Sharon. I feel like I am learning some lessons.
+      It feels like I got something more valuable out of today than I would have from
+      the Safari programme. \r\n"
+    img: {fileID: 2800000, guid: e87d8e2e19d2821489afc0cbafdf8254, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 65
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 1
+    mode: 0
+    narration: []
+    script: 
+  - name: Sharon
+    longText: "\rYou must\u2019ve been shocked at children at the road. \r"
+    img: {fileID: 2800000, guid: 9d4503fa0ffc7f64da9eccf02ddf9b39, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 66
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Janice
+    longText: "Thanks to them, I realized that there are still so many people who
+      can\u2019t even meet basic living standard. "
+    img: {fileID: 2800000, guid: e87d8e2e19d2821489afc0cbafdf8254, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 67
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 1
+    mode: 0
+    narration: []
+    script: 
+  - name: Janice
+    longText: 'Before, I was unconcerned with such world issues because my surroundings
+      and people around be were very far from those. But, seeing this, I feel like
+      I should take some actions. '
+    img: {fileID: 2800000, guid: ecad5b8a47d7c884e9bd530449ae3e50, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 68
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 1
+    mode: 3
+    narration: []
+    script: 
+  - name: Sharon
+    longText: 'You have very considerate mind. '
+    img: {fileID: 0}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 69
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: 
+    longText: Janice and Sharon arrives at Voi Safari Lodge.
+    img: {fileID: 0}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 70
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Sharon
+    longText: "For tomorrow, we will visit Kenyan local village. It\u2019s similar
+      to the village we saw today, but it\u2019s bigger."
+    img: {fileID: 2800000, guid: 9e4d44f2c7ac497469b455fb57ad3ac4, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 71
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 3
+    narration: []
+    script: 
+  - name: Janice
+    longText: Oh, cool.
+    img: {fileID: 2800000, guid: ecad5b8a47d7c884e9bd530449ae3e50, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 72
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 1
+    mode: 0
+    narration: []
+    script: 
+  - name: Sharon
+    longText: 'Today was tiring, so take good sleep and get ready for tomorrow. '
+    img: {fileID: 2800000, guid: 9e4d44f2c7ac497469b455fb57ad3ac4, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 73
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Janice
+    longText: 'Okay, thanks : )'
+    img: {fileID: 2800000, guid: e87d8e2e19d2821489afc0cbafdf8254, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 74
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 1
+    mode: 3
+    narration: []
+    script: 
+  - name: 
+    longText: '---The next day ----'
+    img: {fileID: 0}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 75
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Sharon
+    longText: Hello Jack! How are you feeling today?
+    img: {fileID: 2800000, guid: 9e4d44f2c7ac497469b455fb57ad3ac4, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 76
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Janice
+    longText: "Very good! \r\n"
+    img: {fileID: 2800000, guid: e87d8e2e19d2821489afc0cbafdf8254, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 77
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 1
+    mode: 0
+    narration: []
+    script: 
+  - name: Sharon
+    longText: "Good. We will walk to the village. It doesn\u2019t take long. It would
+      take about 10 to 15 minutes. \r\n"
+    img: {fileID: 2800000, guid: 9d4503fa0ffc7f64da9eccf02ddf9b39, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 78
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 3
+    narration: []
+    script: 
+  - name: Janice
+    longText: "I like to walk. Let\u2019s go!"
+    img: {fileID: 2800000, guid: ecad5b8a47d7c884e9bd530449ae3e50, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 79
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 1
+    mode: 0
+    narration: []
+    script: 
+  - name: 
+    longText: '--- after 10 minutes of walking ---'
+    img: {fileID: 0}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 80
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Sharon
+    longText: 'Janice, Do you see that entrance? We are almost there. '
+    img: {fileID: 2800000, guid: 9d4503fa0ffc7f64da9eccf02ddf9b39, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 81
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Janice
+    longText: "It\u2019s nearer than I expected. \r\n"
+    img: {fileID: 2800000, guid: e87d8e2e19d2821489afc0cbafdf8254, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 82
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 1
+    mode: 3
+    narration: []
+    script: 
+  - name: 
+    longText: Sharon and Janice goes into the village.
+    img: {fileID: 0}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 83
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Janice
+    longText: "Sharon, but there are very few people in the village. Is it always
+      like this here?\r\n"
+    img: {fileID: 2800000, guid: 9ca753577d356844a9b49d743e48a1aa, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 84
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 1
+    mode: 3
+    narration: []
+    script: 
+  - name: Sharon
+    longText: "No\u2026 I brought you here because this week is village\u2019s festival
+      period. Why is it so quiet?"
+    img: {fileID: 2800000, guid: 1c175d283e2fdae469fa54238947414c, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 85
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: ???
+    longText: "...Sharon\u2026?"
+    img: {fileID: 0}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 86
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Janice
+    longText: "Oh my god!\r\n"
+    img: {fileID: 2800000, guid: 9ca753577d356844a9b49d743e48a1aa, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 87
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 1
+    mode: 0
+    narration: []
+    script: 
+  - name: 
+    longText: "(A bony girl is lying on the ground, holding her brother\u2019s hand)\r\n"
+    img: {fileID: 0}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 88
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Sharon
+    longText: "Jeyana? What happened to you?!\r\n"
+    img: {fileID: 2800000, guid: 1c175d283e2fdae469fa54238947414c, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 89
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Jeyana
+    longText: "Villagers are dying by ones and twos\u2026 But we can\u2019t identify
+      the cause!"
+    img: {fileID: 0}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 90
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Jeyana
+    longText: "Kiho, Can you pass me water\u2026? I feel thirsty."
+    img: {fileID: 0}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 91
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: 
+    longText: "Kiho pours muddy water down to Jeyana\u2019s throat."
+    img: {fileID: 0}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 92
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Janice
+    longText: "Wait, what are you drinking? You can\u2019t drink that water! It\u2019s
+      not clean!"
+    img: {fileID: 2800000, guid: ecad5b8a47d7c884e9bd530449ae3e50, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 93
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 1
+    mode: 0
+    narration: []
+    script: 
+  - name: Kiho
+    longText: 'But this is what we usually drank. '
+    img: {fileID: 0}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 94
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Sharon
+    longText: "Jeyana! Why are you drinking that?!\r\n"
+    img: {fileID: 2800000, guid: 9e4d44f2c7ac497469b455fb57ad3ac4, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 95
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 3
+    narration: []
+    script: 
+  - name: Jeyana
+    longText: "We couldn\u2019t find clean water due to drought. Muddy water is the
+      only source we have. "
+    img: {fileID: 0}
+    choices:
+    - shortText: Sharon, we have a long way to go. Let's hurry.
+      next: 96
+      editor: 0
+    - shortText: How about giving clean water to theHow about giving clean water to
+        them? There's one in my bag.
+      next: 97
+      editor: 0
+    - shortText: You can filter the water to make it clean.
+      next: 100
+      editor: 0
+    choiceMode: 0
+    links: []
+    next: 96
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 1
+    narration: []
+    script: 
+  - name: Sharon
+    longText: "But There\u2019s no meaning in local village tour if there\u2019s no
+      local villager and performances to experience. We should help them."
+    img: {fileID: 2800000, guid: 9e4d44f2c7ac497469b455fb57ad3ac4, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 95
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Sharon
+    longText: 'They will appreciate very much if you do so. '
+    img: {fileID: 2800000, guid: 9d4503fa0ffc7f64da9eccf02ddf9b39, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 98
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: 
+    longText: 'Janice passes clean water to Kiho. '
+    img: {fileID: 0}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 99
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 3
+    narration: []
+    script: 
+  - name: Jeyana
+    longText: "But I don\u2019t know the cause of my illness. All the villagers are
+      sick. We should do something."
+    img: {fileID: 0}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 107
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 3
+    narration: []
+    script: 
+  - name: Jeyana
+    longText: "But we don\u2019t have any filters. "
+    img: {fileID: 0}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 101
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Janice
+    longText: 'You can make portable one. '
+    img: {fileID: 2800000, guid: e87d8e2e19d2821489afc0cbafdf8254, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 102
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 1
+    mode: 3
+    narration: []
+    script: 
+  - name: 
+    longText: "Janice takes out plastic bottle, and puts stones, soil and dried leaves
+      layer by layer.\r\n"
+    img: {fileID: 0}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 103
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Janice
+    longText: "It would take time to actually filter the water because it is a portable
+      one. But it works just like normal filter.\r\n"
+    img: {fileID: 2800000, guid: ecad5b8a47d7c884e9bd530449ae3e50, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 104
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 1
+    mode: 0
+    narration: []
+    script: 
+  - name: Sharon
+    longText: "Jeyana, villagers might have waterborne disease since they all have
+      the same symptom. You get water from the same well, right?\r\n"
+    img: {fileID: 2800000, guid: 9e4d44f2c7ac497469b455fb57ad3ac4, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 105
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Jeyana
+    longText: "Yes. Villagers are experiencing diarrhea and dehydration.\r\n"
+    img: {fileID: 0}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 106
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Janice
+    longText: That might be cholera- You should drink clean water. Use this filter
+      and you can make other portable filters, too.
+    img: {fileID: 2800000, guid: ecad5b8a47d7c884e9bd530449ae3e50, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 107
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 1
+    mode: 3
+    narration: []
+    script: 
+  - name: 
+    longText: 'Janice and Sharon arrives at the hotel. '
+    img: {fileID: 0}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 108
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Sharon
+    longText: "Janice, contact our travel agency for refund for today\u2019s whole
+      Safari happening. I\u2019m very sorry again. If you visit Kenya once more, I
+      will guide you for free.\r\n"
+    img: {fileID: 2800000, guid: 9d4503fa0ffc7f64da9eccf02ddf9b39, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 109
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Janice
+    longText: "Hahaha! I said I\u2019m okay! It was nice to see you, Sharon. Thank
+      you for your guidance. Oh, and please wait for a second\u2026\r\n"
+    img: {fileID: 2800000, guid: e87d8e2e19d2821489afc0cbafdf8254, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 110
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 1
+    mode: 3
+    narration: []
+    script: 
+  - name: 
+    longText: Janice comes back with bags of bottles.
+    img: {fileID: 0}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 111
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Sharon
+    longText: "Oh my\u2026 How many are they? 1,2,3,4,..."
+    img: {fileID: 2800000, guid: 9d4503fa0ffc7f64da9eccf02ddf9b39, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 112
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Janice
+    longText: 'Could you give these to that village we passed today? You can stop
+      by when you visit Tsavo National Park. '
+    img: {fileID: 2800000, guid: ecad5b8a47d7c884e9bd530449ae3e50, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 113
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 1
+    mode: 0
+    narration: []
+    script: 
+  - name: Sharon
+    longText: '(smiling) villagers will be very pleased. '
+    img: {fileID: 2800000, guid: 9e4d44f2c7ac497469b455fb57ad3ac4, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 114
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: 
+    longText: '--- 2 days later ---'
+    img: {fileID: 0}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 115
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Janice
+    longText: (After taking shower, Jack sits at desk and takes out his diary.)
+    img: {fileID: 2800000, guid: ecad5b8a47d7c884e9bd530449ae3e50, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 116
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 1
+    mode: 0
+    narration: []
+    script: 
+  - name: Janice
+    longText: "(My trip in Kenya is now done. Well, I still feel regretful for my
+      Safari tour, but surprisingly, I don\u2019t think it was waste of time. I was
+      able to widen my view, seeing people in different circumstances from mine. Especially,
+      I made valuable memories and relationships in here. )"
+    img: {fileID: 2800000, guid: ecad5b8a47d7c884e9bd530449ae3e50, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 117
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 1
+    mode: 0
+    narration: []
+    script: 
+  - name: Janice
+    longText: "(How will those children I met maintain their lives... ? Will they
+      be able to go to school and have jobs? But how could they do so in a situation
+      where they can\u2019t meet their most basic needs, water?)"
+    img: {fileID: 2800000, guid: ecad5b8a47d7c884e9bd530449ae3e50, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 117
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 1
+    mode: 3
+    narration: []
+    script: UnityEngine.SceneManagement.SceneManager.LoadScene("HashTag");
+  bools: 
+  ints: 00000000000000000000000000000000
+  strings:
+  - 
+  - 
+  - 
+  - 
+  backgroundImages:
+  - {fileID: 21300000, guid: 9a76e2f7cc3409b4b9acdd46c07eb059, type: 3}
+  - {fileID: 21300000, guid: 046594320b5ca0f469e55d0e9df9c540, type: 3}
+  - {fileID: 21300000, guid: f0ef9c6028e3ce5459cfb1a2190e6c50, type: 3}
+  - {fileID: 21300000, guid: 9109b46b284d7624383d7c9d71a40798, type: 3}
+  - {fileID: 21300000, guid: c64832128c6031f468cfa47721e89519, type: 3}
+  - {fileID: 21300000, guid: fd7ec10bacb37ba4c8361426b5b46f5a, type: 3}
+  - {fileID: 21300000, guid: cc10a97755672ff4c83a02b9a3b424fa, type: 3}
+  - {fileID: 21300000, guid: 8a167a194ccdb0442a19dff9841a3c4c, type: 3}
+  - {fileID: 21300000, guid: 5c1a01c5783d2de4ab1d10dcf1c092fc, type: 3}
+  - {fileID: 21300000, guid: d2d70d187d973f247af72acac26dad8e, type: 3}
+  - {fileID: 21300000, guid: 1c0f96f08d27f9c48b032de27b2fab8d, type: 3}
+  - {fileID: 21300000, guid: 0940af27746abd24abe033ab3b8fd44d, type: 3}
+  - {fileID: 21300000, guid: b04e481e95d69b6478a723f8b691fcc4, type: 3}
+  - {fileID: 21300000, guid: f75d0788a48b8bd42ab0cbf4de630421, type: 3}
+  - {fileID: 21300000, guid: a9eb3381d85fa384f97b747e4dc23350, type: 3}
+  - {fileID: 21300000, guid: 8cc2163fa62bd5a4d97aac51b4567d98, type: 3}
+  - {fileID: 21300000, guid: 9a4dc9b93471c0c4ebf4f018b48a41e3, type: 3}
+  - {fileID: 21300000, guid: f380ccc090685cb48bcf91ac58926ced, type: 3}
+  - {fileID: 21300000, guid: 621b889f557d1b74abbd1e73647faebe, type: 3}
+  - {fileID: 21300000, guid: a2752d15a69d4bf438abf86c9f2636e0, type: 3}
+  - {fileID: 21300000, guid: eae80b9833a67b644922236fb2e1c1ec, type: 3}
+  - {fileID: 21300000, guid: cb7ec15e7a7a9f3438f47f0721372bc5, type: 3}
+  background: {fileID: 421282822}
+--- !u!4 &706934145
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 706934143}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 355.1392, y: 258.02634, z: 8.5}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &744309860
 GameObject:
   m_ObjectHideFlags: 0
@@ -270,8 +2676,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8da5c3c4942977a4c9341c36251f03cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dialogueMan: {fileID: 0}
-  dialogueWoman: {fileID: 0}
+  dialogueMan: {fileID: 1113659845}
+  dialogueWoman: {fileID: 706934143}
 --- !u!4 &763911158
 Transform:
   m_ObjectHideFlags: 0
@@ -552,7 +2958,7 @@ MonoBehaviour:
       next: 0
       editor: 0
     align: 1
-    mode: 0
+    mode: 3
     narration: []
     script: 
   - name: 
@@ -629,7 +3035,7 @@ MonoBehaviour:
       next: 0
       editor: 0
     align: 0
-    mode: 0
+    mode: 3
     narration: []
     script: 
   - name: 
@@ -788,7 +3194,7 @@ MonoBehaviour:
       next: 0
       editor: 0
     align: 0
-    mode: 0
+    mode: 3
     narration: []
     script: 
   - name: 
@@ -847,7 +3253,7 @@ MonoBehaviour:
       next: 0
       editor: 0
     align: 0
-    mode: 0
+    mode: 3
     narration: []
     script: 
   - name: Jack
@@ -1090,7 +3496,7 @@ MonoBehaviour:
       next: 0
       editor: 0
     align: 0
-    mode: 0
+    mode: 3
     narration: []
     script: 
   - name: Sharon
@@ -1111,7 +3517,7 @@ MonoBehaviour:
       next: 0
       editor: 0
     align: 0
-    mode: 0
+    mode: 3
     narration: []
     script: 
   - name: 
@@ -1131,7 +3537,7 @@ MonoBehaviour:
       next: 0
       editor: 0
     align: 0
-    mode: 0
+    mode: 3
     narration: []
     script: 
   - name: Sharon
@@ -1178,7 +3584,7 @@ MonoBehaviour:
     choices: []
     choiceMode: 1
     links: []
-    next: 0
+    next: 40
     editor: 0
     pos: 1
     passwords: []
@@ -1191,6 +3597,1543 @@ MonoBehaviour:
     mode: 0
     narration: []
     script: 
+  - name: Jack
+    longText: 'Sharon, can you stop the jeep? There are children over there. '
+    img: {fileID: 2800000, guid: 41cf2285524ee924a9a576931d43ae8d, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 41
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 1
+    mode: 3
+    narration: []
+    script: 
+  - name: 
+    longText: (Jack gets off the car)
+    img: {fileID: 0}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 42
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Sharon
+    longText: "Guys, what are you doing? It\u2019s dangerous! This road is driveway. "
+    img: {fileID: 2800000, guid: 9d4503fa0ffc7f64da9eccf02ddf9b39, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 43
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Child1
+    longText: But we heard that yesterday our friends found water in this pit.
+    img: {fileID: 0}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 44
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 3
+    narration: []
+    script: 
+  - name: 
+    longText: (Children are holding cracked plastic buckets)
+    img: {fileID: 0}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 45
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Child 2
+    longText: 'There I see water! '
+    img: {fileID: 0}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 46
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Children
+    longText: Really? where? (Children rushing to the pit)
+    img: {fileID: 0}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 47
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Jack
+    longText: 'Why are they digging the pit so hard? '
+    img: {fileID: 2800000, guid: 159f1fcc373533f418eabc87a9ca7618, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 48
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 1
+    mode: 3
+    narration: []
+    script: 
+  - name: Sharon
+    longText: "Water ran out due to long drought. I heard that southern region is
+      suffering from water shortages and the effect on both the farming and ranching
+      industries is especially serious, but I didn\u2019t expect this severe sight."
+    img: {fileID: 2800000, guid: 9e4d44f2c7ac497469b455fb57ad3ac4, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 49
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Child1
+    longText: "All of our goats and cows died! There is no water, so we can\u2019t
+      eat and drink water soundly. "
+    img: {fileID: 0}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 50
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 3
+    narration: []
+    script: 
+  - name: 
+    longText: This is so heartbreaking to see. Is there anything I can do for them?
+    img: {fileID: 0}
+    choices:
+    - shortText: Sharon, Isaw water in the back.
+      next: 51
+      editor: 0
+    - shortText: Sharon, Can you ask the children if it is okay for me to take pictures
+        of them and their pit?
+      next: 54
+      editor: 0
+    choiceMode: 0
+    links: []
+    next: 0
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 1
+    narration: []
+    script: 
+  - name: Sharon
+    longText: (looking sympathetic) Sure. OOO, can you bring bottles of water at the
+      back?
+    img: {fileID: 2800000, guid: 9e4d44f2c7ac497469b455fb57ad3ac4, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 52
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 3
+    narration: []
+    script: 
+  - name: 
+    longText: 'Jack brings number of water bottles and give them to children. '
+    img: {fileID: 0}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 53
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Children
+    longText: "Wow! This water is very clean! It\u2019s transparent!"
+    img: {fileID: 0}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 62
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 3
+    narration: []
+    script: 
+  - name: Sharon
+    longText: "But why do you need pictures of them? It is far from pleasant, memorable
+      trip photos.\r\n"
+    img: {fileID: 2800000, guid: 9e4d44f2c7ac497469b455fb57ad3ac4, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 55
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 1
+    mode: 0
+    narration: []
+    script: 
+  - name: Jack
+    longText: 'No, it is not for my own recollection. I actually never expected that
+      there would be such people suffering from water shortage. I want to upload photo
+      of this pit to my SNS. People will be shocked. '
+    img: {fileID: 2800000, guid: e803eb93a737e3e41b7d384e80703537, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 56
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 1
+    mode: 0
+    narration: []
+    script: 
+  - name: Sharon
+    longText: 'I will ask them now. '
+    img: {fileID: 2800000, guid: 9e4d44f2c7ac497469b455fb57ad3ac4, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 57
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Jack
+    longText: "\u2026."
+    img: {fileID: 2800000, guid: e803eb93a737e3e41b7d384e80703537, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 58
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 1
+    mode: 0
+    narration: []
+    script: 
+  - name: Sharon
+    longText: 'Jack, They said it is okay. '
+    img: {fileID: 2800000, guid: 9e4d44f2c7ac497469b455fb57ad3ac4, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 59
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Jack
+    longText: "Thank you, Sharon. \r\n"
+    img: {fileID: 2800000, guid: e803eb93a737e3e41b7d384e80703537, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 60
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 1
+    mode: 0
+    narration: []
+    script: 
+  - name: 
+    longText: "Jack uploads photos to his SNS with the phrase \u2018Still, there are
+      numerous young children suffering from water shortage. They are out of our awareness,
+      but we should recognize them.\u2019, with the hashtag #UNICEF #UN. "
+    img: {fileID: 0}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 61
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 3
+    narration: []
+    script: 
+  - name: 
+    longText: "Jack\u2019s post was shared with several users and eventually UNICEF
+      shared his photo and uploaded on its account. "
+    img: {fileID: 0}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 62
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 3
+    narration: []
+    script: 
+  - name: 
+    longText: (Sharon and Jack driving to Voi Safari Lodge)
+    img: {fileID: 0}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 63
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Sharon
+    longText: 'Jack, I am very sorry again for today. I did not expect any of this
+      to happen today. '
+    img: {fileID: 2800000, guid: 9e4d44f2c7ac497469b455fb57ad3ac4, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 64
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Jack
+    longText: "Oh, it\u2019s okay Sharon. I feel like I am learning some lessons.
+      It feels like I got something more valuable out of today than I would have from
+      the Safari programme. \r\n"
+    img: {fileID: 2800000, guid: e803eb93a737e3e41b7d384e80703537, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 65
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 1
+    mode: 0
+    narration: []
+    script: 
+  - name: Sharon
+    longText: "\rYou must\u2019ve been shocked at children at the road. \r"
+    img: {fileID: 2800000, guid: 9d4503fa0ffc7f64da9eccf02ddf9b39, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 66
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Jack
+    longText: "Thanks to them, I realized that there are still so many people who
+      can\u2019t even meet basic living standard. "
+    img: {fileID: 2800000, guid: e803eb93a737e3e41b7d384e80703537, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 67
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 1
+    mode: 0
+    narration: []
+    script: 
+  - name: Jack
+    longText: 'Before, I was unconcerned with such world issues because my surroundings
+      and people around be were very far from those. But, seeing this, I feel like
+      I should take some actions. '
+    img: {fileID: 2800000, guid: 159f1fcc373533f418eabc87a9ca7618, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 68
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 1
+    mode: 3
+    narration: []
+    script: 
+  - name: Sharon
+    longText: 'You have very considerate mind. '
+    img: {fileID: 0}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 69
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: 
+    longText: Jack and Sharon arrives at Voi Safari Lodge.
+    img: {fileID: 0}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 70
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Sharon
+    longText: "For tomorrow, we will visit Kenyan local village. It\u2019s similar
+      to the village we saw today, but it\u2019s bigger."
+    img: {fileID: 2800000, guid: 9e4d44f2c7ac497469b455fb57ad3ac4, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 71
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 3
+    narration: []
+    script: 
+  - name: Jack
+    longText: Oh, cool.
+    img: {fileID: 2800000, guid: 159f1fcc373533f418eabc87a9ca7618, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 72
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 1
+    mode: 0
+    narration: []
+    script: 
+  - name: Sharon
+    longText: 'Today was tiring, so take good sleep and get ready for tomorrow. '
+    img: {fileID: 2800000, guid: 9e4d44f2c7ac497469b455fb57ad3ac4, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 73
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Jack
+    longText: 'Okay, thanks : )'
+    img: {fileID: 2800000, guid: e803eb93a737e3e41b7d384e80703537, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 74
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 1
+    mode: 3
+    narration: []
+    script: 
+  - name: 
+    longText: '---The next day ----'
+    img: {fileID: 0}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 75
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Sharon
+    longText: Hello Jack! How are you feeling today?
+    img: {fileID: 2800000, guid: 9e4d44f2c7ac497469b455fb57ad3ac4, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 76
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Jack
+    longText: "Very good! \r\n"
+    img: {fileID: 2800000, guid: e803eb93a737e3e41b7d384e80703537, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 77
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 1
+    mode: 0
+    narration: []
+    script: 
+  - name: Sharon
+    longText: "Good. We will walk to the village. It doesn\u2019t take long. It would
+      take about 10 to 15 minutes. \r\n"
+    img: {fileID: 2800000, guid: 9d4503fa0ffc7f64da9eccf02ddf9b39, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 78
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 3
+    narration: []
+    script: 
+  - name: Jack
+    longText: "I like to walk. Let\u2019s go!"
+    img: {fileID: 2800000, guid: 159f1fcc373533f418eabc87a9ca7618, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 79
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 1
+    mode: 0
+    narration: []
+    script: 
+  - name: 
+    longText: '--- after 10 minutes of walking ---'
+    img: {fileID: 0}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 80
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Sharon
+    longText: 'Jack, Do you see that entrance? We are almost there. '
+    img: {fileID: 2800000, guid: 9d4503fa0ffc7f64da9eccf02ddf9b39, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 81
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Jack
+    longText: "It\u2019s nearer than I expected. \r\n"
+    img: {fileID: 2800000, guid: e803eb93a737e3e41b7d384e80703537, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 82
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 1
+    mode: 3
+    narration: []
+    script: 
+  - name: 
+    longText: Sharon and Jack goes into the village.
+    img: {fileID: 0}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 83
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Jack
+    longText: "Sharon, but there are very few people in the village. Is it always
+      like this here?\r\n"
+    img: {fileID: 2800000, guid: 41cf2285524ee924a9a576931d43ae8d, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 84
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 1
+    mode: 3
+    narration: []
+    script: 
+  - name: Sharon
+    longText: "No\u2026 I brought you here because this week is village\u2019s festival
+      period. Why is it so quiet?"
+    img: {fileID: 2800000, guid: 1c175d283e2fdae469fa54238947414c, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 85
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: ???
+    longText: "...Sharon\u2026?"
+    img: {fileID: 0}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 86
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Jack
+    longText: "Oh my god!\r\n"
+    img: {fileID: 2800000, guid: 41cf2285524ee924a9a576931d43ae8d, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 87
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 1
+    mode: 0
+    narration: []
+    script: 
+  - name: 
+    longText: "(A bony girl is lying on the ground, holding her brother\u2019s hand)\r\n"
+    img: {fileID: 0}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 88
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Sharon
+    longText: "Jeyana? What happened to you?!\r\n"
+    img: {fileID: 2800000, guid: 1c175d283e2fdae469fa54238947414c, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 89
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Jeyana
+    longText: "Villagers are dying by ones and twos\u2026 But we can\u2019t identify
+      the cause!"
+    img: {fileID: 0}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 90
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Jeyana
+    longText: "Kiho, Can you pass me water\u2026? I feel thirsty."
+    img: {fileID: 0}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 91
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: 
+    longText: "Kiho pours muddy water down to Jeyana\u2019s throat."
+    img: {fileID: 0}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 92
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Jack
+    longText: "Wait, what are you drinking? You can\u2019t drink that water! It\u2019s
+      not clean!"
+    img: {fileID: 2800000, guid: 159f1fcc373533f418eabc87a9ca7618, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 93
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 1
+    mode: 0
+    narration: []
+    script: 
+  - name: Kiho
+    longText: 'But this is what we usually drank. '
+    img: {fileID: 0}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 94
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Sharon
+    longText: "Jeyana! Why are you drinking that?!\r\n"
+    img: {fileID: 2800000, guid: 9e4d44f2c7ac497469b455fb57ad3ac4, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 95
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 3
+    narration: []
+    script: 
+  - name: Jeyana
+    longText: "We couldn\u2019t find clean water due to drought. Muddy water is the
+      only source we have. "
+    img: {fileID: 0}
+    choices:
+    - shortText: Sharon, we have a long way to go. Let's hurry.
+      next: 96
+      editor: 0
+    - shortText: How about giving clean water to theHow about giving clean water to
+        them? There's one in my bag.
+      next: 97
+      editor: 0
+    - shortText: You can filter the water to make it clean.
+      next: 100
+      editor: 0
+    choiceMode: 0
+    links: []
+    next: 96
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 1
+    narration: []
+    script: 
+  - name: Sharon
+    longText: "But There\u2019s no meaning in local village tour if there\u2019s no
+      local villager and performances to experience. We should help them."
+    img: {fileID: 2800000, guid: 9e4d44f2c7ac497469b455fb57ad3ac4, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 95
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Sharon
+    longText: 'They will appreciate very much if you do so. '
+    img: {fileID: 2800000, guid: 9d4503fa0ffc7f64da9eccf02ddf9b39, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 98
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: 
+    longText: 'Jack passes clean water to Kiho. '
+    img: {fileID: 0}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 99
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 3
+    narration: []
+    script: 
+  - name: Jeyana
+    longText: "But I don\u2019t know the cause of my illness. All the villagers are
+      sick. We should do something."
+    img: {fileID: 0}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 107
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 3
+    narration: []
+    script: 
+  - name: Jeyana
+    longText: "But we don\u2019t have any filters. "
+    img: {fileID: 0}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 101
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Jack
+    longText: 'You can make portable one. '
+    img: {fileID: 2800000, guid: e803eb93a737e3e41b7d384e80703537, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 102
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 1
+    mode: 3
+    narration: []
+    script: 
+  - name: 
+    longText: "Jack takes out plastic bottle, and puts stones, soil and dried leaves
+      layer by layer.\r\n"
+    img: {fileID: 0}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 103
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Jack
+    longText: "It would take time to actually filter the water because it is a portable
+      one. But it works just like normal filter.\r\n"
+    img: {fileID: 2800000, guid: 159f1fcc373533f418eabc87a9ca7618, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 104
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 1
+    mode: 0
+    narration: []
+    script: 
+  - name: Sharon
+    longText: "Jeyana, villagers might have waterborne disease since they all have
+      the same symptom. You get water from the same well, right?\r\n"
+    img: {fileID: 2800000, guid: 9e4d44f2c7ac497469b455fb57ad3ac4, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 105
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Jeyana
+    longText: "Yes. Villagers are experiencing diarrhea and dehydration.\r\n"
+    img: {fileID: 0}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 106
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Jack
+    longText: That might be cholera- You should drink clean water. Use this filter
+      and you can make other portable filters, too.
+    img: {fileID: 2800000, guid: 159f1fcc373533f418eabc87a9ca7618, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 107
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 1
+    mode: 3
+    narration: []
+    script: 
+  - name: 
+    longText: 'Jack and Sharon arrives at the hotel. '
+    img: {fileID: 0}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 108
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Sharon
+    longText: "Jack, contact our travel agency for refund for today\u2019s whole Safari
+      happening. I\u2019m very sorry again. If you visit Kenya once more, I will guide
+      you for free.\r\n"
+    img: {fileID: 2800000, guid: 9d4503fa0ffc7f64da9eccf02ddf9b39, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 109
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Jack
+    longText: "Hahaha! I said I\u2019m okay! It was nice to see you, Sharon. Thank
+      you for your guidance. Oh, and please wait for a second\u2026\r\n"
+    img: {fileID: 2800000, guid: e803eb93a737e3e41b7d384e80703537, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 110
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 1
+    mode: 3
+    narration: []
+    script: 
+  - name: 
+    longText: Jack comes back with bags of bottles.
+    img: {fileID: 0}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 111
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Sharon
+    longText: "Oh my\u2026 How many are they? 1,2,3,4,..."
+    img: {fileID: 2800000, guid: 9d4503fa0ffc7f64da9eccf02ddf9b39, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 112
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Jack
+    longText: 'Could you give these to that village we passed today? You can stop
+      by when you visit Tsavo National Park. '
+    img: {fileID: 2800000, guid: 159f1fcc373533f418eabc87a9ca7618, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 113
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 1
+    mode: 0
+    narration: []
+    script: 
+  - name: Sharon
+    longText: '(smiling) villagers will be very pleased. '
+    img: {fileID: 2800000, guid: 9e4d44f2c7ac497469b455fb57ad3ac4, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 114
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: 
+    longText: '--- 2 days later ---'
+    img: {fileID: 0}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 115
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Jack
+    longText: (After taking shower, Jack sits at desk and takes out his diary.)
+    img: {fileID: 2800000, guid: 159f1fcc373533f418eabc87a9ca7618, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 116
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 1
+    mode: 0
+    narration: []
+    script: 
+  - name: Jack
+    longText: "(My trip in Kenya is now done. Well, I still feel regretful for my
+      Safari tour, but surprisingly, I don\u2019t think it was waste of time. I was
+      able to widen my view, seeing people in different circumstances from mine. Especially,
+      I made valuable memories and relationships in here. )"
+    img: {fileID: 2800000, guid: 159f1fcc373533f418eabc87a9ca7618, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 117
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 1
+    mode: 0
+    narration: []
+    script: 
+  - name: Jack
+    longText: "(How will those children I met maintain their lives... ? Will they
+      be able to go to school and have jobs? But how could they do so in a situation
+      where they can\u2019t meet their most basic needs, water?)"
+    img: {fileID: 2800000, guid: 159f1fcc373533f418eabc87a9ca7618, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 117
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 1
+    mode: 3
+    narration: []
+    script: UnityEngine.SceneManagement.SceneManager.LoadScene("HashTag");
   bools: 
   ints: 00000000000000000000000000000000
   strings:
@@ -1213,6 +5156,14 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 0940af27746abd24abe033ab3b8fd44d, type: 3}
   - {fileID: 21300000, guid: b04e481e95d69b6478a723f8b691fcc4, type: 3}
   - {fileID: 21300000, guid: f75d0788a48b8bd42ab0cbf4de630421, type: 3}
+  - {fileID: 21300000, guid: a9eb3381d85fa384f97b747e4dc23350, type: 3}
+  - {fileID: 21300000, guid: 8cc2163fa62bd5a4d97aac51b4567d98, type: 3}
+  - {fileID: 21300000, guid: 9a4dc9b93471c0c4ebf4f018b48a41e3, type: 3}
+  - {fileID: 21300000, guid: f380ccc090685cb48bcf91ac58926ced, type: 3}
+  - {fileID: 21300000, guid: 621b889f557d1b74abbd1e73647faebe, type: 3}
+  - {fileID: 21300000, guid: a2752d15a69d4bf438abf86c9f2636e0, type: 3}
+  - {fileID: 21300000, guid: eae80b9833a67b644922236fb2e1c1ec, type: 3}
+  - {fileID: 21300000, guid: cb7ec15e7a7a9f3438f47f0721372bc5, type: 3}
   background: {fileID: 421282822}
 --- !u!4 &1113659847
 Transform:

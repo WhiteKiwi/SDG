@@ -400,7 +400,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.8490566, g: 0.8490566, b: 0.8490566, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -448,7 +448,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8da5c3c4942977a4c9341c36251f03cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dialogueMan: {fileID: 1158344182}
+  dialogueMan: {fileID: 0}
   dialogueWoman: {fileID: 0}
 --- !u!224 &1146155363
 RectTransform:
@@ -468,15 +468,15 @@ RectTransform:
   m_AnchoredPosition: {x: 467, y: 276.50003}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!1 &1158344182
+--- !u!1 &1888346154
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   serializedVersion: 5
   m_Component:
-  - component: {fileID: 1158344184}
-  - component: {fileID: 1158344183}
+  - component: {fileID: 1888346156}
+  - component: {fileID: 1888346155}
   m_Layer: 0
   m_Name: DialogueMan
   m_TagString: Untagged
@@ -484,21 +484,21 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1158344183
+--- !u!114 &1888346155
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1158344182}
+  m_GameObject: {fileID: 1888346154}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 469236168daaae04a8053f8f414d2434, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dialogueSkin: {fileID: 0}
+  dialogueSkin: {fileID: 11400000, guid: bcb23eae559494fb7b26ddfd27aa676e, type: 2}
   startOn: 0
   defaultImg: {fileID: 0}
-  defaultAudio: {fileID: 0}
+  defaultAudio: {fileID: 8300000, guid: 7b2597164c0274f489786d646c5bcf6e, type: 3}
   dialogue:
   - name: 
     longText: 
@@ -508,7 +508,7 @@ MonoBehaviour:
     links: []
     next: 0
     editor: 0
-    pos: 1
+    pos: 0
     passwords: []
     incorrect: 0
     exit:
@@ -526,16 +526,17 @@ MonoBehaviour:
   - 
   - 
   - 
-  backgroundImages: []
+  backgroundImages:
+  - {fileID: 21300000, guid: 2644781dd88c98143ba0876772a13fd5, type: 3}
   background: {fileID: 973467895}
---- !u!4 &1158344184
+--- !u!4 &1888346156
 Transform:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1158344182}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 440.83115, y: 288.77646, z: 13.427404}
+  m_GameObject: {fileID: 1888346154}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 355.1392, y: 258.02634, z: 8.5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}

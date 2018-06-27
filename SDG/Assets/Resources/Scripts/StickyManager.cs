@@ -11,9 +11,9 @@ public class StickyManager : MonoBehaviour {
 	void Start () {
 		string[][] hashtags = {
 			// 1
-			new string[]{ "Poverty", "Hunger", "Food" },
-			// 2
 			new string[]{ "Waterborne\nDiseases", "Water\nsanitation\nfacilities", "Water-use\nefficiency" },
+			// 2
+			new string[]{ "Poverty", "Hunger", "Food" },
 			// 3
 			new string[]{ "", "", "" },
 			// 4
