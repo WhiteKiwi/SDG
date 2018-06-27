@@ -78,7 +78,7 @@
 	<section id="footer">
 		<div class="content-container ">
 			<p>COPYRIGHT © 2018. ALL RIGHTS RESERVED. DESIGN BY TEAM NETWORK B</p>
-
+			<br />
 		</div>
 	</section>
 	<script src="/assets/js/app-min.js"></script>
