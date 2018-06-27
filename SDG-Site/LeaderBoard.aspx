@@ -9,6 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <link rel="stylesheet" href="/assets/css/main.css">
+	<link rel="shortcut icon" href="/assets/img/logo.png" />
 </head>
 <body>
     <section id="yoheader">
@@ -54,36 +55,23 @@
                 <th>Username</th>
                 <th>Uni</th>
             </tr>
-            <tr>
-                <td>1</td>
-                <td>Jihoon and Gaeun are cool</td>
-                <td>9000</td>
-            </tr>
-            <tr>
-                <td>2</td>
-                <td>Jun Jie loves Twice</td>
-                <td>8900</td>
-            </tr>
-            <tr>
-                <td>3</td>
-                <td>Jun Jie also loves BTS</td>
-                <td>800</td>
-            </tr>
-            <tr>
-                <td>1</td>
-                <td>Jihoon and Gaeun are cool</td>
-                <td>9000</td>
-            </tr>
-            <tr>
-                <td>2</td>
-                <td>Jun Jie loves Twice</td>
-                <td>8900</td>
-            </tr>
-            <tr>
-                <td>3</td>
-                <td>Jun Jie also loves BTS</td>
-                <td>800</td>
-            </tr>
+            <%
+				try {
+					var userList = SDG_Site.Managers.UserManager.GetTop10Users();
+					int i = 0;
+					foreach (var user in userList) {
+						// Write on Page
+						Response.Write("<tr>");
+						Response.Write("<td>" + (++i) + "</td>");
+						Response.Write("<td>" + user.Name+ "</td>");
+						Response.Write("<td>" + user.Uni + "</td>");
+						Response.Write("</tr>");
+					}
+				} catch (Exception e) {
+					Response.Write(e.Message);
+				}
+				// TODO: Paging
+				%>
         </table>
     </section>
     <section id=footer>

@@ -1,5 +1,6 @@
 ﻿using MySql.Data.MySqlClient;
 using SDG_Site.Models;
+using System.Collections.Generic;
 
 namespace SDG_Site.Managers {
 	public static class UserManager {
@@ -161,6 +162,35 @@ namespace SDG_Site.Managers {
 			}
 		}
 
-		// TODO: Leader Board
+		/// <summary>
+		/// Get Top 10 user by Uni
+		/// </summary>
+		/// <see cref="User.UserID"/>
+		/// <see cref="User.Uni"/>
+		public static List<User> GetTop10Users() {
+			List<User> result = new List<User>();
+
+			// Connect to DB
+			using (var conn = new MySqlConnection(System.Configuration.ConfigurationManager.ConnectionStrings["SDGDB"].ConnectionString)) {
+				conn.Open();
+
+				// Command Text - Select Top 10 User
+				string commandText = "SELECT Name, Uni FROM " + USERTABLE + " ORDER BY Uni DESC LIMIT 10;";
+				var cmd = new MySqlCommand(commandText, conn);
+
+				var rdr = cmd.ExecuteReader();
+				while (rdr.Read()) {
+					result.Add(new User {
+						Name = (string)rdr["Name"],
+						Uni = (int)rdr["Uni"]
+					});
+				}
+
+				// Connection Close
+				conn.Close();
+			}
+
+			return result;
+		}
 	}
 }
