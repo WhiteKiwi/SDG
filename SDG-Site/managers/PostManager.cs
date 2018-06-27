@@ -54,21 +54,17 @@ namespace SDG_Site.Managers {
 				// If stage is 0, not where sql
 				string whereStage = stage == 0 ? "" : " WHERE Stage='" + stage + "'";
 
-				// Command Text - Select Password
-				string sql = "SELECT COUNT(*) FROM " + POSTTABLE + whereStage + ";";
+				// Command Text - Select Datas
+				string sql = "SELECT Id, Title, Writer, Stage, Upload_At FROM " + POSTTABLE + whereStage + " ORDER BY Id DESC LIMIT 10 OFFSET " + ((page - 1) * 10) + ";";
 				var cmd = new MySqlCommand(sql, conn);
-
-				int postsCount = (int)cmd.ExecuteScalar();
-
-				// Get Notices
-				sql = "SELECT Id, Title, Upload_At FROM " + POSTTABLE + whereStage + " ORDER BY Id DESC LIMIT 10 OFFSET " + ((page - 1) * 10) + ";";
-				cmd.CommandText = sql;
 
 				var rdr = cmd.ExecuteReader();
 				while (rdr.Read()) {
 					result.Add(new Post {
 						Id = (int)rdr["Id"],
 						Title = (string)rdr["Title"],
+						Writer = (string)rdr["Writer"],
+						Stage = ((int)rdr["Stage"]).ToString(),
 						UploadAt = (DateTime)rdr["Upload_At"]
 					});
 				}
@@ -98,13 +94,12 @@ namespace SDG_Site.Managers {
 				var rdr = cmd.ExecuteReader();
 				rdr.Read();
 
-				// TODO: Check the table
 				result = new Post{
 					Id = (int)rdr["Id"],
 					Title = (string)rdr["Title"],
-					Content = (string)rdr["Content"],
-					Classification = (string)rdr["Content"],
-					Stage = (string)rdr["Stage"],
+					Content = (string)rdr["Contents"],
+					Classification = ((int)rdr["Classification"]).ToString(),
+					Stage = ((int)rdr["Stage"]).ToString(),
 					Writer = (string)rdr["Writer"],
 					UploadAt = (DateTime)rdr["Upload_At"]
 				};

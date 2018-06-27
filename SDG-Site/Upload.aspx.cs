@@ -9,7 +9,8 @@ namespace SDG_Site {
 					Title = Request.Form["Title"],
 					Content = Request.Form["Content"],
 					Classification = Request.Form["Classification"],
-					Stage = Request.Form["Stage"]
+					Stage = Request.Form["Stage"],
+					Writer = (string)Session["UserID"]
 				});
 
 				Response.Write("Success!");
