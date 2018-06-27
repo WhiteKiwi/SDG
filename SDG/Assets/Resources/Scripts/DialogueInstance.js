@@ -308,9 +308,11 @@ function ShowWheel() {
 function ShowList() {
     GUILayout.BeginArea(Rect(0, Screen.height - 150, Screen.width, 150), "", "box");
     s = GUILayout.BeginScrollView(s);
+    GUI.contentColor = Color.white;
     for (var c in display.choices) {
         if (GUILayout.Button(c.shortText, GUILayout.Height(30))) toLoad = c.next;
     }
+    GUI.contentColor = Color.black;
     GUILayout.EndScrollView();
     GUILayout.EndArea();
 }

@@ -1,0 +1,1 @@
+function showNav(){console.log("this is working");var s=document.getElementById("responsive-nav");"responsive-nav"===s.className?s.className+=" unfold":s.className="responsive-nav"}function showSolutions(){console.log("this is working");var s=document.getElementById("responsive-solution");"responsive-solution"===s.className?s.className+="reveal":s.className="responsive-solution"}
