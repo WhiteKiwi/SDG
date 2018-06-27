@@ -513,7 +513,7 @@ MonoBehaviour:
       next: 0
       editor: 0
     align: 0
-    mode: 0
+    mode: 3
     narration: []
     script: 
   - name: 
@@ -552,7 +552,7 @@ MonoBehaviour:
       next: 0
       editor: 0
     align: 1
-    mode: 0
+    mode: 3
     narration: []
     script: 
   - name: Aziza
@@ -635,7 +635,7 @@ MonoBehaviour:
       next: 0
       editor: 0
     align: 1
-    mode: 0
+    mode: 3
     narration: []
     script: 
   - name: Aziza
@@ -872,7 +872,7 @@ MonoBehaviour:
       next: 0
       editor: 0
     align: 1
-    mode: 0
+    mode: 3
     narration: []
     script: 
   - name: 
@@ -987,7 +987,7 @@ MonoBehaviour:
       next: 0
       editor: 0
     align: 1
-    mode: 0
+    mode: 3
     narration: []
     script: 
   - name: Jack
@@ -1079,12 +1079,17 @@ MonoBehaviour:
   - 
   - 
   backgroundImages:
-  - {fileID: 21300000, guid: d2ad017529ed326409b62a96ce6aba47, type: 3}
-  - {fileID: 21300000, guid: ca046d9871c421b49a15a47674c469a5, type: 3}
-  - {fileID: 21300000, guid: c7af60c52f41ab34dbd5b22951ec4e6f, type: 3}
-  - {fileID: 21300000, guid: c7a1e64a6a164e948900d97b2a0b6a4b, type: 3}
-  - {fileID: 21300000, guid: c7af60c52f41ab34dbd5b22951ec4e6f, type: 3}
-  - {fileID: 21300000, guid: fabad39d80dac74478451c7999426843, type: 3}
+  - {fileID: 21300000, guid: 2644781dd88c98143ba0876772a13fd5, type: 3}
+  - {fileID: 21300000, guid: 355a18633de098c46be314fefe07c12b, type: 3}
+  - {fileID: 21300000, guid: f3141c1204b284d41be0e7c5b4911337, type: 3}
+  - {fileID: 21300000, guid: 4c17b3aab2d2a68458afb724eb96c684, type: 3}
+  - {fileID: 21300000, guid: 634481e940ba3794182b46ea45ffa06e, type: 3}
+  - {fileID: 21300000, guid: cae73db7802316845ae2a79280ec69a0, type: 3}
+  - {fileID: 21300000, guid: ba9192f213ee0904a9f776362c871c1c, type: 3}
+  - {fileID: 21300000, guid: 8a167a194ccdb0442a19dff9841a3c4c, type: 3}
+  - {fileID: 21300000, guid: 1a8ac5595d3d2854eaf33aaa8e849394, type: 3}
+  - {fileID: 21300000, guid: 43ae9be517f49d540aaf80c3071e0433, type: 3}
+  - {fileID: 21300000, guid: 962cb823eca71984b846ad4a8f7ed870, type: 3}
   background: {fileID: 491950085}
 --- !u!1 &307536810
 GameObject:
@@ -1205,7 +1210,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 232e0cd133c3ac244ab3ac468a83e63d, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 2644781dd88c98143ba0876772a13fd5, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1714,7 +1719,7 @@ MonoBehaviour:
       next: 0
       editor: 0
     align: 0
-    mode: 0
+    mode: 3
     narration: []
     script: 
   - name: 
@@ -1753,7 +1758,7 @@ MonoBehaviour:
       next: 0
       editor: 0
     align: 1
-    mode: 0
+    mode: 3
     narration: []
     script: 
   - name: Aziza
@@ -1836,7 +1841,7 @@ MonoBehaviour:
       next: 0
       editor: 0
     align: 1
-    mode: 0
+    mode: 3
     narration: []
     script: 
   - name: Aziza
@@ -2169,7 +2174,7 @@ MonoBehaviour:
       next: 0
       editor: 0
     align: 0
-    mode: 0
+    mode: 3
     narration: []
     script: 
   - name: Janice
@@ -2280,12 +2285,17 @@ MonoBehaviour:
   - 
   - 
   backgroundImages:
-  - {fileID: 21300000, guid: d2ad017529ed326409b62a96ce6aba47, type: 3}
-  - {fileID: 21300000, guid: ca046d9871c421b49a15a47674c469a5, type: 3}
-  - {fileID: 21300000, guid: c7af60c52f41ab34dbd5b22951ec4e6f, type: 3}
-  - {fileID: 21300000, guid: c7a1e64a6a164e948900d97b2a0b6a4b, type: 3}
-  - {fileID: 21300000, guid: c7af60c52f41ab34dbd5b22951ec4e6f, type: 3}
-  - {fileID: 21300000, guid: fabad39d80dac74478451c7999426843, type: 3}
+  - {fileID: 21300000, guid: 2644781dd88c98143ba0876772a13fd5, type: 3}
+  - {fileID: 21300000, guid: 355a18633de098c46be314fefe07c12b, type: 3}
+  - {fileID: 21300000, guid: f3141c1204b284d41be0e7c5b4911337, type: 3}
+  - {fileID: 21300000, guid: 4c17b3aab2d2a68458afb724eb96c684, type: 3}
+  - {fileID: 21300000, guid: 634481e940ba3794182b46ea45ffa06e, type: 3}
+  - {fileID: 21300000, guid: cae73db7802316845ae2a79280ec69a0, type: 3}
+  - {fileID: 21300000, guid: ba9192f213ee0904a9f776362c871c1c, type: 3}
+  - {fileID: 21300000, guid: 8a167a194ccdb0442a19dff9841a3c4c, type: 3}
+  - {fileID: 21300000, guid: 1a8ac5595d3d2854eaf33aaa8e849394, type: 3}
+  - {fileID: 21300000, guid: 43ae9be517f49d540aaf80c3071e0433, type: 3}
+  - {fileID: 21300000, guid: 962cb823eca71984b846ad4a8f7ed870, type: 3}
   background: {fileID: 491950085}
 --- !u!4 &1132886138
 Transform:

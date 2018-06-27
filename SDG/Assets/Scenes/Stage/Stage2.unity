@@ -145,8 +145,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.012501, y: 0.000015259}
-  m_SizeDelta: {x: 962.03, y: 553}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 1024, y: 600}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &421282822
 MonoBehaviour:
@@ -160,14 +160,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.8490566, g: 0.8490566, b: 0.8490566, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: 2644781dd88c98143ba0876772a13fd5, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -366,6 +366,96 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1113659845
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1113659847}
+  - component: {fileID: 1113659846}
+  m_Layer: 0
+  m_Name: DialogueMan
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1113659846
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1113659845}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 469236168daaae04a8053f8f414d2434, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogueSkin: {fileID: 11400000, guid: bcb23eae559494fb7b26ddfd27aa676e, type: 2}
+  startOn: 0
+  defaultImg: {fileID: 0}
+  defaultAudio: {fileID: 0}
+  dialogue:
+  - name: 
+    longText: Janice just graduated from Trinity School, and plans to travel around
+      the world, which was labeled number one in her bucket list from long ago. She
+      starts to plan her tour route, thrilled. First country to travel is Mali, in
+      African continent. Janice plans to experience African traditional culture.
+    img: {fileID: 0}
+    choices: []
+    choiceMode: 0
+    links: []
+    next: 1
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: 
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  bools: 00000000
+  ints: 00000000000000000000000000000000
+  strings:
+  - 
+  - 
+  - 
+  - 
+  backgroundImages:
+  - {fileID: 21300000, guid: 2644781dd88c98143ba0876772a13fd5, type: 3}
+  - {fileID: 21300000, guid: 355a18633de098c46be314fefe07c12b, type: 3}
+  - {fileID: 21300000, guid: f3141c1204b284d41be0e7c5b4911337, type: 3}
+  - {fileID: 21300000, guid: 4c17b3aab2d2a68458afb724eb96c684, type: 3}
+  - {fileID: 21300000, guid: 634481e940ba3794182b46ea45ffa06e, type: 3}
+  - {fileID: 21300000, guid: cae73db7802316845ae2a79280ec69a0, type: 3}
+  - {fileID: 21300000, guid: ba9192f213ee0904a9f776362c871c1c, type: 3}
+  - {fileID: 21300000, guid: 8a167a194ccdb0442a19dff9841a3c4c, type: 3}
+  - {fileID: 21300000, guid: 1a8ac5595d3d2854eaf33aaa8e849394, type: 3}
+  - {fileID: 21300000, guid: 43ae9be517f49d540aaf80c3071e0433, type: 3}
+  - {fileID: 21300000, guid: 962cb823eca71984b846ad4a8f7ed870, type: 3}
+  - {fileID: 21300000, guid: 962cb823eca71984b846ad4a8f7ed870, type: 3}
+  - {fileID: 21300000, guid: 962cb823eca71984b846ad4a8f7ed870, type: 3}
+  - {fileID: 21300000, guid: 962cb823eca71984b846ad4a8f7ed870, type: 3}
+  background: {fileID: 0}
+--- !u!4 &1113659847
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1113659845}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 355.1392, y: 258.02634, z: 8.5}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1670805521
 GameObject:
   m_ObjectHideFlags: 0
@@ -525,76 +615,3 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
---- !u!1 &1883020473
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 1883020474}
-  - component: {fileID: 1883020475}
-  m_Layer: 0
-  m_Name: DialogueMan
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1883020474
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1883020473}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 440.83115, y: 288.77646, z: 13.427404}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1883020475
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1883020473}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 469236168daaae04a8053f8f414d2434, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  dialogueSkin: {fileID: 0}
-  startOn: 0
-  defaultImg: {fileID: 0}
-  defaultAudio: {fileID: 0}
-  dialogue:
-  - name: 
-    longText: 
-    img: {fileID: 0}
-    choices: []
-    choiceMode: 0
-    links: []
-    next: 0
-    editor: 0
-    pos: 1
-    passwords: []
-    incorrect: 0
-    exit:
-      shortText: 
-      next: 0
-      editor: 0
-    align: 0
-    mode: 0
-    narration: []
-    script: 
-  bools: 00000000
-  ints: 00000000000000000000000000000000
-  strings:
-  - 
-  - 
-  - 
-  - 
-  backgroundImages: []
-  background: {fileID: 421282822}

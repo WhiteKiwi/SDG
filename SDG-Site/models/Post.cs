@@ -1,4 +1,6 @@
-﻿namespace SDG_Site.Models {
+﻿using System;
+
+namespace SDG_Site.Models {
 	/// <summary>
 	/// posts table Model
 	/// </summary>
@@ -17,5 +19,11 @@
 
 		// Stage
 		public string Stage { get; set; }
+
+		// Writer's User_ID
+		public string Writer { get; set; }
+
+		// Uploaded Date
+		public DateTime UploadAt { get; set; }
 	}
 }

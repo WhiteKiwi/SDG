@@ -1,5 +1,6 @@
 ﻿using MySql.Data.MySqlClient;
 using SDG_Site.Models;
+using System;
 using System.Collections.Generic;
 
 namespace SDG_Site.Managers {
@@ -18,7 +19,7 @@ namespace SDG_Site.Managers {
 				conn.Open();
 
 				// Command Text - Upload new post
-				string commandText = "INSERT INTO " + POSTTABLE + "(Title, Contents, Classification, Stage) VALUES ('" + post.Title + "', '" + post.Content + "', '" + post.Classification + "', '" + post.Stage + "')";
+				string commandText = "INSERT INTO " + POSTTABLE + "(Title, Contents, Classification, Stage, Writer, Upload_At) VALUES ('" + post.Title + "', '" + post.Content + "', '" + post.Classification + "', '" + post.Stage + "', '" + post.Writer + "', '" + DateTime.Now.ToString("yyyy-MM-dd") + "')";
 				var cmd = new MySqlCommand(commandText, conn);
 
 				int result;
@@ -40,61 +41,11 @@ namespace SDG_Site.Managers {
 		/// <summary>
 		/// Get Posts by page
 		/// </summary>
-		/// <param name="page">Post class in Models</param>  
-		/// <see cref="Post"/>
-		public static List<Post> GetContents(int page, int stage) {
-			var result = new List<Post>();
-
-			#region TotalPage
-			// Number of postings
-			int totalCount = GetPostsCount(stage);
-
-			// Number of postings to float on one page
-			const int listCount = 10;
-
-			// Number of pages
-			int totalPage = totalCount / listCount;
-			if (totalCount % listCount > 0)
-				totalPage++;
-
-			// If the requested page is more than the total page
-			if (page > totalPage)
-				page = totalPage;
-			#endregion
-
-			// Connect to DB
-			using (var conn = new MySqlConnection(System.Configuration.ConfigurationManager.ConnectionStrings["SDGDB"].ConnectionString)) {
-				conn.Open();
-
-				// If stage is 0, not where sql
-				string whereStage = stage == 0 ? "" : " WHERE Stage='" + stage + "'";
-
-				// Command Text - Get Id and Title of Post
-				string commandText = "SELECT Id, Title FROM " + POSTTABLE + whereStage + " LIMIT " + (page - 1) + ", " + listCount + ";";
-				var cmd = new MySqlCommand(commandText, conn);
-
-				// Return only title and id for paging purposes.
-				var rdr = cmd.ExecuteReader();
-				while (rdr.Read()) {
-					result.Add(new Post {
-						Id = (int)rdr["Id"],
-						Title = (string)rdr["Id"]
-					});
-				}
-
-				conn.Close();
-			}
-
-			return result;
-		}
-
-		/// <summary>
-		/// Get Post's Count by Stage
-		/// </summary>
 		/// <param name="stage">Member variable of Post class</param>  
+		/// <param name="page">requested page number</param>  
 		/// <see cref="Post.Stage"/>
-		public static int GetPostsCount(int stage) {
-			int result = 0;
+		public static List<Post> GetPostsByPage(int page, int stage = 0) {
+			List<Post> result = new List<Post>();
 
 			// Connect to DB
 			using (var conn = new MySqlConnection(System.Configuration.ConfigurationManager.ConnectionStrings["SDGDB"].ConnectionString)) {
@@ -104,10 +55,59 @@ namespace SDG_Site.Managers {
 				string whereStage = stage == 0 ? "" : " WHERE Stage='" + stage + "'";
 
 				// Command Text - Select Password
-				string commandText = "SELECT COUNT(*) FROM " + POSTTABLE + whereStage + ";";
-				var cmd = new MySqlCommand(commandText, conn);
+				string sql = "SELECT COUNT(*) FROM " + POSTTABLE + whereStage + ";";
+				var cmd = new MySqlCommand(sql, conn);
 
-				result = (int)cmd.ExecuteScalar();
+				int postsCount = (int)cmd.ExecuteScalar();
+
+				// Get Notices
+				sql = "SELECT Id, Title, Upload_At FROM " + POSTTABLE + whereStage + " ORDER BY Id DESC LIMIT 10 OFFSET " + ((page - 1) * 10) + ";";
+				cmd.CommandText = sql;
+
+				var rdr = cmd.ExecuteReader();
+				while (rdr.Read()) {
+					result.Add(new Post {
+						Id = (int)rdr["Id"],
+						Title = (string)rdr["Title"],
+						UploadAt = (DateTime)rdr["Upload_At"]
+					});
+				}
+
+				// Connection Close
+				conn.Close();
+			}
+
+			return result;
+		}
+
+		/// <summary>
+		/// Get Post by Id
+		/// </summary>
+		/// <param name="Id">Member variable of Post class</param>  
+		/// <see cref="Post.Id"/>
+		public static Post GetPostById(int Id) {
+			Post result = new Post();
+
+			// Connect to DB
+			using (var conn = new MySqlConnection(System.Configuration.ConfigurationManager.ConnectionStrings["SDGDB"].ConnectionString)) {
+				conn.Open();
+
+				string sql = "SELECT * FROM " + POSTTABLE + " WHERE Id='" + Id + "';";
+				MySqlCommand cmd = new MySqlCommand(sql, conn);
+
+				var rdr = cmd.ExecuteReader();
+				rdr.Read();
+
+				// TODO: Check the table
+				result = new Post{
+					Id = (int)rdr["Id"],
+					Title = (string)rdr["Title"],
+					Content = (string)rdr["Content"],
+					Classification = (string)rdr["Content"],
+					Stage = (string)rdr["Stage"],
+					Writer = (string)rdr["Writer"],
+					UploadAt = (DateTime)rdr["Upload_At"]
+				};
 
 				// Connection Close
 				conn.Close();

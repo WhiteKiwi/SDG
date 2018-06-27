@@ -1,4 +1,5 @@
-﻿using System.Net;
+﻿using System;
+using System.Net;
 using System.Text;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -6,8 +7,10 @@ using UnityEngine.UI;
 
 public class ButtonManager : MonoBehaviour {
 	const string address = "http://outofwell.com";
-	int classification = 0;
+
+	int classification = -1;
 	// 0 : Political
+	// TODO: Classification
 
 	#region Scene Start
 	// Scene Start - Start Button
@@ -153,20 +156,23 @@ public class ButtonManager : MonoBehaviour {
 	// Scene Solution - Upload Button
 	public void Press_UploadButton() {
 		GetSolution getSolution = gameObject.GetComponent<GetSolution>();
-		if (PlayerPrefs.GetInt("Classification", -1) != -1 && !string.IsNullOrEmpty(getSolution.title.text.Trim()) && !string.IsNullOrEmpty(getSolution.content.text.Trim())) {
+		if (classification != -1 && !string.IsNullOrEmpty(getSolution.title.text.Trim()) && !string.IsNullOrEmpty(getSolution.content.text.Trim())) {
 
-			// send login data
-			WebClient web = new WebClient();
+			// send login data1,l
+			CookieAwareWebClient web = new CookieAwareWebClient();
+			string id = PlayerPrefs.GetString("User_ID", "-1");
+			string pw = PlayerPrefs.GetString("Password", "-1");
 			var receiveBytes = web.UploadValues(address + "/Login.aspx", "POST", new System.Collections.Specialized.NameValueCollection {
-				{ "UserID",  PlayerPrefs.GetString("User_ID", "-1") },
-				{ "Password", PlayerPrefs.GetString("Password", "-1") },
+				{ "UserID",  id },
+				{ "Password", pw },
 			});
 
-			if (Encoding.UTF8.GetString(receiveBytes) == "Authorized") {
+			string redata = Encoding.UTF8.GetString(receiveBytes);
+			if (redata == "Authorized") {
 				web.UploadValues(address + "/Upload.aspx", "POST", new System.Collections.Specialized.NameValueCollection {
 					{ "Title", getSolution.title.text },
 					{ "Content", getSolution.content.text },
-					{ "Classification", PlayerPrefs.GetInt("Classification", 0).ToString() },
+					{ "Classification", classification.ToString() },
 					{ "Stage", PlayerPrefs.GetInt("Stage", 0).ToString() },
 				});
 
@@ -179,7 +185,7 @@ public class ButtonManager : MonoBehaviour {
 
 	// Scene HashTag - Load Solution
 	public void Press_LoadSolutionButton() {
-		Application.OpenURL(address);
+		Application.OpenURL("https://google.com");
 		SceneManager.LoadScene("Solution");
 	}
 
@@ -194,7 +200,7 @@ public class ButtonManager : MonoBehaviour {
 		getSolution.classificationButton4.GetComponentInChildren<Text>().color = new Color(50 / 256f, 50 / 256f, 50 / 256f);
 
 		// 0: Economy
-		PlayerPrefs.SetInt("Classification", 0);
+		classification = 0;
 	}
 	public void Press_SaTButton() {
 		GetSolution getSolution = gameObject.GetComponent<GetSolution>();
@@ -205,7 +211,7 @@ public class ButtonManager : MonoBehaviour {
 		getSolution.classificationButton4.GetComponentInChildren<Text>().color = new Color(50 / 256f, 50 / 256f, 50 / 256f);
 		
 		// 1: Science and Technology
-		PlayerPrefs.SetInt("Classification", 1);
+		classification = 1;
 	}
 	public void Press_LawButton() {
 		GetSolution getSolution = gameObject.GetComponent<GetSolution>();
@@ -216,7 +222,7 @@ public class ButtonManager : MonoBehaviour {
 		getSolution.classificationButton4.GetComponentInChildren<Text>().color = new Color(50 / 256f, 50 / 256f, 50 / 256f);
 
 		// 2: Law
-		PlayerPrefs.SetInt("Classification", 2);
+		classification = 2;
 	}
 	public void Press_SocietyButton() {
 		GetSolution getSolution = gameObject.GetComponent<GetSolution>();
@@ -227,7 +233,7 @@ public class ButtonManager : MonoBehaviour {
 		getSolution.classificationButton4.GetComponentInChildren<Text>().color = new Color(50 / 256f, 50 / 256f, 50 / 256f);
 
 		// 3: Society
-		PlayerPrefs.SetInt("Classification", 3);
+		classification = 3;
 	}
 	public void Press_PoliticButton() {
 		GetSolution getSolution = gameObject.GetComponent<GetSolution>();
@@ -238,7 +244,7 @@ public class ButtonManager : MonoBehaviour {
 		getSolution.classificationButton4.GetComponentInChildren<Text>().color = new Color(58 / 256f, 103 / 256f, 184 / 256f);
 
 		// 4: Politic
-		PlayerPrefs.SetInt("Classification", 4);
+		classification = 4;
 	}
 	#endregion
 	#endregion
@@ -249,4 +255,72 @@ public class ButtonManager : MonoBehaviour {
 		PlayerPrefs.Save();
 	}
 	#endregion
+
+	public class CookieAwareWebClient : WebClient {
+		public CookieContainer CookieContainer {
+			get; set;
+		}
+		public Uri Uri {
+			get; set;
+		}
+
+		//기본 생성자
+		public CookieAwareWebClient() : this(new CookieContainer()) { }
+
+		//CookieContainer를 매개변수로 받는 생성자
+		public CookieAwareWebClient(CookieContainer cookies) {
+			this.CookieContainer = cookies;
+		}
+
+		//Uri, Cookie를 매개변수로 받는 생성자
+		public CookieAwareWebClient(Uri uri, Cookie cookie) : this(new CookieContainer()) {
+			this.CookieContainer.Add(uri, cookie);
+		}
+
+		protected override WebRequest GetWebRequest(Uri address) {
+			//WebRequest 생성
+			WebRequest request = base.GetWebRequest(address);
+
+			//패킷 속성 설정
+			if (request is HttpWebRequest) {
+				//패킷 Cookie 쿠키 설정
+				(request as HttpWebRequest).CookieContainer = this.CookieContainer;
+				//Connect: Kepp-Alive 
+				(request as HttpWebRequest).KeepAlive = true;
+			}
+
+			//HttpWebRequest.AutomaticDecompression 속성 설정 
+			HttpWebRequest httpRequest = (HttpWebRequest)request;
+			httpRequest.AutomaticDecompression = DecompressionMethods.GZip | DecompressionMethods.Deflate;
+
+			//https 인증서 설정
+			//httpRequest.ServerCertificateValidationCallback += (sender, certificate, chain, sslPolicyErrors) => true;
+
+			return httpRequest;
+		}
+
+		protected override WebResponse GetWebResponse(WebRequest request) {
+			//WebResponse 생성
+			WebResponse response = base.GetWebResponse(request);
+			string setCookieHeader = response.Headers[HttpResponseHeader.SetCookie];
+
+			if (setCookieHeader != null) {
+				//'='을 기준으로 받아온 Cookie 정보 Split
+				string[] cookieHeader = setCookieHeader.Split("=;".ToCharArray(), 3);
+
+				//cookieHeader[0]: Cookie ID		cookieHeader[1]: Cookie Data
+				Cookie cookie = new Cookie(cookieHeader[0], cookieHeader[1]);
+
+				//받아온 Cookie 설정
+				this.CookieContainer.Add(response.ResponseUri, cookie);
+			}
+
+			return response;
+		}
+
+		//CookieAwareWebClient Cookie 추가
+		public void AddCookie(Uri uri, Cookie cookie) {
+			this.CookieContainer.Add(uri, cookie);
+		}
+	}
 }
