@@ -41,7 +41,6 @@
 				</div>
 				<div class="text ">
 					<h1>Solutions</h1>
-					>
 				</div>
 			</section>
 			<div class="the-header-text ">
@@ -53,7 +52,7 @@
 		<table>
 
 			<tr>
-				<th>Username</th>
+				<th>Index</th>
 				<th>Writer</th>
 				<th>Solution Title</th>
 				<th>Stage</th>
