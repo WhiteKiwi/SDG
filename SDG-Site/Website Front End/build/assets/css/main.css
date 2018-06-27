@@ -454,6 +454,9 @@ nav {
 #solutions td {
   line-height: 25px; }
 
+#solutions a {
+  text-decoration: none; }
+
 .solutions-reveal {
   background: #454545;
   padding: 30px;
