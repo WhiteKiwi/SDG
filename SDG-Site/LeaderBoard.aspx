@@ -25,11 +25,7 @@
                                     <a href="/Solutions.aspx" id="begone1" class="other-nav">Solutions</a>
                                 </li>
                                 <li>
-<<<<<<< HEAD:SDG-Site/LeaderBoard.aspx
                                     <a href="/LeaderBoard.aspx" id="begone2" class="other-nav">Leaderboard</a>
-=======
-                                    <a href="# " id="begone2 " class="other-nav ">Leaderboard</a>
->>>>>>> ef07509ca026370c3b7437a48eaddb5c5abf8b43:SDG-Site/Website Front End/build/leaderboard.html
                                 </li>
                             </div>
                             <li>
