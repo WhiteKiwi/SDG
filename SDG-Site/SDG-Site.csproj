@@ -196,6 +196,7 @@
     <Content Include="assets\styles\main.css" />
     <Content Include="Default.aspx" />
     <Content Include="LeaderBoard.aspx" />
+    <Content Include="Like.aspx" />
     <Content Include="Login.aspx" />
     <Content Include="Logout.aspx" />
     <Content Include="Register.aspx" />
@@ -221,6 +222,13 @@
     <Compile Include="LeaderBoard.aspx.designer.cs">
       <DependentUpon>LeaderBoard.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Like.aspx.cs">
+      <DependentUpon>Like.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Like.aspx.designer.cs">
+      <DependentUpon>Like.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Login.aspx.cs">
       <DependentUpon>Login.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -235,7 +243,9 @@
     <Compile Include="Logout.aspx.designer.cs">
       <DependentUpon>Logout.aspx</DependentUpon>
     </Compile>
+    <Compile Include="managers\LikeManager.cs" />
     <Compile Include="managers\PostManager.cs" />
+    <Compile Include="models\Like.cs" />
     <Compile Include="models\Post.cs" />
     <Compile Include="Register.aspx.cs">
       <DependentUpon>Register.aspx</DependentUpon>

@@ -73,7 +73,10 @@
 			<p>
 				<%=post.Content %>
 			</p>
-		</div>
+		<br />
+		<br />
+			<input type="submit" name="AddButton" value="Like: <%=SDG_Site.Managers.LikeManager.LikesCount(post.Id) %>" id="AddButton" class="btn btn-primary" onclick="location.href='/Like.aspx?Id=<%=post.Id%>'">
+			</div>
 	</section>
 	<section id="footer">
 		<div class="content-container ">
