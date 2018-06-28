@@ -33,9 +33,6 @@ namespace SDG_Site.Managers {
 				// Connection Close
 				conn.Close();
 
-				// add 30 uni for writer
-				AddUni(user.UserID, 30);
-
 				return result;
 			}
 		}
