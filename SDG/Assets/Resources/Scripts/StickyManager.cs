@@ -15,9 +15,9 @@ public class StickyManager : MonoBehaviour {
 			// 2
 			new string[]{ "Poverty", "Hunger", "Food" },
 			// 3
-			new string[]{ "Gender Inequality", "The Middle East", "Child Marriage" },
+			new string[]{ "Gender\nInequality", "The\nMiddle\nEast", "Child\nMarriage" },
 			// 4
-			new string[]{ "", "", "" },
+			new string[]{ "Economic\ngrowth\nindicator", "Global\nUnemployment\nRate", "Global\nindustrial\nstructure" },
 			// 5
 			new string[]{ "", "", "" },
 			// 6
