@@ -1821,8 +1821,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8da5c3c4942977a4c9341c36251f03cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dialogueMan: {fileID: 0}
-  dialogueWoman: {fileID: 0}
+  dialogueMan: {fileID: 1888346154}
+  dialogueWoman: {fileID: 116284383}
 --- !u!224 &1146155363
 RectTransform:
   m_ObjectHideFlags: 0

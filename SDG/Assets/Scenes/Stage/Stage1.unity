@@ -1299,7 +1299,7 @@ MonoBehaviour:
       shortText: Exit
       next: 0
       editor: 0
-    align: 1
+    align: 0
     mode: 0
     narration: []
     script: 
@@ -3890,7 +3890,7 @@ MonoBehaviour:
       shortText: Exit
       next: 0
       editor: 0
-    align: 1
+    align: 0
     mode: 0
     narration: []
     script: 
