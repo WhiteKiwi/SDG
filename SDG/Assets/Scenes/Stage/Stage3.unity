@@ -207,6 +207,1379 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!1 &116284383
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 116284385}
+  - component: {fileID: 116284384}
+  m_Layer: 0
+  m_Name: DialogueWoman
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &116284384
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 116284383}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 469236168daaae04a8053f8f414d2434, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogueSkin: {fileID: 11400000, guid: bcb23eae559494fb7b26ddfd27aa676e, type: 2}
+  startOn: 0
+  defaultImg: {fileID: 0}
+  defaultAudio: {fileID: 8300000, guid: 7b2597164c0274f489786d646c5bcf6e, type: 3}
+  dialogue:
+  - name: Janice
+    longText: "(The next destination is Afghanistan. I wanted to visit Afghanistan
+      for long time, since my mom told me about her volunteer work experience in there.
+      She said people there are very sweet and have bright personalities. Will I meet
+      such people in there, too?)\r"
+    img: {fileID: 2800000, guid: ecad5b8a47d7c884e9bd530449ae3e50, type: 3}
+    choices: []
+    choiceMode: 0
+    links: []
+    next: 1
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: 
+      next: 0
+      editor: 0
+    align: 1
+    mode: 3
+    narration: []
+    script: 
+  - name: 
+    longText: Jack walks out of airport.
+    img: {fileID: 0}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 2
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Janice
+    longText: (There he is, my guide! I think his name was Aarash.)
+    img: {fileID: 2800000, guid: ecad5b8a47d7c884e9bd530449ae3e50, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 3
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 1
+    mode: 0
+    narration: []
+    script: 
+  - name: ???
+    longText: Hi! Are you Jack?
+    img: {fileID: 2800000, guid: bd5228b9e9a116941b624ca7d0c1a04c, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 4
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Janice
+    longText: Yes! You must be Aarash! Nice to meet you!
+    img: {fileID: 2800000, guid: e87d8e2e19d2821489afc0cbafdf8254, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 5
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 1
+    mode: 0
+    narration: []
+    script: 
+  - name: Aarash
+    longText: 'So, you signed up for a local village tour, right? '
+    img: {fileID: 2800000, guid: bd5228b9e9a116941b624ca7d0c1a04c, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 6
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Janice
+    longText: Yes
+    img: {fileID: 2800000, guid: ecad5b8a47d7c884e9bd530449ae3e50, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 7
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 1
+    mode: 0
+    narration: []
+    script: 
+  - name: Aarash
+    longText: 'Give me your luggage, I will put it in the back of the car. '
+    img: {fileID: 2800000, guid: 8668b99879114d9468da836840c84104, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 8
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 3
+    narration: []
+    script: 
+  - name: 
+    longText: (in the car)
+    img: {fileID: 0}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 9
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Aarash
+    longText: Do you know where we are visiting today?
+    img: {fileID: 2800000, guid: bd5228b9e9a116941b624ca7d0c1a04c, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 10
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Janice
+    longText: I have no idea. Where are we going today?
+    img: {fileID: 2800000, guid: e87d8e2e19d2821489afc0cbafdf8254, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 11
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 1
+    mode: 0
+    narration: []
+    script: 
+  - name: Aarash
+    longText: 'We are going to visit  Panjab, and it will take about three hours to
+      get there. We will be visiting a local village in Panjab and experience local
+      culture. '
+    img: {fileID: 2800000, guid: 8668b99879114d9468da836840c84104, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 12
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Aarash
+    longText: Do you want me to teach you some of the local language?
+    img: {fileID: 2800000, guid: bd5228b9e9a116941b624ca7d0c1a04c, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 13
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Janice
+    longText: "Sure! I\u2019d like to learn them!"
+    img: {fileID: 2800000, guid: e87d8e2e19d2821489afc0cbafdf8254, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 14
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 1
+    mode: 0
+    narration: []
+    script: 
+  - name: Aarash
+    longText: "\u2018Hi\u2019 in Dari Language is \u2018hallo\u2019."
+    img: {fileID: 2800000, guid: 8668b99879114d9468da836840c84104, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 15
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Janice
+    longText: Hallo! Is it right?
+    img: {fileID: 2800000, guid: e87d8e2e19d2821489afc0cbafdf8254, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 16
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 1
+    mode: 0
+    narration: []
+    script: 
+  - name: Aarash
+    longText: "Yes. and \u2018Thank you\u2019 is \u2018Dankie\u2019."
+    img: {fileID: 2800000, guid: bd5228b9e9a116941b624ca7d0c1a04c, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 17
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Janice
+    longText: Interesting!
+    img: {fileID: 2800000, guid: e87d8e2e19d2821489afc0cbafdf8254, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 18
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 1
+    mode: 3
+    narration: []
+    script: 
+  - name: 
+    longText: "(Jack and Aarash arrives at the local village)\r"
+    img: {fileID: 0}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 19
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Aarash
+    longText: We will look around the village, but before that, please be careful
+      OOO. Afghanistan still has conservative awareness on foreigners and women, due
+      to Taliban government period.
+    img: {fileID: 2800000, guid: 8668b99879114d9468da836840c84104, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 20
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Janice
+    longText: "I heard of Taliban. Don\u2019t worry, Aarash. "
+    img: {fileID: 2800000, guid: ecad5b8a47d7c884e9bd530449ae3e50, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 21
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 1
+    mode: 0
+    narration: []
+    script: 
+  - name: Aarash
+    longText: "Yes. Actually, there are very few foreign travelers in Afghanistan,
+      due to its image of civil war and conflicts. So villagers will look at you as
+      you walk around. Don\u2019t catch their sights. "
+    img: {fileID: 2800000, guid: bd5228b9e9a116941b624ca7d0c1a04c, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 22
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Janice
+    longText: 'Okay. '
+    img: {fileID: 2800000, guid: ecad5b8a47d7c884e9bd530449ae3e50, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 23
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 1
+    mode: 3
+    narration: []
+    script: 
+  - name: 
+    longText: (Jack and Aarash goes around the village)
+    img: {fileID: 0}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 24
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Aarash
+    longText: "and this statue symbolizes faith and trust between\u2026."
+    img: {fileID: 2800000, guid: 8668b99879114d9468da836840c84104, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 25
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: 
+    longText: ' Jack hears someone screaming.'
+    img: {fileID: 0}
+    choices:
+    - shortText: Tell Aarash what shw heard
+      next: 26
+      editor: 0
+    - shortText: Try to ignore the scream
+      next: 28
+      editor: 0
+    choiceMode: 0
+    links: []
+    next: 0
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 1
+    narration: []
+    script: 
+  - name: Janice
+    longText: "Aarash, Don\u2019t you hear someone screaming? Behind that corner."
+    img: {fileID: 2800000, guid: 9ca753577d356844a9b49d743e48a1aa, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 27
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 1
+    mode: 0
+    narration: []
+    script: 
+  - name: Aarash
+    longText: What? Screaming?
+    img: {fileID: 2800000, guid: 0ea14ba89746d5749a28fd46a3b6f224, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 29
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Janice
+    longText: "(But someone should help her\u2026)"
+    img: {fileID: 2800000, guid: ecad5b8a47d7c884e9bd530449ae3e50, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 29
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 1
+    mode: 0
+    narration: []
+    script: 
+  - name: ???
+    longText: "Aaaaagh!\r"
+    img: {fileID: 0}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 30
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Janice
+    longText: "Someone\u2019s crying. I think she needs help. "
+    img: {fileID: 2800000, guid: 9ca753577d356844a9b49d743e48a1aa, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 31
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 1
+    mode: 3
+    narration: []
+    script: 
+  - name: 
+    longText: (Jack walks toward the corner.)
+    img: {fileID: 0}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 32
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Aarash
+    longText: "Jack! No! (Aarash grabs Jack\u2019s wrist and drag him to the wall)"
+    img: {fileID: 2800000, guid: 0ea14ba89746d5749a28fd46a3b6f224, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 33
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Janice
+    longText: "What do you mean by \u2018No\u2019? She needs our help!"
+    img: {fileID: 2800000, guid: 9ca753577d356844a9b49d743e48a1aa, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 34
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 1
+    mode: 0
+    narration: []
+    script: 
+  - name: Aarash
+    longText: Shh! Look at there!
+    img: {fileID: 2800000, guid: 0ea14ba89746d5749a28fd46a3b6f224, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 35
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: 
+    longText: "(Jack and Aarash peep over the wall)\r\n"
+    img: {fileID: 0}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 36
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 3
+    narration: []
+    script: 
+  - name: ???
+    longText: Aaghhh!
+    img: {fileID: 0}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 37
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Aarash
+    longText: What is happening? What did she do? Why is everyone so angry? (to the
+      women beside)
+    img: {fileID: 2800000, guid: 0ea14ba89746d5749a28fd46a3b6f224, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 38
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: ???
+    longText: Ah, She tried to run away a day before her marriage. That is why the
+      men are stoning her.
+    img: {fileID: 0}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 39
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 3
+    narration: []
+    script: 
+  - name: Janice
+    longText: "But she looks so young. She looks younger than me. And, why is she
+      running away from the marriage which she decided to do in the first place? \r\n"
+    img: {fileID: 2800000, guid: 9ca753577d356844a9b49d743e48a1aa, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 40
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 1
+    mode: 0
+    narration: []
+    script: 
+  - name: ???
+    longText: 'She is 16 years old and she did not agree to the marriage. Her father
+      forced her to marry a 52-year-old man living in a nearby village. But forced
+      marriages are common here. '
+    img: {fileID: 0}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 41
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Janice
+    longText: How can that be common? She is too young for marriage! How about school?
+    img: {fileID: 2800000, guid: 9ca753577d356844a9b49d743e48a1aa, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 42
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 1
+    mode: 0
+    narration: []
+    script: 
+  - name: ???
+    longText: "Most of girls in her age don\u2019t go to school. They spend their
+      time doing chores in their husbands\u2019 houses, or working to earn money."
+    img: {fileID: 0}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 43
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: 
+    longText: (Screaming suddenly stops)
+    img: {fileID: 0}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 44
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: ???
+    longText: Oh my god!
+    img: {fileID: 0}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 45
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Janice
+    longText: 'What happened? '
+    img: {fileID: 2800000, guid: 9ca753577d356844a9b49d743e48a1aa, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 46
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 1
+    mode: 0
+    narration: []
+    script: 
+  - name: 
+    longText: "(Jack turns his/her head to the girl. Her body is still, and her eyes
+      are still open.)\r\n"
+    img: {fileID: 0}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 47
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Aarash
+    longText: "Jack, let\u2019s go, we should look around other spots too. Let\u2019s
+      move to next spot, this place is way too dangerous for tourists."
+    img: {fileID: 2800000, guid: 0ea14ba89746d5749a28fd46a3b6f224, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 48
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Janice
+    longText: "But what about her? \r\n"
+    img: {fileID: 2800000, guid: 9ca753577d356844a9b49d743e48a1aa, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 49
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 1
+    mode: 0
+    narration: []
+    script: 
+  - name: Aarash
+    longText: "It\u2019s a pity, but you will draw too much attention if you take
+      any action here. We should go.\r\n"
+    img: {fileID: 2800000, guid: 0ea14ba89746d5749a28fd46a3b6f224, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 50
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 3
+    narration: []
+    script: 
+  - name: 
+    longText: "(Jack is dragged by Aarash, still looking back at girl lying on the
+      street.)\r\n"
+    img: {fileID: 0}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 51
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: 
+    longText: (back in the car, Jack is quiet, saying nothing.)
+    img: {fileID: 0}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 52
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Aarash
+    longText: "(studying Jack\u2019s face) Jack, how was the tour? Sorry about the
+      sight during the trip. It is common in Afghanistan. Villagers called police
+      too. So don\u2019t worry too much about it."
+    img: {fileID: 2800000, guid: 0ea14ba89746d5749a28fd46a3b6f224, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 53
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Janice
+    longText: "But she would not be the only one suffering. Also, this kind of situation
+      should not be common. I was surprised how other villagers deal with that sight.
+      They were\u2026 just too unconcerned. No one stopped. No one interrupted. "
+    img: {fileID: 2800000, guid: 9ca753577d356844a9b49d743e48a1aa, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 54
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 1
+    mode: 0
+    narration: []
+    script: 
+  - name: Aarash
+    longText: "I think it\u2019s due to traditional thought remaining in local society.
+      Taliban was overthrown in 2001, but its remains are still affecting Afghan society.
+      That is the reason why women in Afghanistan is suffering from such suppressions."
+    img: {fileID: 2800000, guid: 0ea14ba89746d5749a28fd46a3b6f224, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 55
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Janice
+    longText: 'This should be fixed. '
+    img: {fileID: 2800000, guid: 9ca753577d356844a9b49d743e48a1aa, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 56
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 1
+    mode: 0
+    narration: []
+    script: 
+  - name: Aarash
+    longText: '(nods) Right. '
+    img: {fileID: 2800000, guid: 0ea14ba89746d5749a28fd46a3b6f224, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 57
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: 
+    longText: "(Jack arrives at the hotel, and Aarash passes the bag to Jack.)\r\n"
+    img: {fileID: 0}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 58
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Aarash
+    longText: "I\u2019m worried about rest of your trip in Afghanistan. That sight
+      might come up in your head while you are traveling."
+    img: {fileID: 2800000, guid: 0ea14ba89746d5749a28fd46a3b6f224, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 59
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Janice
+    longText: (smiles) I should never forget it, though.
+    img: {fileID: 2800000, guid: ecad5b8a47d7c884e9bd530449ae3e50, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 60
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 1
+    mode: 0
+    narration: []
+    script: 
+  - name: Aarash
+    longText: "Have a good tour tomorrow, Jack. It was nice to guide you. And I\u2019m
+      sorry again for showing you such sight."
+    img: {fileID: 2800000, guid: bd5228b9e9a116941b624ca7d0c1a04c, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 61
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Janice
+    longText: "You don\u2019t have to be sorry about it, Aarash. If I did not see
+      it, I would\u2019ve never know.  Thank you for guiding me today!\r\n"
+    img: {fileID: 2800000, guid: ecad5b8a47d7c884e9bd530449ae3e50, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 62
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 1
+    mode: 0
+    narration: []
+    script: 
+  - name: Aarash
+    longText: Bye!
+    img: {fileID: 2800000, guid: 8668b99879114d9468da836840c84104, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 63
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Janice
+    longText: "(smiles/waves hand at Aarash)\r\n"
+    img: {fileID: 2800000, guid: e87d8e2e19d2821489afc0cbafdf8254, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 64
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 1
+    mode: 0
+    narration: []
+    script: 
+  - name: 
+    longText: 'Jack opens his diary after a day later. '
+    img: {fileID: 0}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 65
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Janice
+    longText: "Time flies! In no time, my trip in Afghanistan ended. It\u2019s already
+      3rd country I traveled. Actually, though I told Aarash that I was okay, I was
+      very shocked at today\u2019s sight. It was first for me to see such violence
+      in real, and I was surprised at Afghanistan women\u2019s right and social status."
+    img: {fileID: 2800000, guid: ecad5b8a47d7c884e9bd530449ae3e50, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 66
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 1
+    mode: 0
+    narration: []
+    script: 
+  - name: Jack
+    longText: "Again, I learned something that I didn\u2019t know before. It was very
+      different to environment around me. \r\n"
+    img: {fileID: 2800000, guid: e803eb93a737e3e41b7d384e80703537, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 66
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 1
+    mode: 3
+    narration: []
+    script: UnityEngine.SceneManagement.SceneManager.LoadScene("HashTag");
+  bools: 00000000
+  ints: 00000000000000000000000000000000
+  strings:
+  - 
+  - 
+  - 
+  - 
+  backgroundImages:
+  - {fileID: 21300000, guid: a6a8ff9de8960324c95cf16594f5734a, type: 3}
+  - {fileID: 21300000, guid: e366e3b6466b95a44acfc99eb1f7ee5d, type: 3}
+  - {fileID: 21300000, guid: 2e3b65a7aa471634b8e02ac6d6443ff5, type: 3}
+  - {fileID: 21300000, guid: 6aa6f57ed3a7cc743b14c41e0e865daa, type: 3}
+  - {fileID: 21300000, guid: b6661c13ba3006f4f9e12f72167a9e6c, type: 3}
+  - {fileID: 21300000, guid: c2d0bb9942bba77448fadbe4998da7f5, type: 3}
+  - {fileID: 21300000, guid: 368d7cd8de90ee8478fcdf644690afa4, type: 3}
+  - {fileID: 21300000, guid: b04eee401554bea4dab95990be492f8b, type: 3}
+  background: {fileID: 973467895}
+--- !u!4 &116284385
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 116284383}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 355.1392, y: 258.02634, z: 8.5}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &704136824
 GameObject:
   m_ObjectHideFlags: 0
@@ -407,7 +1780,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: a6a8ff9de8960324c95cf16594f5734a, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -500,25 +1873,1317 @@ MonoBehaviour:
   defaultImg: {fileID: 0}
   defaultAudio: {fileID: 8300000, guid: 7b2597164c0274f489786d646c5bcf6e, type: 3}
   dialogue:
-  - name: 
-    longText: 
-    img: {fileID: 0}
+  - name: Jack
+    longText: "(The next destination is Afghanistan. I wanted to visit Afghanistan
+      for long time, since my mom told me about her volunteer work experience in there.
+      She said people there are very sweet and have bright personalities. Will I meet
+      such people in there, too?)\r"
+    img: {fileID: 2800000, guid: 159f1fcc373533f418eabc87a9ca7618, type: 3}
     choices: []
     choiceMode: 0
     links: []
-    next: 0
+    next: 1
     editor: 0
-    pos: 0
+    pos: 1
     passwords: []
     incorrect: 0
     exit:
       shortText: 
       next: 0
       editor: 0
+    align: 1
+    mode: 3
+    narration: []
+    script: 
+  - name: 
+    longText: Jack walks out of airport.
+    img: {fileID: 0}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 2
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
     align: 0
     mode: 0
     narration: []
     script: 
+  - name: Jack
+    longText: (There he is, my guide! I think his name was Aarash.)
+    img: {fileID: 2800000, guid: 159f1fcc373533f418eabc87a9ca7618, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 3
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 1
+    mode: 0
+    narration: []
+    script: 
+  - name: ???
+    longText: Hi! Are you Jack?
+    img: {fileID: 2800000, guid: bd5228b9e9a116941b624ca7d0c1a04c, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 4
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Jack
+    longText: Yes! You must be Aarash! Nice to meet you!
+    img: {fileID: 2800000, guid: e803eb93a737e3e41b7d384e80703537, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 5
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 1
+    mode: 0
+    narration: []
+    script: 
+  - name: Aarash
+    longText: 'So, you signed up for a local village tour, right? '
+    img: {fileID: 2800000, guid: bd5228b9e9a116941b624ca7d0c1a04c, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 6
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Jack
+    longText: Yes
+    img: {fileID: 2800000, guid: 159f1fcc373533f418eabc87a9ca7618, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 7
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 1
+    mode: 0
+    narration: []
+    script: 
+  - name: Aarash
+    longText: 'Give me your luggage, I will put it in the back of the car. '
+    img: {fileID: 2800000, guid: 8668b99879114d9468da836840c84104, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 8
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 3
+    narration: []
+    script: 
+  - name: 
+    longText: (in the car)
+    img: {fileID: 0}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 9
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Aarash
+    longText: Do you know where we are visiting today?
+    img: {fileID: 2800000, guid: bd5228b9e9a116941b624ca7d0c1a04c, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 10
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Jack
+    longText: I have no idea. Where are we going today?
+    img: {fileID: 2800000, guid: e803eb93a737e3e41b7d384e80703537, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 11
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 1
+    mode: 0
+    narration: []
+    script: 
+  - name: Aarash
+    longText: 'We are going to visit  Panjab, and it will take about three hours to
+      get there. We will be visiting a local village in Panjab and experience local
+      culture. '
+    img: {fileID: 2800000, guid: 8668b99879114d9468da836840c84104, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 12
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Aarash
+    longText: Do you want me to teach you some of the local language?
+    img: {fileID: 2800000, guid: bd5228b9e9a116941b624ca7d0c1a04c, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 13
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Jack
+    longText: "Sure! I\u2019d like to learn them!"
+    img: {fileID: 2800000, guid: e803eb93a737e3e41b7d384e80703537, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 14
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 1
+    mode: 0
+    narration: []
+    script: 
+  - name: Aarash
+    longText: "\u2018Hi\u2019 in Dari Language is \u2018hallo\u2019."
+    img: {fileID: 2800000, guid: 8668b99879114d9468da836840c84104, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 15
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Jack
+    longText: Hallo! Is it right?
+    img: {fileID: 2800000, guid: e803eb93a737e3e41b7d384e80703537, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 16
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 1
+    mode: 0
+    narration: []
+    script: 
+  - name: Aarash
+    longText: "Yes. and \u2018Thank you\u2019 is \u2018Dankie\u2019."
+    img: {fileID: 2800000, guid: bd5228b9e9a116941b624ca7d0c1a04c, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 17
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Jack
+    longText: Interesting!
+    img: {fileID: 2800000, guid: e803eb93a737e3e41b7d384e80703537, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 18
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 1
+    mode: 3
+    narration: []
+    script: 
+  - name: 
+    longText: "(Jack and Aarash arrives at the local village)\r"
+    img: {fileID: 0}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 19
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Aarash
+    longText: We will look around the village, but before that, please be careful
+      OOO. Afghanistan still has conservative awareness on foreigners and women, due
+      to Taliban government period.
+    img: {fileID: 2800000, guid: 8668b99879114d9468da836840c84104, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 20
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Jack
+    longText: "I heard of Taliban. Don\u2019t worry, Aarash. "
+    img: {fileID: 2800000, guid: 159f1fcc373533f418eabc87a9ca7618, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 21
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 1
+    mode: 0
+    narration: []
+    script: 
+  - name: Aarash
+    longText: "Yes. Actually, there are very few foreign travelers in Afghanistan,
+      due to its image of civil war and conflicts. So villagers will look at you as
+      you walk around. Don\u2019t catch their sights. "
+    img: {fileID: 2800000, guid: bd5228b9e9a116941b624ca7d0c1a04c, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 22
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Jack
+    longText: 'Okay. '
+    img: {fileID: 2800000, guid: 159f1fcc373533f418eabc87a9ca7618, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 23
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 1
+    mode: 3
+    narration: []
+    script: 
+  - name: 
+    longText: (Jack and Aarash goes around the village)
+    img: {fileID: 0}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 24
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Aarash
+    longText: "and this statue symbolizes faith and trust between\u2026."
+    img: {fileID: 2800000, guid: 8668b99879114d9468da836840c84104, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 25
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: 
+    longText: ' Jack hears someone screaming.'
+    img: {fileID: 0}
+    choices:
+    - shortText: Tell Aarash what shw heard
+      next: 26
+      editor: 0
+    - shortText: Try to ignore the scream
+      next: 28
+      editor: 0
+    choiceMode: 0
+    links: []
+    next: 0
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 1
+    narration: []
+    script: 
+  - name: Jack
+    longText: "Aarash, Don\u2019t you hear someone screaming? Behind that corner."
+    img: {fileID: 2800000, guid: 41cf2285524ee924a9a576931d43ae8d, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 27
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 1
+    mode: 0
+    narration: []
+    script: 
+  - name: Aarash
+    longText: What? Screaming?
+    img: {fileID: 2800000, guid: 0ea14ba89746d5749a28fd46a3b6f224, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 29
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Jack
+    longText: "(But someone should help her\u2026)"
+    img: {fileID: 2800000, guid: 159f1fcc373533f418eabc87a9ca7618, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 29
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 1
+    mode: 0
+    narration: []
+    script: 
+  - name: ???
+    longText: "Aaaaagh!\r"
+    img: {fileID: 0}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 30
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Jack
+    longText: "Someone\u2019s crying. I think she needs help. "
+    img: {fileID: 2800000, guid: 41cf2285524ee924a9a576931d43ae8d, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 31
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 1
+    mode: 3
+    narration: []
+    script: 
+  - name: 
+    longText: (Jack walks toward the corner.)
+    img: {fileID: 0}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 32
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Aarash
+    longText: "Jack! No! (Aarash grabs Jack\u2019s wrist and drag him to the wall)"
+    img: {fileID: 2800000, guid: 0ea14ba89746d5749a28fd46a3b6f224, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 33
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Jack
+    longText: "What do you mean by \u2018No\u2019? She needs our help!"
+    img: {fileID: 2800000, guid: 41cf2285524ee924a9a576931d43ae8d, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 34
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 1
+    mode: 0
+    narration: []
+    script: 
+  - name: Aarash
+    longText: Shh! Look at there!
+    img: {fileID: 2800000, guid: 0ea14ba89746d5749a28fd46a3b6f224, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 35
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: 
+    longText: "(Jack and Aarash peep over the wall)\r\n"
+    img: {fileID: 0}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 36
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 3
+    narration: []
+    script: 
+  - name: ???
+    longText: Aaghhh!
+    img: {fileID: 0}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 37
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Aarash
+    longText: What is happening? What did she do? Why is everyone so angry? (to the
+      women beside)
+    img: {fileID: 2800000, guid: 0ea14ba89746d5749a28fd46a3b6f224, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 38
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: ???
+    longText: Ah, She tried to run away a day before her marriage. That is why the
+      men are stoning her.
+    img: {fileID: 0}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 39
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 3
+    narration: []
+    script: 
+  - name: Jack
+    longText: "But she looks so young. She looks younger than me. And, why is she
+      running away from the marriage which she decided to do in the first place? \r\n"
+    img: {fileID: 2800000, guid: 41cf2285524ee924a9a576931d43ae8d, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 40
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 1
+    mode: 0
+    narration: []
+    script: 
+  - name: ???
+    longText: 'She is 16 years old and she did not agree to the marriage. Her father
+      forced her to marry a 52-year-old man living in a nearby village. But forced
+      marriages are common here. '
+    img: {fileID: 0}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 41
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Jack
+    longText: How can that be common? She is too young for marriage! How about school?
+    img: {fileID: 2800000, guid: 41cf2285524ee924a9a576931d43ae8d, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 42
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 1
+    mode: 0
+    narration: []
+    script: 
+  - name: ???
+    longText: "Most of girls in her age don\u2019t go to school. They spend their
+      time doing chores in their husbands\u2019 houses, or working to earn money."
+    img: {fileID: 0}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 43
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: 
+    longText: (Screaming suddenly stops)
+    img: {fileID: 0}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 44
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: ???
+    longText: Oh my god!
+    img: {fileID: 0}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 45
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Jack
+    longText: 'What happened? '
+    img: {fileID: 2800000, guid: 41cf2285524ee924a9a576931d43ae8d, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 46
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 1
+    mode: 0
+    narration: []
+    script: 
+  - name: 
+    longText: "(Jack turns his/her head to the girl. Her body is still, and her eyes
+      are still open.)\r\n"
+    img: {fileID: 0}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 47
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Aarash
+    longText: "Jack, let\u2019s go, we should look around other spots too. Let\u2019s
+      move to next spot, this place is way too dangerous for tourists."
+    img: {fileID: 2800000, guid: 0ea14ba89746d5749a28fd46a3b6f224, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 48
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Jack
+    longText: "But what about her? \r\n"
+    img: {fileID: 2800000, guid: 41cf2285524ee924a9a576931d43ae8d, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 49
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 1
+    mode: 0
+    narration: []
+    script: 
+  - name: Aarash
+    longText: "It\u2019s a pity, but you will draw too much attention if you take
+      any action here. We should go.\r\n"
+    img: {fileID: 2800000, guid: 0ea14ba89746d5749a28fd46a3b6f224, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 50
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 3
+    narration: []
+    script: 
+  - name: 
+    longText: "(Jack is dragged by Aarash, still looking back at girl lying on the
+      street.)\r\n"
+    img: {fileID: 0}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 51
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: 
+    longText: (back in the car, Jack is quiet, saying nothing.)
+    img: {fileID: 0}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 52
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Aarash
+    longText: "(studying Jack\u2019s face) Jack, how was the tour? Sorry about the
+      sight during the trip. It is common in Afghanistan. Villagers called police
+      too. So don\u2019t worry too much about it."
+    img: {fileID: 2800000, guid: 0ea14ba89746d5749a28fd46a3b6f224, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 53
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Jack
+    longText: "But she would not be the only one suffering. Also, this kind of situation
+      should not be common. I was surprised how other villagers deal with that sight.
+      They were\u2026 just too unconcerned. No one stopped. No one interrupted. "
+    img: {fileID: 2800000, guid: 41cf2285524ee924a9a576931d43ae8d, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 54
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 1
+    mode: 0
+    narration: []
+    script: 
+  - name: Aarash
+    longText: "I think it\u2019s due to traditional thought remaining in local society.
+      Taliban was overthrown in 2001, but its remains are still affecting Afghan society.
+      That is the reason why women in Afghanistan is suffering from such suppressions."
+    img: {fileID: 2800000, guid: 0ea14ba89746d5749a28fd46a3b6f224, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 55
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Jack
+    longText: 'This should be fixed. '
+    img: {fileID: 2800000, guid: 41cf2285524ee924a9a576931d43ae8d, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 56
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 1
+    mode: 0
+    narration: []
+    script: 
+  - name: Aarash
+    longText: '(nods) Right. '
+    img: {fileID: 2800000, guid: 0ea14ba89746d5749a28fd46a3b6f224, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 57
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: 
+    longText: "(Jack arrives at the hotel, and Aarash passes the bag to Jack.)\r\n"
+    img: {fileID: 0}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 58
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Aarash
+    longText: "I\u2019m worried about rest of your trip in Afghanistan. That sight
+      might come up in your head while you are traveling."
+    img: {fileID: 2800000, guid: 0ea14ba89746d5749a28fd46a3b6f224, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 59
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Jack
+    longText: (smiles) I should never forget it, though.
+    img: {fileID: 2800000, guid: 159f1fcc373533f418eabc87a9ca7618, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 60
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 1
+    mode: 0
+    narration: []
+    script: 
+  - name: Aarash
+    longText: "Have a good tour tomorrow, Jack. It was nice to guide you. And I\u2019m
+      sorry again for showing you such sight."
+    img: {fileID: 2800000, guid: bd5228b9e9a116941b624ca7d0c1a04c, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 61
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Jack
+    longText: "You don\u2019t have to be sorry about it, Aarash. If I did not see
+      it, I would\u2019ve never know.  Thank you for guiding me today!\r\n"
+    img: {fileID: 2800000, guid: 159f1fcc373533f418eabc87a9ca7618, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 62
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 1
+    mode: 0
+    narration: []
+    script: 
+  - name: Aarash
+    longText: Bye!
+    img: {fileID: 2800000, guid: 8668b99879114d9468da836840c84104, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 63
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Jack
+    longText: "(smiles/waves hand at Aarash)\r\n"
+    img: {fileID: 2800000, guid: e803eb93a737e3e41b7d384e80703537, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 64
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 1
+    mode: 0
+    narration: []
+    script: 
+  - name: 
+    longText: 'Jack opens his diary after a day later. '
+    img: {fileID: 0}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 65
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Jack
+    longText: "Time flies! In no time, my trip in Afghanistan ended. It\u2019s already
+      3rd country I traveled. Actually, though I told Aarash that I was okay, I was
+      very shocked at today\u2019s sight. It was first for me to see such violence
+      in real, and I was surprised at Afghanistan women\u2019s right and social status."
+    img: {fileID: 2800000, guid: 159f1fcc373533f418eabc87a9ca7618, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 66
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 1
+    mode: 0
+    narration: []
+    script: 
+  - name: Jack
+    longText: "Again, I learned something that I didn\u2019t know before. It was very
+      different to environment around me. \r\n"
+    img: {fileID: 2800000, guid: e803eb93a737e3e41b7d384e80703537, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 66
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 1
+    mode: 3
+    narration: []
+    script: UnityEngine.SceneManagement.SceneManager.LoadScene("HashTag");
   bools: 00000000
   ints: 00000000000000000000000000000000
   strings:
@@ -527,7 +3192,14 @@ MonoBehaviour:
   - 
   - 
   backgroundImages:
-  - {fileID: 21300000, guid: 2644781dd88c98143ba0876772a13fd5, type: 3}
+  - {fileID: 21300000, guid: a6a8ff9de8960324c95cf16594f5734a, type: 3}
+  - {fileID: 21300000, guid: e366e3b6466b95a44acfc99eb1f7ee5d, type: 3}
+  - {fileID: 21300000, guid: 2e3b65a7aa471634b8e02ac6d6443ff5, type: 3}
+  - {fileID: 21300000, guid: 6aa6f57ed3a7cc743b14c41e0e865daa, type: 3}
+  - {fileID: 21300000, guid: b6661c13ba3006f4f9e12f72167a9e6c, type: 3}
+  - {fileID: 21300000, guid: c2d0bb9942bba77448fadbe4998da7f5, type: 3}
+  - {fileID: 21300000, guid: 368d7cd8de90ee8478fcdf644690afa4, type: 3}
+  - {fileID: 21300000, guid: b04eee401554bea4dab95990be492f8b, type: 3}
   background: {fileID: 973467895}
 --- !u!4 &1888346156
 Transform:
