@@ -58,7 +58,7 @@ namespace SDG_Site.Managers {
 				string whereStage = stage == 0 ? "" : " WHERE Stage='" + stage + "'";
 
 				// Command Text - Select Datas
-				string sql = "SELECT Id, Title, Writer, Stage, Upload_At FROM " + POSTTABLE + whereStage + " ORDER BY Id DESC LIMIT 10 OFFSET " + ((page - 1) * 10) + ";";
+				string sql = "SELECT Id, Title, Writer, Stage, Upload_At FROM " + POSTTABLE + whereStage + " ORDER BY Id DESC LIMIT 20 OFFSET " + ((page - 1) * 10) + ";";
 				var cmd = new MySqlCommand(sql, conn);
 
 				var rdr = cmd.ExecuteReader();
