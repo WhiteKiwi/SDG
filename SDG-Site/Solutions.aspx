@@ -56,6 +56,7 @@
 				<th>Writer</th>
 				<th>Solution Title</th>
 				<th>Stage</th>
+				<th>Classification</th>
 				<th>Date Submitted</th>
 			</tr>
 			<%
@@ -75,6 +76,20 @@
 						Response.Write("<td>" + post.Writer + "</td>");
 						Response.Write("<td><a href=\"/Solution.aspx?Id=" + post.Id + "\">" + post.Title + "</a></td>");
 						Response.Write("<td>" + post.Stage + "</td>");
+						if (post.Classification == "0") {
+							Response.Write("<td>Economy</td>");
+						} else if (post.Classification == "1") {
+							Response.Write("<td>Sci and Tech</td>");
+						} else if (post.Classification == "2") {
+							Response.Write("<td>Law</td>");
+						} else if (post.Classification == "3") {
+							Response.Write("<td>Society</td>");
+						} else if (post.Classification == "4") {
+							Response.Write("<td>Politic</td>");
+							// TODO: Add 카테고리
+						} else {
+							Response.Write("<td>All</td>");
+						}
 						Response.Write("<td>" + post.UploadAt.ToString("yyyy-MM-dd") + "</td>");
 						Response.Write("</tr>");
 					}

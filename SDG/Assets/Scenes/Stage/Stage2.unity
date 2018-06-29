@@ -156,7 +156,7 @@ MonoBehaviour:
   dialogueSkin: {fileID: 11400000, guid: bcb23eae559494fb7b26ddfd27aa676e, type: 2}
   startOn: 0
   defaultImg: {fileID: 0}
-  defaultAudio: {fileID: 8300000, guid: 7b2597164c0274f489786d646c5bcf6e, type: 3}
+  defaultAudio: {fileID: 8300000, guid: 70aef251f6fc4cd498364dbec73c8188, type: 3}
   dialogue:
   - name: 
     longText: Jack just graduated from Trinity School, and plans to travel around
@@ -244,8 +244,7 @@ MonoBehaviour:
       editor: 0
     align: 1
     mode: 0
-    narration:
-    - {fileID: 0}
+    narration: []
     script: 
   - name: 
     longText: Jack packs his suitcase in hurry, and gets on the plane.
@@ -324,7 +323,8 @@ MonoBehaviour:
       editor: 0
     align: 0
     mode: 0
-    narration: []
+    narration:
+    - {fileID: 8300000, guid: 59d505869f280b84d8892507b2e5b007, type: 3}
     script: 
   - name: Jack
     longText: "Alright, let\u2019s see\u2026. It\u2019s 10:30 in Mali local time.
@@ -402,7 +402,8 @@ MonoBehaviour:
       editor: 0
     align: 0
     mode: 0
-    narration: []
+    narration:
+    - {fileID: 8300000, guid: 70aef251f6fc4cd498364dbec73c8188, type: 3}
     script: 
   - name: Jack
     longText: "Seems like I\u2019m the only foreigner around here. But calmness and
@@ -986,7 +987,8 @@ MonoBehaviour:
       editor: 0
     align: 0
     mode: 0
-    narration: []
+    narration:
+    - {fileID: 8300000, guid: 2e9363f7ac117aa4994a728bf6fc9f60, type: 3}
     script: 
   - name: Jack
     longText: "The Dogon tribe\u2019s performance is very interesting. I love their
@@ -1065,7 +1067,8 @@ MonoBehaviour:
       editor: 0
     align: 0
     mode: 0
-    narration: []
+    narration:
+    - {fileID: 8300000, guid: 5ef19f0811fdd28438763b20267053a5, type: 3}
     script: 
   - name: Jack
     longText: "Wait, what\u2019s wrong with this child? He\u2019s just like a skeleton!"
@@ -1721,7 +1724,8 @@ MonoBehaviour:
       editor: 0
     align: 0
     mode: 0
-    narration: []
+    narration:
+    - {fileID: 8300000, guid: 70aef251f6fc4cd498364dbec73c8188, type: 3}
     script: 
   - name: 
     longText: "Jack gazes at children\u2019s bony arms. \r\n"
@@ -1838,7 +1842,8 @@ MonoBehaviour:
       editor: 0
     align: 0
     mode: 3
-    narration: []
+    narration:
+    - {fileID: 8300000, guid: 3485f189222709b48a696831dc97db96, type: 3}
     script: 
   - name: Jack
     longText: "It was such a miserable sight today. Is it fair for those children
@@ -1899,7 +1904,8 @@ MonoBehaviour:
       editor: 0
     align: 0
     mode: 3
-    narration: []
+    narration:
+    - {fileID: 8300000, guid: 70aef251f6fc4cd498364dbec73c8188, type: 3}
     script: UnityEngine.SceneManagement.SceneManager.LoadScene("HashTag");
   bools: 00000000
   ints: 00000000000000000000000000000000
@@ -2088,7 +2094,7 @@ MonoBehaviour:
   dialogueSkin: {fileID: 11400000, guid: bcb23eae559494fb7b26ddfd27aa676e, type: 2}
   startOn: 0
   defaultImg: {fileID: 0}
-  defaultAudio: {fileID: 8300000, guid: 7b2597164c0274f489786d646c5bcf6e, type: 3}
+  defaultAudio: {fileID: 8300000, guid: 70aef251f6fc4cd498364dbec73c8188, type: 3}
   dialogue:
   - name: 
     longText: Janice just graduated from Trinity School, and plans to travel around
@@ -2119,8 +2125,7 @@ MonoBehaviour:
       editor: 0
     align: 0
     mode: 3
-    narration:
-    - {fileID: 0}
+    narration: []
     script: 
   - name: 
     longText: '--- at the airport ---'
@@ -2256,7 +2261,8 @@ MonoBehaviour:
       editor: 0
     align: 0
     mode: 0
-    narration: []
+    narration:
+    - {fileID: 8300000, guid: 59d505869f280b84d8892507b2e5b007, type: 3}
     script: 
   - name: Janice
     longText: "Alright, let\u2019s see\u2026. It\u2019s 10:30 in Mali local time.
@@ -2334,7 +2340,8 @@ MonoBehaviour:
       editor: 0
     align: 0
     mode: 0
-    narration: []
+    narration:
+    - {fileID: 8300000, guid: 70aef251f6fc4cd498364dbec73c8188, type: 3}
     script: 
   - name: Janice
     longText: "Seems like I\u2019m the only foreigner around here. But calmness and
@@ -2918,7 +2925,8 @@ MonoBehaviour:
       editor: 0
     align: 0
     mode: 0
-    narration: []
+    narration:
+    - {fileID: 8300000, guid: 2e9363f7ac117aa4994a728bf6fc9f60, type: 3}
     script: 
   - name: Janice
     longText: "The Dogon tribe\u2019s performance is very interesting. I love their
@@ -2997,7 +3005,8 @@ MonoBehaviour:
       editor: 0
     align: 0
     mode: 0
-    narration: []
+    narration:
+    - {fileID: 8300000, guid: 5ef19f0811fdd28438763b20267053a5, type: 3}
     script: 
   - name: Janice
     longText: "Wait, what\u2019s wrong with this child? He\u2019s just like a skeleton!"
@@ -3653,7 +3662,8 @@ MonoBehaviour:
       editor: 0
     align: 0
     mode: 0
-    narration: []
+    narration:
+    - {fileID: 8300000, guid: 5ef19f0811fdd28438763b20267053a5, type: 3}
     script: 
   - name: 
     longText: "Janice gazes at children\u2019s bony arms. \r\n"
@@ -3770,7 +3780,8 @@ MonoBehaviour:
       editor: 0
     align: 0
     mode: 3
-    narration: []
+    narration:
+    - {fileID: 8300000, guid: 3485f189222709b48a696831dc97db96, type: 3}
     script: 
   - name: Janice
     longText: "It was such a miserable sight today. Is it fair for those children

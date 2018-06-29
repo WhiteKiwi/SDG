@@ -211,7 +211,7 @@ MonoBehaviour:
   dialogueSkin: {fileID: 11400000, guid: bcb23eae559494fb7b26ddfd27aa676e, type: 2}
   startOn: 0
   defaultImg: {fileID: 0}
-  defaultAudio: {fileID: 0}
+  defaultAudio: {fileID: 8300000, guid: 70aef251f6fc4cd498364dbec73c8188, type: 3}
   dialogue:
   - name: Janice
     longText: Janice arrives at Jomo Kenyatta International Airport.
@@ -230,7 +230,8 @@ MonoBehaviour:
       editor: 0
     align: 1
     mode: 3
-    narration: []
+    narration:
+    - {fileID: 8300000, guid: b32486590530d21479e61b829f8c2014, type: 3}
     script: 
   - name: Janice
     longText: "Phew, Kenya is just too hot. But I get to go on a Safari! Oh my god,
@@ -623,7 +624,8 @@ MonoBehaviour:
       editor: 0
     align: 0
     mode: 0
-    narration: []
+    narration:
+    - {fileID: 8300000, guid: 59d505869f280b84d8892507b2e5b007, type: 3}
     script: 
   - name: Janice
     longText: I thought there would be many tourists, but there are fewer than I expected.
@@ -702,7 +704,8 @@ MonoBehaviour:
       editor: 0
     align: 0
     mode: 0
-    narration: []
+    narration:
+    - {fileID: 8300000, guid: 5ef19f0811fdd28438763b20267053a5, type: 3}
     script: 
   - name: 
     longText: (Sharon goes to janitor nearby and asks why the gate is closed)
@@ -966,7 +969,8 @@ MonoBehaviour:
       editor: 0
     align: 0
     mode: 0
-    narration: []
+    narration:
+    - {fileID: 8300000, guid: 2e9363f7ac117aa4994a728bf6fc9f60, type: 3}
     script: 
   - name: Janice
     longText: "Oh, interesting! It\u2019s small, but it seems very peaceful and calm."
@@ -1693,7 +1697,8 @@ MonoBehaviour:
       editor: 0
     align: 0
     mode: 0
-    narration: []
+    narration:
+    - {fileID: 8300000, guid: a7b47829d5c6d1549aea1398c9fab9d9, type: 3}
     script: 
   - name: Sharon
     longText: Hello Jack! How are you feeling today?
@@ -1846,7 +1851,8 @@ MonoBehaviour:
       editor: 0
     align: 0
     mode: 0
-    narration: []
+    narration:
+    - {fileID: 8300000, guid: 5ef19f0811fdd28438763b20267053a5, type: 3}
     script: 
   - name: Janice
     longText: "Sharon, but there are very few people in the village. Is it always
@@ -2479,7 +2485,8 @@ MonoBehaviour:
       editor: 0
     align: 0
     mode: 0
-    narration: []
+    narration:
+    - {fileID: 8300000, guid: 3485f189222709b48a696831dc97db96, type: 3}
     script: 
   - name: Janice
     longText: (After taking shower, Jack sits at desk and takes out his diary.)
@@ -2802,7 +2809,7 @@ MonoBehaviour:
   dialogueSkin: {fileID: 11400000, guid: bcb23eae559494fb7b26ddfd27aa676e, type: 2}
   startOn: 0
   defaultImg: {fileID: 0}
-  defaultAudio: {fileID: 0}
+  defaultAudio: {fileID: 8300000, guid: 70aef251f6fc4cd498364dbec73c8188, type: 3}
   dialogue:
   - name: Jack
     longText: Jack arrives at Jomo Kenyatta International Airport.
@@ -2821,7 +2828,8 @@ MonoBehaviour:
       editor: 0
     align: 1
     mode: 3
-    narration: []
+    narration:
+    - {fileID: 8300000, guid: b32486590530d21479e61b829f8c2014, type: 3}
     script: 
   - name: Jack
     longText: "Phew, Kenya is just too hot. But I get to go on a Safari! Oh my god,
@@ -3195,7 +3203,8 @@ MonoBehaviour:
       editor: 0
     align: 0
     mode: 3
-    narration: []
+    narration:
+    - {fileID: 8300000, guid: 59d505869f280b84d8892507b2e5b007, type: 3}
     script: 
   - name: 
     longText: "--- Jack\u2019s group arrive at Tsavo East National Park ---"
@@ -3273,7 +3282,8 @@ MonoBehaviour:
       editor: 0
     align: 1
     mode: 0
-    narration: []
+    narration:
+    - {fileID: 8300000, guid: 5ef19f0811fdd28438763b20267053a5, type: 3}
     script: 
   - name: Sharon
     longText: "(looking anxious) But why is that door closed? That\u2019s the main
@@ -3557,7 +3567,8 @@ MonoBehaviour:
       editor: 0
     align: 0
     mode: 0
-    narration: []
+    narration:
+    - {fileID: 8300000, guid: 2e9363f7ac117aa4994a728bf6fc9f60, type: 3}
     script: 
   - name: Jack
     longText: "Oh, interesting! It\u2019s small, but it seems very peaceful and calm."
@@ -4284,7 +4295,8 @@ MonoBehaviour:
       editor: 0
     align: 0
     mode: 0
-    narration: []
+    narration:
+    - {fileID: 8300000, guid: a7b47829d5c6d1549aea1398c9fab9d9, type: 3}
     script: 
   - name: Sharon
     longText: Hello Jack! How are you feeling today?
@@ -4457,7 +4469,8 @@ MonoBehaviour:
       editor: 0
     align: 1
     mode: 3
-    narration: []
+    narration:
+    - {fileID: 8300000, guid: 5ef19f0811fdd28438763b20267053a5, type: 3}
     script: 
   - name: Sharon
     longText: "No\u2026 I brought you here because this week is village\u2019s festival
@@ -5070,7 +5083,8 @@ MonoBehaviour:
       editor: 0
     align: 0
     mode: 0
-    narration: []
+    narration:
+    - {fileID: 8300000, guid: 3485f189222709b48a696831dc97db96, type: 3}
     script: 
   - name: Jack
     longText: (After taking shower, Jack sits at desk and takes out his diary.)

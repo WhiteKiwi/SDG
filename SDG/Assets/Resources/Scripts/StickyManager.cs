@@ -19,7 +19,7 @@ public class StickyManager : MonoBehaviour {
 			// 4
 			new string[]{ "Economic\ngrowth\nindicator", "Global\nUnemployment\nRate", "Global\nindustrial\nstructure" },
 			// 5
-			new string[]{ "", "", "" },
+			new string[]{ "Infrastructure", "Employment\nRate", "National\nEconomic\nProject" },
 			// 6
 			new string[]{ "", "", "" },
 			// 7

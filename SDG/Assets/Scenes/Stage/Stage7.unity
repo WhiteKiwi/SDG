@@ -113,158 +113,17 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1 &44611012
+--- !u!1 &64655093
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   serializedVersion: 5
   m_Component:
-  - component: {fileID: 44611014}
-  - component: {fileID: 44611013}
-  m_Layer: 0
-  m_Name: DialogueMan
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &44611013
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 44611012}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 469236168daaae04a8053f8f414d2434, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  dialogueSkin: {fileID: 0}
-  startOn: 0
-  defaultImg: {fileID: 0}
-  defaultAudio: {fileID: 0}
-  dialogue:
-  - name: 
-    longText: 
-    img: {fileID: 0}
-    choices: []
-    choiceMode: 0
-    links: []
-    next: 0
-    editor: 0
-    pos: 1
-    passwords: []
-    incorrect: 0
-    exit:
-      shortText: 
-      next: 0
-      editor: 0
-    align: 0
-    mode: 0
-    narration: []
-    script: 
-  bools: 00000000
-  ints: 00000000000000000000000000000000
-  strings:
-  - 
-  - 
-  - 
-  - 
-  backgroundImages: []
-  background: {fileID: 326715492}
---- !u!4 &44611014
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 44611012}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 440.83115, y: 288.77646, z: 13.427404}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &326715491
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 326715494}
-  - component: {fileID: 326715493}
-  - component: {fileID: 326715492}
-  m_Layer: 5
-  m_Name: Image
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &326715492
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 326715491}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 2644781dd88c98143ba0876772a13fd5, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
---- !u!222 &326715493
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 326715491}
---- !u!224 &326715494
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 326715491}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 375076016}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!1 &375076012
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 375076016}
-  - component: {fileID: 375076015}
-  - component: {fileID: 375076014}
-  - component: {fileID: 375076013}
+  - component: {fileID: 64655094}
+  - component: {fileID: 64655097}
+  - component: {fileID: 64655096}
+  - component: {fileID: 64655095}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -272,12 +131,31 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &375076013
+--- !u!224 &64655094
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 64655093}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_Children:
+  - {fileID: 1214289195}
+  m_Father: {fileID: 0}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0, y: 0}
+--- !u!114 &64655095
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 375076012}
+  m_GameObject: {fileID: 64655093}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 1301386320, guid: f70555f144d8491a825f0804e09c671c, type: 3}
@@ -288,12 +166,12 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 4294967295
---- !u!114 &375076014
+--- !u!114 &64655096
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 375076012}
+  m_GameObject: {fileID: 64655093}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 1980459831, guid: f70555f144d8491a825f0804e09c671c, type: 3}
@@ -309,12 +187,12 @@ MonoBehaviour:
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
   m_DynamicPixelsPerUnit: 1
---- !u!223 &375076015
+--- !u!223 &64655097
 Canvas:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 375076012}
+  m_GameObject: {fileID: 64655093}
   m_Enabled: 1
   serializedVersion: 3
   m_RenderMode: 0
@@ -329,25 +207,6 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
---- !u!224 &375076016
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 375076012}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0, y: 0, z: 0}
-  m_Children:
-  - {fileID: 326715494}
-  m_Father: {fileID: 0}
-  m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
-  m_Pivot: {x: 0, y: 0}
 --- !u!1 &751886819
 GameObject:
   m_ObjectHideFlags: 0
@@ -429,15 +288,800 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1052500828
+--- !u!1 &913076971
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   serializedVersion: 5
   m_Component:
-  - component: {fileID: 1052500830}
-  - component: {fileID: 1052500829}
+  - component: {fileID: 913076973}
+  - component: {fileID: 913076972}
+  m_Layer: 0
+  m_Name: DialogueMan
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &913076972
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 913076971}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 469236168daaae04a8053f8f414d2434, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogueSkin: {fileID: 11400000, guid: bcb23eae559494fb7b26ddfd27aa676e, type: 2}
+  startOn: 0
+  defaultImg: {fileID: 0}
+  defaultAudio: {fileID: 8300000, guid: 7b2597164c0274f489786d646c5bcf6e, type: 3}
+  dialogue:
+  - name: 
+    longText: '---Next morning---'
+    img: {fileID: 0}
+    choices: []
+    choiceMode: 0
+    links: []
+    next: 1
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: 
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: 
+    longText: 'Jack walks out of hotel lobby '
+    img: {fileID: 0}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 2
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Han
+    longText: Good Morning OOO! How are you today?
+    img: {fileID: 2800000, guid: 503df18535e52404f86bd51db16de38f, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 3
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Jack
+    longText: "Very Good! :) I\u2019m so thrilled to visit today\u2019s place. It
+      feels like I\u2019m visiting taboo place."
+    img: {fileID: 2800000, guid: e803eb93a737e3e41b7d384e80703537, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 4
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 1
+    mode: 0
+    narration: []
+    script: 
+  - name: Han
+    longText: Taboo place? Haha. How was your walk around Seoul yesterday? You said
+      you would travel around Seoul by yourself.
+    img: {fileID: 2800000, guid: 6189b0500e7de244a9b5f0a35822fd6e, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 5
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Jack
+    longText: It was great. Especially, Bulgogi! I fell in love with that menu!
+    img: {fileID: 2800000, guid: 159f1fcc373533f418eabc87a9ca7618, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 6
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 1
+    mode: 0
+    narration: []
+    script: 
+  - name: Han
+    longText: "Oh, you tried Bulgogi? Great!\r\n"
+    img: {fileID: 2800000, guid: 503df18535e52404f86bd51db16de38f, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 7
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: 
+    longText: Jack and Han gets on the car
+    img: {fileID: 0}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 8
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Han
+    longText: "So, what do you think of today\u2019s place we are visiting?\r\n"
+    img: {fileID: 2800000, guid: 6189b0500e7de244a9b5f0a35822fd6e, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 9
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Jack
+    longText: DMZ! I wonder its atmosphere and people there!
+    img: {fileID: 2800000, guid: 159f1fcc373533f418eabc87a9ca7618, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 10
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 1
+    mode: 0
+    narration: []
+    script: 
+  - name: Han
+    longText: "It would take about an hour. \r\n"
+    img: {fileID: 2800000, guid: 6189b0500e7de244a9b5f0a35822fd6e, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 11
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: 
+    longText: '--- Jack and Han arrives at Korean Demilitarized Zone ---'
+    img: {fileID: 0}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 12
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Jack
+    longText: "(in whispering voice) Han, it\u2019s very quiet here.\r\n"
+    img: {fileID: 2800000, guid: 159f1fcc373533f418eabc87a9ca7618, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 13
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 1
+    mode: 0
+    narration: []
+    script: 
+  - name: Han
+    longText: "Where do you want to go first? \r\n"
+    img: {fileID: 2800000, guid: 503df18535e52404f86bd51db16de38f, type: 3}
+    choices:
+    - shortText: Maybe JSA.
+      next: 15
+      editor: 0
+    - shortText: I don't know which place I should place I should visit first.
+      next: 22
+      editor: 0
+    choiceMode: 0
+    links: []
+    next: 14
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 1
+    narration: []
+    script: 
+  - name: Name
+    longText: New entry
+    img: {fileID: 0}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 0
+    editor: 0
+    pos: 0
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Han
+    longText: Okay, this way, please.
+    img: {fileID: 2800000, guid: 6189b0500e7de244a9b5f0a35822fd6e, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 16
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 3
+    narration: []
+    script: 
+  - name: Jack
+    longText: "Wow!\r\n"
+    img: {fileID: 2800000, guid: e803eb93a737e3e41b7d384e80703537, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 17
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 1
+    mode: 0
+    narration: []
+    script: 
+  - name: Han
+    longText: The Joint Security Area (JSA) is the only portion of the Korean Demilitarized
+      Zone (DMZ) where North and South Korean forces stand face-to-face. It is often
+      called the Truce Village of Panmunjom (the Truce Village; or simply, Panmunjom)
+      in the media and various military accounts.
+    img: {fileID: 2800000, guid: 6189b0500e7de244a9b5f0a35822fd6e, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 18
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Jack
+    longText: Can I go across that line?
+    img: {fileID: 2800000, guid: e803eb93a737e3e41b7d384e80703537, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 19
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 1
+    mode: 0
+    narration: []
+    script: 
+  - name: Han
+    longText: Beyond that line is North Korea.  Plus, if we go too near, we will be
+      interrupted by the soldiers.
+    img: {fileID: 2800000, guid: 6189b0500e7de244a9b5f0a35822fd6e, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 20
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Jack
+    longText: I expected more bright, warm relationships between two nations. There
+      was an inter-Korea summit few days ago.
+    img: {fileID: 2800000, guid: 159f1fcc373533f418eabc87a9ca7618, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 21
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 1
+    mode: 0
+    narration: []
+    script: 
+  - name: Han
+    longText: 'But atmosphere of Panmunjom is still intense. Also, you are a foreigner,
+      so you should be more careful with your action. '
+    img: {fileID: 2800000, guid: 6189b0500e7de244a9b5f0a35822fd6e, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 23
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Han
+    longText: How about visiting JSA first? I will guide you through Panmunjom.
+    img: {fileID: 2800000, guid: 503df18535e52404f86bd51db16de38f, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 23
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Jack
+    longText: 'Oh, by the way, what does South Korean think of North Korea after the
+      summit? Just wondering. '
+    img: {fileID: 2800000, guid: e803eb93a737e3e41b7d384e80703537, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 24
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 1
+    mode: 0
+    narration: []
+    script: 
+  - name: Han
+    longText: 'People have various different thoughts. Some says 2 nations should
+      be united as there are many separate families and spending for national security.
+      But others point out that North Korea and South Korea have already became two
+      separate nations. '
+    img: {fileID: 2800000, guid: 503df18535e52404f86bd51db16de38f, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 25
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Jack
+    longText: "How about you?\r\nHan: There sure will be many obstacles, but as Korea
+      peninsula is the only separated nations, we should find a measure to maintain
+      peace. It could be unification, but there could be other measures, too. \r\n"
+    img: {fileID: 2800000, guid: 159f1fcc373533f418eabc87a9ca7618, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 26
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 1
+    mode: 0
+    narration: []
+    script: 
+  - name: 
+    longText: Jack arrives at his hotel room after the tour.
+    img: {fileID: 0}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 27
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Jack
+    longText: "Today is my last night in Korea. Time flies! I want to stay here longer.\r\n"
+    img: {fileID: 2800000, guid: e803eb93a737e3e41b7d384e80703537, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 27
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 3
+    narration: []
+    script: UnityEngine.SceneManagement.SceneManager.LoadScene("HashTag");
+  bools: 00000000
+  ints: 00000000000000000000000000000000
+  strings:
+  - 
+  - 
+  - 
+  - 
+  backgroundImages:
+  - {fileID: 21300000, guid: 81dcb98b8fe2065499d44b1df19a320d, type: 3}
+  background: {fileID: 1214289193}
+--- !u!4 &913076973
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 913076971}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 355.1392, y: 258.02634, z: 8.5}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1214289192
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1874081898904120, guid: 35834dfd281332f43ad00ed686f2f409,
+    type: 2}
+  m_PrefabInternal: {fileID: 1505224683}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1214289195}
+  - component: {fileID: 1214289194}
+  - component: {fileID: 1214289193}
+  m_Layer: 5
+  m_Name: Image
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1214289193
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 114335622257322326, guid: 35834dfd281332f43ad00ed686f2f409,
+    type: 2}
+  m_PrefabInternal: {fileID: 1505224683}
+  m_GameObject: {fileID: 1214289192}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 21300000, guid: eae80b9833a67b644922236fb2e1c1ec, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+--- !u!222 &1214289194
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 222907835168898204, guid: 35834dfd281332f43ad00ed686f2f409,
+    type: 2}
+  m_PrefabInternal: {fileID: 1505224683}
+  m_GameObject: {fileID: 1214289192}
+--- !u!224 &1214289195
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 224134530569732466, guid: 35834dfd281332f43ad00ed686f2f409,
+    type: 2}
+  m_PrefabInternal: {fileID: 1505224683}
+  m_GameObject: {fileID: 1214289192}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 64655094}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1001 &1505224683
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 64655094}
+    m_Modifications:
+    - target: {fileID: 224134530569732466, guid: 35834dfd281332f43ad00ed686f2f409,
+        type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224134530569732466, guid: 35834dfd281332f43ad00ed686f2f409,
+        type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224134530569732466, guid: 35834dfd281332f43ad00ed686f2f409,
+        type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224134530569732466, guid: 35834dfd281332f43ad00ed686f2f409,
+        type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224134530569732466, guid: 35834dfd281332f43ad00ed686f2f409,
+        type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224134530569732466, guid: 35834dfd281332f43ad00ed686f2f409,
+        type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224134530569732466, guid: 35834dfd281332f43ad00ed686f2f409,
+        type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 224134530569732466, guid: 35834dfd281332f43ad00ed686f2f409,
+        type: 2}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224134530569732466, guid: 35834dfd281332f43ad00ed686f2f409,
+        type: 2}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224134530569732466, guid: 35834dfd281332f43ad00ed686f2f409,
+        type: 2}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224134530569732466, guid: 35834dfd281332f43ad00ed686f2f409,
+        type: 2}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224134530569732466, guid: 35834dfd281332f43ad00ed686f2f409,
+        type: 2}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224134530569732466, guid: 35834dfd281332f43ad00ed686f2f409,
+        type: 2}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224134530569732466, guid: 35834dfd281332f43ad00ed686f2f409,
+        type: 2}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224134530569732466, guid: 35834dfd281332f43ad00ed686f2f409,
+        type: 2}
+      propertyPath: m_AnchorMax.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 224134530569732466, guid: 35834dfd281332f43ad00ed686f2f409,
+        type: 2}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 224134530569732466, guid: 35834dfd281332f43ad00ed686f2f409,
+        type: 2}
+      propertyPath: m_Pivot.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 224134530569732466, guid: 35834dfd281332f43ad00ed686f2f409,
+        type: 2}
+      propertyPath: m_Pivot.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 114335622257322326, guid: 35834dfd281332f43ad00ed686f2f409,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: eae80b9833a67b644922236fb2e1c1ec,
+        type: 3}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 35834dfd281332f43ad00ed686f2f409, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1 &1706342874
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1706342876}
+  - component: {fileID: 1706342875}
   m_Layer: 5
   m_Name: DialogueManager
   m_TagString: Untagged
@@ -445,25 +1089,25 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1052500829
+--- !u!114 &1706342875
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1052500828}
+  m_GameObject: {fileID: 1706342874}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8da5c3c4942977a4c9341c36251f03cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dialogueMan: {fileID: 44611012}
-  dialogueWoman: {fileID: 0}
---- !u!224 &1052500830
+  dialogueMan: {fileID: 913076971}
+  dialogueWoman: {fileID: 1804844951}
+--- !u!224 &1706342876
 RectTransform:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1052500828}
+  m_GameObject: {fileID: 1706342874}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -476,6 +1120,613 @@ RectTransform:
   m_AnchoredPosition: {x: 467, y: 276.50003}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &1804844951
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1804844953}
+  - component: {fileID: 1804844952}
+  m_Layer: 0
+  m_Name: DialogueWoman
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1804844952
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1804844951}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 469236168daaae04a8053f8f414d2434, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogueSkin: {fileID: 11400000, guid: bcb23eae559494fb7b26ddfd27aa676e, type: 2}
+  startOn: 0
+  defaultImg: {fileID: 0}
+  defaultAudio: {fileID: 8300000, guid: 7b2597164c0274f489786d646c5bcf6e, type: 3}
+  dialogue:
+  - name: 
+    longText: '---Next morning---'
+    img: {fileID: 0}
+    choices: []
+    choiceMode: 0
+    links: []
+    next: 1
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: 
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: 
+    longText: 'Jack walks out of hotel lobby '
+    img: {fileID: 0}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 2
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Han
+    longText: Good Morning OOO! How are you today?
+    img: {fileID: 2800000, guid: 503df18535e52404f86bd51db16de38f, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 3
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Janice
+    longText: "Very Good! :) I\u2019m so thrilled to visit today\u2019s place. It
+      feels like I\u2019m visiting taboo place."
+    img: {fileID: 2800000, guid: e87d8e2e19d2821489afc0cbafdf8254, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 4
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 1
+    mode: 0
+    narration: []
+    script: 
+  - name: Han
+    longText: Taboo place? Haha. How was your walk around Seoul yesterday? You said
+      you would travel around Seoul by yourself.
+    img: {fileID: 2800000, guid: 6189b0500e7de244a9b5f0a35822fd6e, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 5
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Janice
+    longText: It was great. Especially, Bulgogi! I fell in love with that menu!
+    img: {fileID: 2800000, guid: ecad5b8a47d7c884e9bd530449ae3e50, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 6
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 1
+    mode: 0
+    narration: []
+    script: 
+  - name: Han
+    longText: "Oh, you tried Bulgogi? Great!\r\n"
+    img: {fileID: 2800000, guid: 503df18535e52404f86bd51db16de38f, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 7
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: 
+    longText: Jack and Han gets on the car
+    img: {fileID: 0}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 8
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Han
+    longText: "So, what do you think of today\u2019s place we are visiting?\r\n"
+    img: {fileID: 2800000, guid: 6189b0500e7de244a9b5f0a35822fd6e, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 9
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Janice
+    longText: DMZ! I wonder its atmosphere and people there!
+    img: {fileID: 2800000, guid: ecad5b8a47d7c884e9bd530449ae3e50, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 10
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 1
+    mode: 0
+    narration: []
+    script: 
+  - name: Han
+    longText: "It would take about an hour. \r\n"
+    img: {fileID: 2800000, guid: 6189b0500e7de244a9b5f0a35822fd6e, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 11
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: 
+    longText: '--- Jack and Han arrives at Korean Demilitarized Zone ---'
+    img: {fileID: 0}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 12
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Janice
+    longText: "(in whispering voice) Han, it\u2019s very quiet here.\r\n"
+    img: {fileID: 2800000, guid: ecad5b8a47d7c884e9bd530449ae3e50, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 13
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 1
+    mode: 0
+    narration: []
+    script: 
+  - name: Han
+    longText: "Where do you want to go first? \r\n"
+    img: {fileID: 2800000, guid: 503df18535e52404f86bd51db16de38f, type: 3}
+    choices:
+    - shortText: Maybe JSA.
+      next: 15
+      editor: 0
+    - shortText: I don't know which place I should place I should visit first.
+      next: 22
+      editor: 0
+    choiceMode: 0
+    links: []
+    next: 14
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 1
+    narration: []
+    script: 
+  - name: Name
+    longText: New entry
+    img: {fileID: 0}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 0
+    editor: 0
+    pos: 0
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Han
+    longText: Okay, this way, please.
+    img: {fileID: 2800000, guid: 6189b0500e7de244a9b5f0a35822fd6e, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 16
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 3
+    narration: []
+    script: 
+  - name: Janice
+    longText: "Wow!\r\n"
+    img: {fileID: 2800000, guid: e87d8e2e19d2821489afc0cbafdf8254, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 17
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 1
+    mode: 0
+    narration: []
+    script: 
+  - name: Han
+    longText: The Joint Security Area (JSA) is the only portion of the Korean Demilitarized
+      Zone (DMZ) where North and South Korean forces stand face-to-face. It is often
+      called the Truce Village of Panmunjom (the Truce Village; or simply, Panmunjom)
+      in the media and various military accounts.
+    img: {fileID: 2800000, guid: 6189b0500e7de244a9b5f0a35822fd6e, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 18
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Janice
+    longText: Can I go across that line?
+    img: {fileID: 2800000, guid: e87d8e2e19d2821489afc0cbafdf8254, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 19
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 1
+    mode: 0
+    narration: []
+    script: 
+  - name: Han
+    longText: Beyond that line is North Korea.  Plus, if we go too near, we will be
+      interrupted by the soldiers.
+    img: {fileID: 2800000, guid: 6189b0500e7de244a9b5f0a35822fd6e, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 20
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Janice
+    longText: I expected more bright, warm relationships between two nations. There
+      was an inter-Korea summit few days ago.
+    img: {fileID: 2800000, guid: ecad5b8a47d7c884e9bd530449ae3e50, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 21
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 1
+    mode: 0
+    narration: []
+    script: 
+  - name: Han
+    longText: 'But atmosphere of Panmunjom is still intense. Also, you are a foreigner,
+      so you should be more careful with your action. '
+    img: {fileID: 2800000, guid: 6189b0500e7de244a9b5f0a35822fd6e, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 23
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Han
+    longText: How about visiting JSA first? I will guide you through Panmunjom.
+    img: {fileID: 2800000, guid: 503df18535e52404f86bd51db16de38f, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 23
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Janice
+    longText: 'Oh, by the way, what does South Korean think of North Korea after the
+      summit? Just wondering. '
+    img: {fileID: 2800000, guid: e87d8e2e19d2821489afc0cbafdf8254, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 24
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 1
+    mode: 0
+    narration: []
+    script: 
+  - name: Han
+    longText: 'People have various different thoughts. Some says 2 nations should
+      be united as there are many separate families and spending for national security.
+      But others point out that North Korea and South Korea have already became two
+      separate nations. '
+    img: {fileID: 2800000, guid: 503df18535e52404f86bd51db16de38f, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 25
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Janice
+    longText: "How about you?\r\nHan: There sure will be many obstacles, but as Korea
+      peninsula is the only separated nations, we should find a measure to maintain
+      peace. It could be unification, but there could be other measures, too. \r\n"
+    img: {fileID: 2800000, guid: ecad5b8a47d7c884e9bd530449ae3e50, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 26
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 1
+    mode: 0
+    narration: []
+    script: 
+  - name: 
+    longText: Jack arrives at his hotel room after the tour.
+    img: {fileID: 0}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 27
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Janice
+    longText: "Today is my last night in Korea. Time flies! I want to stay here longer.\r\n"
+    img: {fileID: 2800000, guid: e87d8e2e19d2821489afc0cbafdf8254, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 27
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 3
+    narration: []
+    script: UnityEngine.SceneManagement.SceneManager.LoadScene("HashTag");
+  bools: 00000000
+  ints: 00000000000000000000000000000000
+  strings:
+  - 
+  - 
+  - 
+  - 
+  backgroundImages:
+  - {fileID: 21300000, guid: 81dcb98b8fe2065499d44b1df19a320d, type: 3}
+  background: {fileID: 1214289193}
+--- !u!4 &1804844953
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1804844951}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 355.1392, y: 258.02634, z: 8.5}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1836304381
 GameObject:
   m_ObjectHideFlags: 0

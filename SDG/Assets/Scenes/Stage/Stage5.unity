@@ -178,6 +178,1234 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!1 &867335227
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 867335229}
+  - component: {fileID: 867335228}
+  m_Layer: 0
+  m_Name: DialogueMan
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &867335228
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 867335227}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 469236168daaae04a8053f8f414d2434, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogueSkin: {fileID: 11400000, guid: bcb23eae559494fb7b26ddfd27aa676e, type: 2}
+  startOn: 0
+  defaultImg: {fileID: 0}
+  defaultAudio: {fileID: 8300000, guid: 7b2597164c0274f489786d646c5bcf6e, type: 3}
+  dialogue:
+  - name: Jack
+    longText: "Next country to travel after Myanmar is China. I bet China\u2019s economic
+      development level would be similar to Myanmar, since they are near to each other.
+      Anyways, I am so excited to visit China! I would get to walk along the Great
+      Wall of China, finally."
+    img: {fileID: 2800000, guid: 159f1fcc373533f418eabc87a9ca7618, type: 3}
+    choices: []
+    choiceMode: 0
+    links: []
+    next: 1
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: 
+      next: 0
+      editor: 0
+    align: 1
+    mode: 3
+    narration: []
+    script: 
+  - name: 
+    longText: "Jack arrives at Shanghai Beijing Capital International Airport.\r\n"
+    img: {fileID: 0}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 2
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: ???
+    longText: Jack!! Jack!!
+    img: {fileID: 2800000, guid: 648b074ae00117b41872942536a86064, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 3
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Jack
+    longText: "Wow, his voice is very big. Yes, I\u2019m here! (approaches to the
+      guide)"
+    img: {fileID: 2800000, guid: e803eb93a737e3e41b7d384e80703537, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 4
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 1
+    mode: 0
+    narration: []
+    script: 
+  - name: ???
+    longText: "Hi, Jack! I\u2019m your guide, Kuang. "
+    img: {fileID: 2800000, guid: ebf91b9897bf2d74c9c82b0af5534e7c, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 5
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Jack
+    longText: "Hi, Kuang! It\u2019s nice to see you."
+    img: {fileID: 2800000, guid: 159f1fcc373533f418eabc87a9ca7618, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 6
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 1
+    mode: 0
+    narration: []
+    script: 
+  - name: Kuang
+    longText: "Are there any place you wanted to visit? I was planning to take you
+      to Great Wall of China first, if you don\u2019t mind."
+    img: {fileID: 2800000, guid: 648b074ae00117b41872942536a86064, type: 3}
+    choices:
+    - shortText: I always wished to visit Great Wall of China
+      next: 7
+      editor: 0
+    - shortText: I don't know where to visit. Can you suggest any place to go?
+      next: 26
+      editor: 0
+    choiceMode: 0
+    links: []
+    next: 0
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 1
+    narration: []
+    script: 
+  - name: Jack
+    longText: It was the exact place where I wanted to visit! Visiting Great Wall
+      of China has been one of my bucket list!
+    img: {fileID: 2800000, guid: e803eb93a737e3e41b7d384e80703537, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 8
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 1
+    mode: 0
+    narration: []
+    script: 
+  - name: Kuang
+    longText: "Wow, you are very energetic! Then let\u2019s visit there first. Please
+      get on the car.\r\n"
+    img: {fileID: 2800000, guid: 648b074ae00117b41872942536a86064, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 9
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 3
+    narration: []
+    script: 
+  - name: 
+    longText: '--- in the car ---'
+    img: {fileID: 0}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 10
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Kuang
+    longText: "So, Jack, you are traveling around the world? Which countries have
+      you traveled so far?\r\n"
+    img: {fileID: 2800000, guid: ebf91b9897bf2d74c9c82b0af5534e7c, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 11
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Jack
+    longText: 'Oh, I still have many countries left to visit. I traveled Mali, Kenya,
+      Afghanistan, and Myanmar. '
+    img: {fileID: 2800000, guid: e803eb93a737e3e41b7d384e80703537, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 12
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 1
+    mode: 0
+    narration: []
+    script: 
+  - name: Kuang
+    longText: "Wow, 4 countries! Are you planning to travel all 5 continents?\r\n"
+    img: {fileID: 2800000, guid: 648b074ae00117b41872942536a86064, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 13
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Jack
+    longText: Of course!
+    img: {fileID: 2800000, guid: 159f1fcc373533f418eabc87a9ca7618, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 14
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 1
+    mode: 0
+    narration: []
+    script: 
+  - name: Kuang
+    longText: "Cool! Then, what do you want to experience and get in China? \r\n"
+    img: {fileID: 2800000, guid: 648b074ae00117b41872942536a86064, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 15
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Jack
+    longText: "Umm\u2026 I want to experience Chinese local culture. Distinguished
+      from other countries. \r\n"
+    img: {fileID: 2800000, guid: 159f1fcc373533f418eabc87a9ca7618, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 16
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 1
+    mode: 0
+    narration: []
+    script: 
+  - name: 
+    longText: "\r(Jack and Kuang arrives at Great Wall of China)\r\n"
+    img: {fileID: 0}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 17
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Kuang
+    longText: Do you know which king ordered to build Great Wall of China?
+    img: {fileID: 2800000, guid: 648b074ae00117b41872942536a86064, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 18
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Jack
+    longText: "I learned during history class when I was in elementary school. It\u2019s
+      Qin Shi Huang. \r\n"
+    img: {fileID: 2800000, guid: 159f1fcc373533f418eabc87a9ca7618, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 19
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 1
+    mode: 0
+    narration: []
+    script: 
+  - name: Kuang
+    longText: "Right, but what is more interesting is scale of building. This wall
+      was enormous. When Emperor Qin Shi Huang ordered construction of the Great Wall,
+      the labor force that build the wall was made up largely of soldiers and convicts.\r\n"
+    img: {fileID: 2800000, guid: 648b074ae00117b41872942536a86064, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 20
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Kuang
+    longText: "It is said that as many as 400,000 people died during the wall\u2019s
+      construction, and guess what? It is believed that many of these workers were
+      buried within the wall itself. "
+    img: {fileID: 2800000, guid: ebf91b9897bf2d74c9c82b0af5534e7c, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 21
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 3
+    narration: []
+    script: 
+  - name: Jack
+    longText: Interesting! Its scale is surprising.
+    img: {fileID: 2800000, guid: e803eb93a737e3e41b7d384e80703537, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 22
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 1
+    mode: 0
+    narration: []
+    script: 
+  - name: Kuang
+    longText: "Also, look at that carving on the wall. Do you see them? \r\n"
+    img: {fileID: 2800000, guid: ebf91b9897bf2d74c9c82b0af5534e7c, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 23
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: 
+    longText: "\u2026.."
+    img: {fileID: 0}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 24
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: 
+    longText: (Jack finishes the tour and gets back to the car)
+    img: {fileID: 0}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 25
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Jack
+    longText: Where do we go next, Kuang?
+    img: {fileID: 2800000, guid: 159f1fcc373533f418eabc87a9ca7618, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 41
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Kuang
+    longText: "How about visiting Olympic Park? It was where number of Olympic matches
+      like soccer and swimming were held, in 2008 Beijing Olympics. There are several
+      fine shopping malls and restaurants around there, too.\r\n"
+    img: {fileID: 2800000, guid: ebf91b9897bf2d74c9c82b0af5534e7c, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 27
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 3
+    narration: []
+    script: 
+  - name: Jack
+    longText: "Great! Let\u2019s go there then.\r\n"
+    img: {fileID: 2800000, guid: e803eb93a737e3e41b7d384e80703537, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 28
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 1
+    mode: 3
+    narration: []
+    script: 
+  - name: 
+    longText: "\r(Jack and Kuang arrives at Beijing Olympic Park and look around)\r\n"
+    img: {fileID: 0}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 29
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 3
+    narration: []
+    script: 
+  - name: Jack
+    longText: "Wow, this stadium is enormous. I\u2019m again surprised at China\u2019s
+      scale!\r\n"
+    img: {fileID: 2800000, guid: e803eb93a737e3e41b7d384e80703537, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 30
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 1
+    mode: 0
+    narration: []
+    script: 
+  - name: Kuang
+    longText: Would you like to eat something? How about going to restaurant nearby?
+    img: {fileID: 2800000, guid: ebf91b9897bf2d74c9c82b0af5534e7c, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 31
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Jack
+    longText: "I\u2019m starving! Let\u2019s go!\r\n"
+    img: {fileID: 2800000, guid: e803eb93a737e3e41b7d384e80703537, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 32
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 1
+    mode: 0
+    narration: []
+    script: 
+  - name: 
+    longText: (Kuang and Jack walks around the streets near Beijing Olympic Park)
+    img: {fileID: 0}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 33
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Jack
+    longText: "Wow, I was underestimating China, for sure. It developed so much. It
+      is very different from 8 years ago when I visited Beijing with my family.\r\n"
+    img: {fileID: 2800000, guid: e803eb93a737e3e41b7d384e80703537, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 34
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 1
+    mode: 0
+    narration: []
+    script: 
+  - name: Kuang
+    longText: Hahaha! China surely has changed a lot, compared with 8 years ago!
+    img: {fileID: 2800000, guid: 648b074ae00117b41872942536a86064, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 35
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Jack
+    longText: "Actually, I traveled Myanmar before here, and I expected China and
+      Myanmar to be similar. But China\u2019s economy is very developed than I expected!"
+    img: {fileID: 2800000, guid: 159f1fcc373533f418eabc87a9ca7618, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 36
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 1
+    mode: 0
+    narration: []
+    script: 
+  - name: Kuang
+    longText: "The Chinese government has spent more than $1bn on domestic start-ups.
+      Especially, China is providing great support to artificial intelligence and
+      other high-technologies. Haven\u2019t you heard of any Chinese IT companies?\r\n"
+    img: {fileID: 2800000, guid: ebf91b9897bf2d74c9c82b0af5534e7c, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 37
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Jack
+    longText: " I don\u2019t know any of them, I think."
+    img: {fileID: 2800000, guid: 159f1fcc373533f418eabc87a9ca7618, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 38
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 1
+    mode: 0
+    narration: []
+    script: 
+  - name: Kuang
+    longText: "Alibaba, Lenovo, Xiaomi,.... These are all Chinese IT/technology companies.\r\n"
+    img: {fileID: 2800000, guid: ebf91b9897bf2d74c9c82b0af5534e7c, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 39
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Jack
+    longText: "What? Really? I use Xiaomi supplementary battery and Lenovo Notebook!
+      But I had no idea where those companies are from. \r\n"
+    img: {fileID: 2800000, guid: e803eb93a737e3e41b7d384e80703537, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 40
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 1
+    mode: 0
+    narration: []
+    script: 
+  - name: Kuang
+    longText: "If you are interested, we can visit China\u2019s biggest silicon valley
+      tomorrow. It\u2019s near Beijing.\r\n"
+    img: {fileID: 2800000, guid: ebf91b9897bf2d74c9c82b0af5534e7c, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 41
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Jack
+    longText: "Thank you for today\u2019s guidance, Kuang!\r\nKuang: You\u2019re welcome!
+      Please be at your hotel lobby until 9am tomorrow!\r\n"
+    img: {fileID: 2800000, guid: e803eb93a737e3e41b7d384e80703537, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 42
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 1
+    mode: 0
+    narration: []
+    script: 
+  - name: 
+    longText: '--- A day after ---'
+    img: {fileID: 0}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 43
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Jack
+    longText: Hi Kuang!
+    img: {fileID: 2800000, guid: 159f1fcc373533f418eabc87a9ca7618, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 44
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 1
+    mode: 0
+    narration: []
+    script: 
+  - name: Kuang
+    longText: "Hi! Are you ready for today\u2019s schedule?"
+    img: {fileID: 2800000, guid: ebf91b9897bf2d74c9c82b0af5534e7c, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 45
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Jack
+    longText: "Sure I am! Let\u2019s go!\r\n"
+    img: {fileID: 2800000, guid: e803eb93a737e3e41b7d384e80703537, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 46
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 1
+    mode: 0
+    narration: []
+    script: 
+  - name: 
+    longText: "--- Jack and Kuang\u2019s car stops --- \r"
+    img: {fileID: 0}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 47
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Kuang
+    longText: "Here we are, Jack! Do you know where this is?\r\n"
+    img: {fileID: 2800000, guid: ebf91b9897bf2d74c9c82b0af5534e7c, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 48
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Jack
+    longText: I have no idea!
+    img: {fileID: 2800000, guid: e803eb93a737e3e41b7d384e80703537, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 49
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 1
+    mode: 0
+    narration: []
+    script: 
+  - name: Kuang
+    longText: "This city is called Zhongguancun, and this city is a technology hub.
+      It is often referred as China\u2019s silicon valley.\r\n"
+    img: {fileID: 2800000, guid: ebf91b9897bf2d74c9c82b0af5534e7c, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 50
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Jack
+    longText: "Cool! Oh! There\u2019s Lenovo over there!\r\n"
+    img: {fileID: 2800000, guid: e803eb93a737e3e41b7d384e80703537, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 51
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 1
+    mode: 0
+    narration: []
+    script: 
+  - name: Kuang
+    longText: "Beside Lenovo, several world-renowned technology companies built their
+      Chinese headquarters and research centers in Zhongguancun Technology Park, such
+      as Google, Intel, Oracle Corporation, and Sony. \r\n"
+    img: {fileID: 2800000, guid: ebf91b9897bf2d74c9c82b0af5534e7c, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 52
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Kuang
+    longText: 'The Chinese Academy of Sciences, as well as a dozen famous colleges
+      and universities, including Beijing and Qinghua Universities are located in
+      Zhongguancun in Beijing''s Haidian District. '
+    img: {fileID: 2800000, guid: 648b074ae00117b41872942536a86064, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 53
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Kuang
+    longText: "The area has a dynamic economy that focuses on the knowledge and information
+      industries. The average age of the several hundred thousands of employees in
+      Zhongguancun is about 30; and the area of Zhongguancun is popularly known as
+      the Silicon Valley of China.\r\n"
+    img: {fileID: 2800000, guid: ebf91b9897bf2d74c9c82b0af5534e7c, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 54
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Jack
+    longText: "But why Zhongguancun? Is there any special reason why such a big company
+      group was formed in here?\r\n"
+    img: {fileID: 2800000, guid: e803eb93a737e3e41b7d384e80703537, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 55
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 1
+    mode: 0
+    narration: []
+    script: 
+  - name: Kuang
+    longText: Since 1978, when China started to implement the policies of reform and
+      opening-up, various special economic zones were established, such as the city
+      of Shenzhen in Guangdong Province in the 1980s, the new district of Pudong in
+      the Shanghai Municipality in the 1990s, and Zhongguancun in Beijing in the late
+      1990's. It has been forecasted that Zhongguancun will become the leader of China's
+      hi-tech industry in the 21st century.
+    img: {fileID: 2800000, guid: ebf91b9897bf2d74c9c82b0af5534e7c, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 56
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Jack
+    longText: "And that anticipation was realized! This place is so cool! \r\n"
+    img: {fileID: 2800000, guid: e803eb93a737e3e41b7d384e80703537, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 57
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 1
+    mode: 0
+    narration: []
+    script: 
+  - name: Kuang
+    longText: "(smiles) It is result of China\u2019s government\u2019s effort and
+      support to develop high-technologies. Oh, you see that cafe over there? It\u2019s
+      called the \u2018Garage Cafe\u2019, and it is \u2018start-up cafe\u2019. \r\n"
+    img: {fileID: 2800000, guid: ebf91b9897bf2d74c9c82b0af5534e7c, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 58
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Jack
+    longText: "Wow, Zhongguancun\u2019s atmosphere is very passionate! I can see how
+      China government foster start-up and technology development. There is so much
+      supports and national projects!"
+    img: {fileID: 2800000, guid: e803eb93a737e3e41b7d384e80703537, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 58
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 1
+    mode: 3
+    narration: []
+    script: UnityEngine.SceneManagement.SceneManager.LoadScene("HashTag");
+  bools: 00000000
+  ints: 00000000000000000000000000000000
+  strings:
+  - 
+  - 
+  - 
+  - 
+  backgroundImages:
+  - {fileID: 21300000, guid: 1d900a78630fcc4429a32cdf953632d4, type: 3}
+  - {fileID: 21300000, guid: 633c35793322c034985e39ab5aba42e7, type: 3}
+  - {fileID: 21300000, guid: cf77ed869cdee084c850f572ddf0e5cf, type: 3}
+  - {fileID: 21300000, guid: fef8a0043a9b1634aa9df9308cf81848, type: 3}
+  background: {fileID: 1398288294}
+--- !u!4 &867335229
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 867335227}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 355.1392, y: 258.02634, z: 8.5}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &956064147
 GameObject:
   m_ObjectHideFlags: 0
@@ -295,7 +1523,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: 1d900a78630fcc4429a32cdf953632d4, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -414,86 +1642,13 @@ RectTransform:
   m_Children:
   - {fileID: 1398288296}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
---- !u!1 &1747341027
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 1747341029}
-  - component: {fileID: 1747341028}
-  m_Layer: 0
-  m_Name: DialogueMan
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1747341028
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1747341027}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 469236168daaae04a8053f8f414d2434, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  dialogueSkin: {fileID: 0}
-  startOn: 0
-  defaultImg: {fileID: 0}
-  defaultAudio: {fileID: 0}
-  dialogue:
-  - name: 
-    longText: 
-    img: {fileID: 0}
-    choices: []
-    choiceMode: 0
-    links: []
-    next: 0
-    editor: 0
-    pos: 1
-    passwords: []
-    incorrect: 0
-    exit:
-      shortText: 
-      next: 0
-      editor: 0
-    align: 0
-    mode: 0
-    narration: []
-    script: 
-  bools: 00000000
-  ints: 00000000000000000000000000000000
-  strings:
-  - 
-  - 
-  - 
-  - 
-  backgroundImages: []
-  background: {fileID: 1398288294}
---- !u!4 &1747341029
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1747341027}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 440.83115, y: 288.77646, z: 13.427404}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1802267518
 GameObject:
   m_ObjectHideFlags: 0
@@ -521,8 +1676,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8da5c3c4942977a4c9341c36251f03cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dialogueMan: {fileID: 1747341027}
-  dialogueWoman: {fileID: 0}
+  dialogueMan: {fileID: 867335227}
+  dialogueWoman: {fileID: 2066417888}
 --- !u!224 &1802267520
 RectTransform:
   m_ObjectHideFlags: 0
@@ -534,10 +1689,1238 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 467, y: 276.50003}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &2066417888
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 2066417890}
+  - component: {fileID: 2066417889}
+  m_Layer: 0
+  m_Name: DialogueWoman
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &2066417889
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2066417888}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 469236168daaae04a8053f8f414d2434, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogueSkin: {fileID: 11400000, guid: bcb23eae559494fb7b26ddfd27aa676e, type: 2}
+  startOn: 0
+  defaultImg: {fileID: 0}
+  defaultAudio: {fileID: 8300000, guid: 7b2597164c0274f489786d646c5bcf6e, type: 3}
+  dialogue:
+  - name: Janice
+    longText: "Next country to travel after Myanmar is China. I bet China\u2019s economic
+      development level would be similar to Myanmar, since they are near to each other.
+      Anyways, I am so excited to visit China! I would get to walk along the Great
+      Wall of China, finally."
+    img: {fileID: 2800000, guid: ecad5b8a47d7c884e9bd530449ae3e50, type: 3}
+    choices: []
+    choiceMode: 0
+    links: []
+    next: 1
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: 
+      next: 0
+      editor: 0
+    align: 1
+    mode: 3
+    narration: []
+    script: 
+  - name: 
+    longText: "Jack arrives at Shanghai Beijing Capital International Airport.\r\n"
+    img: {fileID: 0}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 2
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: ???
+    longText: Jack!! Jack!!
+    img: {fileID: 2800000, guid: 648b074ae00117b41872942536a86064, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 3
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Janice
+    longText: "Wow, his voice is very big. Yes, I\u2019m here! (approaches to the
+      guide)"
+    img: {fileID: 2800000, guid: e87d8e2e19d2821489afc0cbafdf8254, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 4
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 1
+    mode: 0
+    narration: []
+    script: 
+  - name: ???
+    longText: "Hi, Jack! I\u2019m your guide, Kuang. "
+    img: {fileID: 2800000, guid: ebf91b9897bf2d74c9c82b0af5534e7c, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 5
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Janice
+    longText: "Hi, Kuang! It\u2019s nice to see you."
+    img: {fileID: 2800000, guid: ecad5b8a47d7c884e9bd530449ae3e50, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 6
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 1
+    mode: 0
+    narration: []
+    script: 
+  - name: Kuang
+    longText: "Are there any place you wanted to visit? I was planning to take you
+      to Great Wall of China first, if you don\u2019t mind."
+    img: {fileID: 2800000, guid: 648b074ae00117b41872942536a86064, type: 3}
+    choices:
+    - shortText: I always wished to visit Great Wall of China
+      next: 7
+      editor: 0
+    - shortText: I don't know where to visit. Can you suggest any place to go?
+      next: 26
+      editor: 0
+    choiceMode: 0
+    links: []
+    next: 0
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 1
+    narration: []
+    script: 
+  - name: Janice
+    longText: It was the exact place where I wanted to visit! Visiting Great Wall
+      of China has been one of my bucket list!
+    img: {fileID: 2800000, guid: e87d8e2e19d2821489afc0cbafdf8254, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 8
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 1
+    mode: 0
+    narration: []
+    script: 
+  - name: Kuang
+    longText: "Wow, you are very energetic! Then let\u2019s visit there first. Please
+      get on the car.\r\n"
+    img: {fileID: 2800000, guid: 648b074ae00117b41872942536a86064, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 9
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 3
+    narration: []
+    script: 
+  - name: 
+    longText: '--- in the car ---'
+    img: {fileID: 0}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 10
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Kuang
+    longText: "So, Jack, you are traveling around the world? Which countries have
+      you traveled so far?\r\n"
+    img: {fileID: 2800000, guid: ebf91b9897bf2d74c9c82b0af5534e7c, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 11
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Janice
+    longText: 'Oh, I still have many countries left to visit. I traveled Mali, Kenya,
+      Afghanistan, and Myanmar. '
+    img: {fileID: 2800000, guid: e87d8e2e19d2821489afc0cbafdf8254, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 12
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 1
+    mode: 0
+    narration: []
+    script: 
+  - name: Kuang
+    longText: "Wow, 4 countries! Are you planning to travel all 5 continents?\r\n"
+    img: {fileID: 2800000, guid: 648b074ae00117b41872942536a86064, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 13
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Janice
+    longText: Of course!
+    img: {fileID: 2800000, guid: ecad5b8a47d7c884e9bd530449ae3e50, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 14
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 1
+    mode: 0
+    narration: []
+    script: 
+  - name: Kuang
+    longText: "Cool! Then, what do you want to experience and get in China? \r\n"
+    img: {fileID: 2800000, guid: 648b074ae00117b41872942536a86064, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 15
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Janice
+    longText: "Umm\u2026 I want to experience Chinese local culture. Distinguished
+      from other countries. \r\n"
+    img: {fileID: 2800000, guid: ecad5b8a47d7c884e9bd530449ae3e50, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 16
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 1
+    mode: 0
+    narration: []
+    script: 
+  - name: 
+    longText: "\r(Jack and Kuang arrives at Great Wall of China)\r\n"
+    img: {fileID: 0}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 17
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Kuang
+    longText: Do you know which king ordered to build Great Wall of China?
+    img: {fileID: 2800000, guid: 648b074ae00117b41872942536a86064, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 18
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Janice
+    longText: "I learned during history class when I was in elementary school. It\u2019s
+      Qin Shi Huang. \r\n"
+    img: {fileID: 2800000, guid: ecad5b8a47d7c884e9bd530449ae3e50, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 19
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 1
+    mode: 0
+    narration: []
+    script: 
+  - name: Kuang
+    longText: "Right, but what is more interesting is scale of building. This wall
+      was enormous. When Emperor Qin Shi Huang ordered construction of the Great Wall,
+      the labor force that build the wall was made up largely of soldiers and convicts.\r\n"
+    img: {fileID: 2800000, guid: 648b074ae00117b41872942536a86064, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 20
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Kuang
+    longText: "It is said that as many as 400,000 people died during the wall\u2019s
+      construction, and guess what? It is believed that many of these workers were
+      buried within the wall itself. "
+    img: {fileID: 2800000, guid: ebf91b9897bf2d74c9c82b0af5534e7c, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 21
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 3
+    narration: []
+    script: 
+  - name: Janice
+    longText: Interesting! Its scale is surprising.
+    img: {fileID: 2800000, guid: e87d8e2e19d2821489afc0cbafdf8254, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 22
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 1
+    mode: 0
+    narration: []
+    script: 
+  - name: Kuang
+    longText: "Also, look at that carving on the wall. Do you see them? \r\n"
+    img: {fileID: 2800000, guid: ebf91b9897bf2d74c9c82b0af5534e7c, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 23
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: 
+    longText: "\u2026.."
+    img: {fileID: 0}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 24
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: 
+    longText: (Jack finishes the tour and gets back to the car)
+    img: {fileID: 0}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 25
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Janice
+    longText: Where do we go next, Kuang?
+    img: {fileID: 2800000, guid: ecad5b8a47d7c884e9bd530449ae3e50, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 41
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Kuang
+    longText: "How about visiting Olympic Park? It was where number of Olympic matches
+      like soccer and swimming were held, in 2008 Beijing Olympics. There are several
+      fine shopping malls and restaurants around there, too.\r\n"
+    img: {fileID: 2800000, guid: ebf91b9897bf2d74c9c82b0af5534e7c, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 27
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 3
+    narration: []
+    script: 
+  - name: Janice
+    longText: "Great! Let\u2019s go there then.\r\n"
+    img: {fileID: 2800000, guid: e87d8e2e19d2821489afc0cbafdf8254, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 28
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 1
+    mode: 3
+    narration: []
+    script: 
+  - name: 
+    longText: "\r(Jack and Kuang arrives at Beijing Olympic Park and look around)\r\n"
+    img: {fileID: 0}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 29
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 3
+    narration: []
+    script: 
+  - name: Janice
+    longText: "Wow, this stadium is enormous. I\u2019m again surprised at China\u2019s
+      scale!\r\n"
+    img: {fileID: 2800000, guid: e87d8e2e19d2821489afc0cbafdf8254, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 30
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 1
+    mode: 0
+    narration: []
+    script: 
+  - name: Kuang
+    longText: Would you like to eat something? How about going to restaurant nearby?
+    img: {fileID: 2800000, guid: ebf91b9897bf2d74c9c82b0af5534e7c, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 31
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Janice
+    longText: "I\u2019m starving! Let\u2019s go!\r\n"
+    img: {fileID: 2800000, guid: e87d8e2e19d2821489afc0cbafdf8254, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 32
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 1
+    mode: 0
+    narration: []
+    script: 
+  - name: 
+    longText: (Kuang and Jack walks around the streets near Beijing Olympic Park)
+    img: {fileID: 0}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 33
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Janice
+    longText: "Wow, I was underestimating China, for sure. It developed so much. It
+      is very different from 8 years ago when I visited Beijing with my family.\r\n"
+    img: {fileID: 2800000, guid: e87d8e2e19d2821489afc0cbafdf8254, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 34
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 1
+    mode: 0
+    narration: []
+    script: 
+  - name: Kuang
+    longText: Hahaha! China surely has changed a lot, compared with 8 years ago!
+    img: {fileID: 2800000, guid: 648b074ae00117b41872942536a86064, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 35
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Janice
+    longText: "Actually, I traveled Myanmar before here, and I expected China and
+      Myanmar to be similar. But China\u2019s economy is very developed than I expected!"
+    img: {fileID: 2800000, guid: ecad5b8a47d7c884e9bd530449ae3e50, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 36
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 1
+    mode: 0
+    narration: []
+    script: 
+  - name: Kuang
+    longText: "The Chinese government has spent more than $1bn on domestic start-ups.
+      Especially, China is providing great support to artificial intelligence and
+      other high-technologies. Haven\u2019t you heard of any Chinese IT companies?\r\n"
+    img: {fileID: 2800000, guid: ebf91b9897bf2d74c9c82b0af5534e7c, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 37
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Janice
+    longText: " I don\u2019t know any of them, I think."
+    img: {fileID: 2800000, guid: ecad5b8a47d7c884e9bd530449ae3e50, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 38
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 1
+    mode: 0
+    narration: []
+    script: 
+  - name: Kuang
+    longText: "Alibaba, Lenovo, Xiaomi,.... These are all Chinese IT/technology companies.\r\n"
+    img: {fileID: 2800000, guid: ebf91b9897bf2d74c9c82b0af5534e7c, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 39
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Janice
+    longText: "What? Really? I use Xiaomi supplementary battery and Lenovo Notebook!
+      But I had no idea where those companies are from. \r\n"
+    img: {fileID: 2800000, guid: e87d8e2e19d2821489afc0cbafdf8254, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 40
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 1
+    mode: 0
+    narration: []
+    script: 
+  - name: Kuang
+    longText: "If you are interested, we can visit China\u2019s biggest silicon valley
+      tomorrow. It\u2019s near Beijing.\r\n"
+    img: {fileID: 2800000, guid: ebf91b9897bf2d74c9c82b0af5534e7c, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 41
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Janice
+    longText: "Thank you for today\u2019s guidance, Kuang!\r\nKuang: You\u2019re welcome!
+      Please be at your hotel lobby until 9am tomorrow!\r\n"
+    img: {fileID: 2800000, guid: e87d8e2e19d2821489afc0cbafdf8254, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 42
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 1
+    mode: 0
+    narration: []
+    script: 
+  - name: 
+    longText: '--- A day after ---'
+    img: {fileID: 0}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 43
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Janice
+    longText: Hi Kuang!
+    img: {fileID: 2800000, guid: ecad5b8a47d7c884e9bd530449ae3e50, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 44
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 1
+    mode: 0
+    narration: []
+    script: 
+  - name: Kuang
+    longText: "Hi! Are you ready for today\u2019s schedule?"
+    img: {fileID: 2800000, guid: ebf91b9897bf2d74c9c82b0af5534e7c, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 45
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Janice
+    longText: "Sure I am! Let\u2019s go!\r\n"
+    img: {fileID: 2800000, guid: e87d8e2e19d2821489afc0cbafdf8254, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 46
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 1
+    mode: 0
+    narration: []
+    script: 
+  - name: 
+    longText: "--- Jack and Kuang\u2019s car stops --- \r"
+    img: {fileID: 0}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 47
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Kuang
+    longText: "Here we are, Jack! Do you know where this is?\r\n"
+    img: {fileID: 2800000, guid: ebf91b9897bf2d74c9c82b0af5534e7c, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 48
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Janice
+    longText: I have no idea!
+    img: {fileID: 2800000, guid: e87d8e2e19d2821489afc0cbafdf8254, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 49
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 1
+    mode: 0
+    narration: []
+    script: 
+  - name: Kuang
+    longText: "This city is called Zhongguancun, and this city is a technology hub.
+      It is often referred as China\u2019s silicon valley.\r\n"
+    img: {fileID: 2800000, guid: ebf91b9897bf2d74c9c82b0af5534e7c, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 50
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Janice
+    longText: "Cool! Oh! There\u2019s Lenovo over there!\r\n"
+    img: {fileID: 2800000, guid: e87d8e2e19d2821489afc0cbafdf8254, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 51
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 1
+    mode: 0
+    narration: []
+    script: 
+  - name: Kuang
+    longText: "Beside Lenovo, several world-renowned technology companies built their
+      Chinese headquarters and research centers in Zhongguancun Technology Park, such
+      as Google, Intel, Oracle Corporation, and Sony. \r\n"
+    img: {fileID: 2800000, guid: ebf91b9897bf2d74c9c82b0af5534e7c, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 52
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Kuang
+    longText: 'The Chinese Academy of Sciences, as well as a dozen famous colleges
+      and universities, including Beijing and Qinghua Universities are located in
+      Zhongguancun in Beijing''s Haidian District. '
+    img: {fileID: 2800000, guid: 648b074ae00117b41872942536a86064, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 53
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Kuang
+    longText: "The area has a dynamic economy that focuses on the knowledge and information
+      industries. The average age of the several hundred thousands of employees in
+      Zhongguancun is about 30; and the area of Zhongguancun is popularly known as
+      the Silicon Valley of China.\r\n"
+    img: {fileID: 2800000, guid: ebf91b9897bf2d74c9c82b0af5534e7c, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 54
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Janice
+    longText: "But why Zhongguancun? Is there any special reason why such a big company
+      group was formed in here?\r\n"
+    img: {fileID: 2800000, guid: e87d8e2e19d2821489afc0cbafdf8254, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 55
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 1
+    mode: 0
+    narration: []
+    script: 
+  - name: Kuang
+    longText: Since 1978, when China started to implement the policies of reform and
+      opening-up, various special economic zones were established, such as the city
+      of Shenzhen in Guangdong Province in the 1980s, the new district of Pudong in
+      the Shanghai Municipality in the 1990s, and Zhongguancun in Beijing in the late
+      1990's. It has been forecasted that Zhongguancun will become the leader of China's
+      hi-tech industry in the 21st century.
+    img: {fileID: 2800000, guid: ebf91b9897bf2d74c9c82b0af5534e7c, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 56
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Janice
+    longText: "And that anticipation was realized! This place is so cool! \r\n"
+    img: {fileID: 2800000, guid: e87d8e2e19d2821489afc0cbafdf8254, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 57
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 1
+    mode: 0
+    narration: []
+    script: 
+  - name: Kuang
+    longText: "(smiles) It is result of China\u2019s government\u2019s effort and
+      support to develop high-technologies. Oh, you see that cafe over there? It\u2019s
+      called the \u2018Garage Cafe\u2019, and it is \u2018start-up cafe\u2019. \r\n"
+    img: {fileID: 2800000, guid: ebf91b9897bf2d74c9c82b0af5534e7c, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 58
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Janice
+    longText: "Wow, Zhongguancun\u2019s atmosphere is very passionate! I can see how
+      China government foster start-up and technology development. There is so much
+      supports and national projects!"
+    img: {fileID: 2800000, guid: e87d8e2e19d2821489afc0cbafdf8254, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 58
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 1
+    mode: 3
+    narration: []
+    script: UnityEngine.SceneManagement.SceneManager.LoadScene("HashTag");
+  bools: 00000000
+  ints: 00000000000000000000000000000000
+  strings:
+  - 
+  - 
+  - 
+  - 
+  backgroundImages:
+  - {fileID: 21300000, guid: 1d900a78630fcc4429a32cdf953632d4, type: 3}
+  - {fileID: 21300000, guid: 633c35793322c034985e39ab5aba42e7, type: 3}
+  - {fileID: 21300000, guid: cf77ed869cdee084c850f572ddf0e5cf, type: 3}
+  - {fileID: 21300000, guid: fef8a0043a9b1634aa9df9308cf81848, type: 3}
+  background: {fileID: 1398288294}
+--- !u!4 &2066417890
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2066417888}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 355.1392, y: 258.02634, z: 8.5}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

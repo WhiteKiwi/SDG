@@ -178,6 +178,1311 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!1 &124209263
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 124209265}
+  - component: {fileID: 124209264}
+  m_Layer: 0
+  m_Name: DialogueMan
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &124209264
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 124209263}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 469236168daaae04a8053f8f414d2434, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogueSkin: {fileID: 11400000, guid: bcb23eae559494fb7b26ddfd27aa676e, type: 2}
+  startOn: 0
+  defaultImg: {fileID: 0}
+  defaultAudio: {fileID: 8300000, guid: 7b2597164c0274f489786d646c5bcf6e, type: 3}
+  dialogue:
+  - name: Jack
+    longText: "When I was asked which foreign country I am most familiar of, I always
+      answered \u2018South Korea\u2019. When I was in high school, my friends were
+      just obsessed with K-POP and K-Drama. "
+    img: {fileID: 2800000, guid: 159f1fcc373533f418eabc87a9ca7618, type: 3}
+    choices: []
+    choiceMode: 0
+    links: []
+    next: 1
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: 
+      next: 0
+      editor: 0
+    align: 1
+    mode: 3
+    narration: []
+    script: 
+  - name: Jack
+    longText: "At first I couldn\u2019t understand them, being attracted to foreign
+      singers and actors  who they can\u2019t even communicate with, but I could understand
+      after meeting BTS! Their dance moves and songs are just fascinating! :) \r\n"
+    img: {fileID: 2800000, guid: e803eb93a737e3e41b7d384e80703537, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 2
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 1
+    mode: 0
+    narration: []
+    script: 
+  - name: Jack
+    longText: "What would I experience during trip in Korea? I am thrilled to travel
+      center of K-POP industry!\r\n"
+    img: {fileID: 2800000, guid: e803eb93a737e3e41b7d384e80703537, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 3
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 1
+    mode: 0
+    narration: []
+    script: 
+  - name: 
+    longText: 'Jack arrives at Incheon International Airport. '
+    img: {fileID: 0}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 4
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Jack
+    longText: "Ooh, there are so much people at the gate. How would I find my local
+      guide among these people\u2026.?"
+    img: {fileID: 2800000, guid: 159f1fcc373533f418eabc87a9ca7618, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 5
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 1
+    mode: 0
+    narration: []
+    script: 
+  - name: Jack
+    longText: 'Oh, right! I have her phone number already! '
+    img: {fileID: 2800000, guid: e803eb93a737e3e41b7d384e80703537, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 6
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 1
+    mode: 0
+    narration: []
+    script: 
+  - name: 
+    longText: "--- Jack calls\t ---"
+    img: {fileID: 0}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 7
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: ???
+    longText: Hello?
+    img: {fileID: 2800000, guid: 503df18535e52404f86bd51db16de38f, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 8
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Jack
+    longText: "Hi, uhmm\u2026 I am OO. Are you my guide Han? I am looking for you
+      at the gate, but there are so many people here that I can\u2019t find you."
+    img: {fileID: 2800000, guid: 159f1fcc373533f418eabc87a9ca7618, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 9
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 1
+    mode: 0
+    narration: []
+    script: 
+  - name: Han
+    longText: "Oh, Hi Jack! I\u2019m waiting for you at Gate 9. It\u2019s behind Starbucks.\r\n"
+    img: {fileID: 2800000, guid: 503df18535e52404f86bd51db16de38f, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 10
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Jack
+    longText: Oh, I see over there. Thank you!
+    img: {fileID: 2800000, guid: e803eb93a737e3e41b7d384e80703537, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 11
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 1
+    mode: 0
+    narration: []
+    script: 
+  - name: 
+    longText: '--- Jack meets Han at Gate 9 ---'
+    img: {fileID: 0}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 12
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Han
+    longText: Welcome to Korea Jack!
+    img: {fileID: 2800000, guid: 503df18535e52404f86bd51db16de38f, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 13
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Jack
+    longText: "Thank you Han! It\u2019s nice to see you :)"
+    img: {fileID: 2800000, guid: 159f1fcc373533f418eabc87a9ca7618, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 14
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 1
+    mode: 0
+    narration: []
+    script: 
+  - name: Han
+    longText: "I know you would be tired from the flight\u2026 So what do you want
+      to do today? You can proceed tour from tomorrow, if you want."
+    img: {fileID: 2800000, guid: 6189b0500e7de244a9b5f0a35822fd6e, type: 3}
+    choices:
+    - shortText: Uhm,,, I'm actually tried. How about starting the tour programme
+        by tomorrow?
+      next: 15
+      editor: 0
+    - shortText: Thank you for being so concerned. But I'm fine!
+      next: 19
+      editor: 0
+    choiceMode: 0
+    links: []
+    next: 15
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 1
+    narration: []
+    script: 
+  - name: Han
+    longText: Okay, it is fine. Please tell me your hotel address, and I will ask
+      the driver to take you to your hotel.
+    img: {fileID: 2800000, guid: 6189b0500e7de244a9b5f0a35822fd6e, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 16
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: 
+    longText: '--- Jack arrives to his/her hotel room ---'
+    img: {fileID: 0}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 17
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Jack
+    longText: "I don\u2019t know why I am so exhausted today. Maybe tiredness was
+      built up from long travel.\r"
+    img: {fileID: 2800000, guid: 159f1fcc373533f418eabc87a9ca7618, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 18
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 1
+    mode: 0
+    narration: []
+    script: 
+  - name: 
+    longText: '--- Jack goes to bed ---'
+    img: {fileID: 0}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 20
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 3
+    narration: []
+    script: 
+  - name: Han
+    longText: "(smiles) Then, let\u2019s start the tour route with Gwanghwamun. Please
+      get on the car!\r\n"
+    img: {fileID: 2800000, guid: 6189b0500e7de244a9b5f0a35822fd6e, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 20
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 3
+    narration: []
+    script: 
+  - name: 
+    longText: (in the car)
+    img: {fileID: 0}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 21
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 3
+    narration: []
+    script: 
+  - name: Han
+    longText: So, Jack. Do you know any current news or issues in Korea?
+    img: {fileID: 2800000, guid: 503df18535e52404f86bd51db16de38f, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 22
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Jack
+    longText: "Oh, I heard of the North-South Korean Summit. I think it was very meaningful
+      progress for world peace and cooperation.\r\n"
+    img: {fileID: 2800000, guid: e803eb93a737e3e41b7d384e80703537, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 23
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 1
+    mode: 0
+    narration: []
+    script: 
+  - name: Han
+    longText: Yes it was. How about K-pop or K-drama? Do you have any favorite Korean
+      song or drama?
+    img: {fileID: 2800000, guid: 503df18535e52404f86bd51db16de38f, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 24
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Jack
+    longText: "Sure. My friends love BTS and \u2018Goblin\u2019!\r\n"
+    img: {fileID: 2800000, guid: 159f1fcc373533f418eabc87a9ca7618, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 25
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 1
+    mode: 0
+    narration: []
+    script: 
+  - name: Han
+    longText: "I asked you because the spot we are visiting now appears in news and
+      TV media constantly. Especially, Gwanghwamun is a symbolic place which shows
+      development and progression of Korean history. Several important historical
+      events happened here, at Gwanghwamun.\r\n"
+    img: {fileID: 2800000, guid: 503df18535e52404f86bd51db16de38f, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 26
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 3
+    narration: []
+    script: 
+  - name: Jack
+    longText: Interesting. Is Gwanghwamun that gate over there?
+    img: {fileID: 2800000, guid: e803eb93a737e3e41b7d384e80703537, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 27
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 1
+    mode: 0
+    narration: []
+    script: 
+  - name: Han
+    longText: Yes. We are going to get off the car now.
+    img: {fileID: 2800000, guid: 6189b0500e7de244a9b5f0a35822fd6e, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 28
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Jack
+    longText: But why is this place so crowded? Is there any event here today?
+    img: {fileID: 2800000, guid: e803eb93a737e3e41b7d384e80703537, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 29
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 1
+    mode: 0
+    narration: []
+    script: 
+  - name: Han
+    longText: "As far as I know, no.\r\n"
+    img: {fileID: 2800000, guid: 6189b0500e7de244a9b5f0a35822fd6e, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 30
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Jack
+    longText: Then what is that big crowd?
+    img: {fileID: 2800000, guid: 159f1fcc373533f418eabc87a9ca7618, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 31
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 1
+    mode: 0
+    narration: []
+    script: 
+  - name: Han
+    longText: I think there is a demonstration going on. Many demonstrations are staged
+      at Gwanghwamun because this place can seat big crowd and there are several embassies
+      and public institution near here.
+    img: {fileID: 2800000, guid: 6189b0500e7de244a9b5f0a35822fd6e, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 32
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Jack
+    longText: Then what are they protesting for?
+    img: {fileID: 2800000, guid: e803eb93a737e3e41b7d384e80703537, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 33
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 1
+    mode: 0
+    narration: []
+    script: 
+  - name: People
+    longText: "Protect woman\u2019s right!"
+    img: {fileID: 0}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 34
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Jack
+    longText: "What does that mean? Can you translate their words?\r\n"
+    img: {fileID: 2800000, guid: e803eb93a737e3e41b7d384e80703537, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 35
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 1
+    mode: 0
+    narration: []
+    script: 
+  - name: Han
+    longText: 'They are protesting to raise social status of women in Korea. You heard
+      of #Me Too movement, right?'
+    img: {fileID: 2800000, guid: 648b074ae00117b41872942536a86064, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 36
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Jack
+    longText: 'Yes. It was very hot topic for last few weeks. '
+    img: {fileID: 2800000, guid: 159f1fcc373533f418eabc87a9ca7618, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 37
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 1
+    mode: 0
+    narration: []
+    script: 
+  - name: Han
+    longText: 'There was big #Me Too movement in Korea, too. It started as a female
+      prosecutor claimed she was sexually molested by her colleague. Starting from
+      her, gender inequality is rising as hot issue in Korea. '
+    img: {fileID: 2800000, guid: 6189b0500e7de244a9b5f0a35822fd6e, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 38
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Jack
+    longText: "So that demonstration is to achieve gender equality.\r\n"
+    img: {fileID: 2800000, guid: 159f1fcc373533f418eabc87a9ca7618, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 39
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 1
+    mode: 0
+    narration: []
+    script: 
+  - name: Han
+    longText: Yes. Unlike in the past, women are standing and raising their voices
+      to report afterimages of gender inequality and to fix them.
+    img: {fileID: 2800000, guid: 6189b0500e7de244a9b5f0a35822fd6e, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 40
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Jack
+    longText: I think it is very cool, and definitely essential for better society.
+    img: {fileID: 2800000, guid: e803eb93a737e3e41b7d384e80703537, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 41
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 1
+    mode: 0
+    narration: []
+    script: 
+  - name: Han
+    longText: Also, I think victims of gender inequality are not only limited to women.
+      Men can also suffer from stereotypes from gender inequality. Have you ever experienced
+      gender inequality?
+    img: {fileID: 2800000, guid: 6189b0500e7de244a9b5f0a35822fd6e, type: 3}
+    choices:
+    - shortText: Sure I have.
+      next: 48
+      editor: 0
+    - shortText: Actually, I don't know what words and actions reveal gendar inequality
+      next: 42
+      editor: 0
+    choiceMode: 0
+    links: []
+    next: 0
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 1
+    narration: []
+    script: 
+  - name: Han
+    longText: "People mostly don\u2019t realize gender inequality, but its afterimages
+      are hidden in several moments in our daily lives."
+    img: {fileID: 2800000, guid: 6189b0500e7de244a9b5f0a35822fd6e, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 43
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Jack
+    longText: Such as?
+    img: {fileID: 2800000, guid: e803eb93a737e3e41b7d384e80703537, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 44
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 1
+    mode: 0
+    narration: []
+    script: 
+  - name: Han
+    longText: "Parents scolding their boys for crying like girls, and feeling awkward
+      for female pilot and male nurse\u2026. There are all result of gender stereotypes."
+    img: {fileID: 2800000, guid: 6189b0500e7de244a9b5f0a35822fd6e, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 45
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Jack
+    longText: "Those are all what I\u2019ve seen and experienced!\r\n"
+    img: {fileID: 2800000, guid: e803eb93a737e3e41b7d384e80703537, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 46
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 1
+    mode: 0
+    narration: []
+    script: 
+  - name: Han
+    longText: 'and to be solved. '
+    img: {fileID: 2800000, guid: 503df18535e52404f86bd51db16de38f, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 47
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Jack
+    longText: "Right. To be solved.\r\n"
+    img: {fileID: 2800000, guid: 159f1fcc373533f418eabc87a9ca7618, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 52
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 1
+    mode: 0
+    narration: []
+    script: 
+  - name: Han
+    longText: How was the situation exactly?
+    img: {fileID: 2800000, guid: 503df18535e52404f86bd51db16de38f, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 49
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Jack
+    longText: "You know, minor words and actions driven from rooted stereotypes. Like,
+      \u2018Boys should not cry\u2019...\r\n"
+    img: {fileID: 2800000, guid: 159f1fcc373533f418eabc87a9ca7618, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 50
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 1
+    mode: 0
+    narration: []
+    script: 
+  - name: Han
+    longText: Right.
+    img: {fileID: 2800000, guid: 6189b0500e7de244a9b5f0a35822fd6e, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 51
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Jack
+    longText: 'I think gender inequality should be resolved for united, equal society. '
+    img: {fileID: 2800000, guid: e803eb93a737e3e41b7d384e80703537, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 52
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 1
+    mode: 0
+    narration: []
+    script: 
+  - name: 
+    longText: (at the hotel)
+    img: {fileID: 0}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 53
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Jack
+    longText: 'Thank you for great guiding, Han. Your explanations were very helpful
+      and easy to understand. Especially, #Me Too movement in Korea and crowd at Gwanghwamun
+      were impressive to me. '
+    img: {fileID: 2800000, guid: 159f1fcc373533f418eabc87a9ca7618, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 54
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 1
+    mode: 0
+    narration: []
+    script: 
+  - name: Han
+    longText: "It was such a pleasure to guide you. Visit Korea once more! Your trip
+      is too tight and short! \r\n"
+    img: {fileID: 2800000, guid: 6189b0500e7de244a9b5f0a35822fd6e, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 55
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Jack
+    longText: 'Hahaha! I will visit with more money and time next time. '
+    img: {fileID: 2800000, guid: e803eb93a737e3e41b7d384e80703537, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 56
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 1
+    mode: 0
+    narration: []
+    script: 
+  - name: Han
+    longText: Have a safe flight tomorrow, Jack. Bye!
+    img: {fileID: 2800000, guid: 503df18535e52404f86bd51db16de38f, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 57
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Jack
+    longText: "Bye, Han! Thank you!\r\n"
+    img: {fileID: 2800000, guid: e803eb93a737e3e41b7d384e80703537, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 58
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 1
+    mode: 0
+    narration: []
+    script: 
+  - name: 
+    longText: '--- in the room ---'
+    img: {fileID: 0}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 59
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Jack
+    longText: (My first trip in Korea has ended. It was very impressive and meaningful.
+      Especially, I got to look back on society around me. Can it be called equal?
+      Between black and white? Rich and poor? Women and men? I felt shameful and regretful
+      of my ignorance towards inequality and discrimination.)
+    img: {fileID: 2800000, guid: 159f1fcc373533f418eabc87a9ca7618, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 60
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 1
+    mode: 0
+    narration: []
+    script: 
+  - name: 
+    longText: "(Jack lying on the bed)\r\n"
+    img: {fileID: 0}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 61
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Jack
+    longText: "What could resolve discrimination? \r\n"
+    img: {fileID: 2800000, guid: e803eb93a737e3e41b7d384e80703537, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 62
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 1
+    mode: 0
+    narration: []
+    script: 
+  - name: 
+    longText: (!Notice!) Try to write your own solution to gender inequality and other
+      discriminations around the world. Issues of gender inequality and discrimination
+      are mentioned in SDG#5 and SDG#10, and they are becoming big obstacles to united
+      world. How could this issue be solved? What means are needed to achieve these
+      SDGs?
+    img: {fileID: 0}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 62
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 3
+    narration: []
+    script: UnityEngine.SceneManagement.SceneManager.LoadScene("HashTag");
+  bools: 00000000
+  ints: 00000000000000000000000000000000
+  strings:
+  - 
+  - 
+  - 
+  - 
+  backgroundImages:
+  - {fileID: 21300000, guid: 9f533b41f4d131b41a0f8d680ccb57c0, type: 3}
+  - {fileID: 21300000, guid: 087de8c7e7772314880016f132fb907e, type: 3}
+  - {fileID: 21300000, guid: 79168d326813c3448bb9d415c57c6928, type: 3}
+  - {fileID: 21300000, guid: 8cb86762b4607f347a7f4cd2ecf6797a, type: 3}
+  background: {fileID: 2042786203}
+--- !u!4 &124209265
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 124209263}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 355.1392, y: 258.02634, z: 8.5}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &851051888
 GameObject:
   m_ObjectHideFlags: 0
@@ -346,86 +1651,13 @@ RectTransform:
   m_Children:
   - {fileID: 2042786205}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
---- !u!1 &1120531210
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 1120531212}
-  - component: {fileID: 1120531211}
-  m_Layer: 0
-  m_Name: DialogueMan
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1120531211
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1120531210}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 469236168daaae04a8053f8f414d2434, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  dialogueSkin: {fileID: 0}
-  startOn: 0
-  defaultImg: {fileID: 0}
-  defaultAudio: {fileID: 0}
-  dialogue:
-  - name: 
-    longText: 
-    img: {fileID: 0}
-    choices: []
-    choiceMode: 0
-    links: []
-    next: 0
-    editor: 0
-    pos: 1
-    passwords: []
-    incorrect: 0
-    exit:
-      shortText: 
-      next: 0
-      editor: 0
-    align: 0
-    mode: 0
-    narration: []
-    script: 
-  bools: 00000000
-  ints: 00000000000000000000000000000000
-  strings:
-  - 
-  - 
-  - 
-  - 
-  backgroundImages: []
-  background: {fileID: 2042786203}
---- !u!4 &1120531212
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1120531210}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 440.83115, y: 288.77646, z: 13.427404}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1142306629
 GameObject:
   m_ObjectHideFlags: 0
@@ -453,7 +1685,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8da5c3c4942977a4c9341c36251f03cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dialogueMan: {fileID: 1120531210}
+  dialogueMan: {fileID: 124209263}
   dialogueWoman: {fileID: 0}
 --- !u!224 &1142306631
 RectTransform:
@@ -466,18 +1698,1430 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 467, y: 276.50003}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!1 &2042786202
+--- !u!1 &1600073486
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1600073488}
+  - component: {fileID: 1600073487}
+  m_Layer: 0
+  m_Name: DialogueWoman
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1600073487
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1600073486}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 469236168daaae04a8053f8f414d2434, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogueSkin: {fileID: 11400000, guid: bcb23eae559494fb7b26ddfd27aa676e, type: 2}
+  startOn: 0
+  defaultImg: {fileID: 0}
+  defaultAudio: {fileID: 8300000, guid: 7b2597164c0274f489786d646c5bcf6e, type: 3}
+  dialogue:
+  - name: Janice
+    longText: "When I was asked which foreign country I am most familiar of, I always
+      answered \u2018South Korea\u2019. When I was in high school, my friends were
+      just obsessed with K-POP and K-Drama. "
+    img: {fileID: 2800000, guid: ecad5b8a47d7c884e9bd530449ae3e50, type: 3}
+    choices: []
+    choiceMode: 0
+    links: []
+    next: 1
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: 
+      next: 0
+      editor: 0
+    align: 1
+    mode: 3
+    narration: []
+    script: 
+  - name: Janice
+    longText: "At first I couldn\u2019t understand them, being attracted to foreign
+      singers and actors  who they can\u2019t even communicate with, but I could understand
+      after meeting BTS! Their dance moves and songs are just fascinating! :) \r\n"
+    img: {fileID: 2800000, guid: e87d8e2e19d2821489afc0cbafdf8254, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 2
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 1
+    mode: 0
+    narration: []
+    script: 
+  - name: Janice
+    longText: "What would I experience during trip in Korea? I am thrilled to travel
+      center of K-POP industry!\r\n"
+    img: {fileID: 2800000, guid: e87d8e2e19d2821489afc0cbafdf8254, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 3
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 1
+    mode: 0
+    narration: []
+    script: 
+  - name: 
+    longText: 'Jack arrives at Incheon International Airport. '
+    img: {fileID: 0}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 4
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Janice
+    longText: "Ooh, there are so much people at the gate. How would I find my local
+      guide among these people\u2026.?"
+    img: {fileID: 2800000, guid: ecad5b8a47d7c884e9bd530449ae3e50, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 5
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 1
+    mode: 0
+    narration: []
+    script: 
+  - name: Janice
+    longText: 'Oh, right! I have her phone number already! '
+    img: {fileID: 2800000, guid: e87d8e2e19d2821489afc0cbafdf8254, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 6
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 1
+    mode: 0
+    narration: []
+    script: 
+  - name: 
+    longText: "--- Jack calls\t ---"
+    img: {fileID: 0}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 7
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: ???
+    longText: Hello?
+    img: {fileID: 2800000, guid: 503df18535e52404f86bd51db16de38f, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 8
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Janice
+    longText: "Hi, uhmm\u2026 I am OO. Are you my guide Han? I am looking for you
+      at the gate, but there are so many people here that I can\u2019t find you."
+    img: {fileID: 2800000, guid: ecad5b8a47d7c884e9bd530449ae3e50, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 9
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 1
+    mode: 0
+    narration: []
+    script: 
+  - name: Han
+    longText: "Oh, Hi Jack! I\u2019m waiting for you at Gate 9. It\u2019s behind Starbucks.\r\n"
+    img: {fileID: 2800000, guid: 503df18535e52404f86bd51db16de38f, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 10
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Janice
+    longText: Oh, I see over there. Thank you!
+    img: {fileID: 2800000, guid: e87d8e2e19d2821489afc0cbafdf8254, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 11
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 1
+    mode: 0
+    narration: []
+    script: 
+  - name: 
+    longText: '--- Jack meets Han at Gate 9 ---'
+    img: {fileID: 0}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 12
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Han
+    longText: Welcome to Korea Jack!
+    img: {fileID: 2800000, guid: 503df18535e52404f86bd51db16de38f, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 13
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Janice
+    longText: "Thank you Han! It\u2019s nice to see you :)"
+    img: {fileID: 2800000, guid: ecad5b8a47d7c884e9bd530449ae3e50, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 14
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 1
+    mode: 0
+    narration: []
+    script: 
+  - name: Han
+    longText: "I know you would be tired from the flight\u2026 So what do you want
+      to do today? You can proceed tour from tomorrow, if you want."
+    img: {fileID: 2800000, guid: 6189b0500e7de244a9b5f0a35822fd6e, type: 3}
+    choices:
+    - shortText: Uhm,,, I'm actually tried. How about starting the tour programme
+        by tomorrow?
+      next: 15
+      editor: 0
+    - shortText: Thank you for being so concerned. But I'm fine!
+      next: 19
+      editor: 0
+    choiceMode: 0
+    links: []
+    next: 15
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 1
+    narration: []
+    script: 
+  - name: Han
+    longText: Okay, it is fine. Please tell me your hotel address, and I will ask
+      the driver to take you to your hotel.
+    img: {fileID: 2800000, guid: 6189b0500e7de244a9b5f0a35822fd6e, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 16
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: 
+    longText: '--- Jack arrives to his/her hotel room ---'
+    img: {fileID: 0}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 17
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Janice
+    longText: "I don\u2019t know why I am so exhausted today. Maybe tiredness was
+      built up from long travel.\r"
+    img: {fileID: 2800000, guid: ecad5b8a47d7c884e9bd530449ae3e50, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 18
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 1
+    mode: 0
+    narration: []
+    script: 
+  - name: 
+    longText: '--- Jack goes to bed ---'
+    img: {fileID: 0}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 20
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 3
+    narration: []
+    script: 
+  - name: Han
+    longText: "(smiles) Then, let\u2019s start the tour route with Gwanghwamun. Please
+      get on the car!\r\n"
+    img: {fileID: 2800000, guid: 6189b0500e7de244a9b5f0a35822fd6e, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 20
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 3
+    narration: []
+    script: 
+  - name: 
+    longText: (in the car)
+    img: {fileID: 0}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 21
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 3
+    narration: []
+    script: 
+  - name: Han
+    longText: So, Jack. Do you know any current news or issues in Korea?
+    img: {fileID: 2800000, guid: 503df18535e52404f86bd51db16de38f, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 22
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Janice
+    longText: "Oh, I heard of the North-South Korean Summit. I think it was very meaningful
+      progress for world peace and cooperation.\r\n"
+    img: {fileID: 2800000, guid: e87d8e2e19d2821489afc0cbafdf8254, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 23
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 1
+    mode: 0
+    narration: []
+    script: 
+  - name: Han
+    longText: Yes it was. How about K-pop or K-drama? Do you have any favorite Korean
+      song or drama?
+    img: {fileID: 2800000, guid: 503df18535e52404f86bd51db16de38f, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 24
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Janice
+    longText: "Sure. My friends love BTS and \u2018Goblin\u2019!\r\n"
+    img: {fileID: 2800000, guid: ecad5b8a47d7c884e9bd530449ae3e50, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 25
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 1
+    mode: 0
+    narration: []
+    script: 
+  - name: Han
+    longText: "I asked you because the spot we are visiting now appears in news and
+      TV media constantly. Especially, Gwanghwamun is a symbolic place which shows
+      development and progression of Korean history. Several important historical
+      events happened here, at Gwanghwamun.\r\n"
+    img: {fileID: 2800000, guid: 503df18535e52404f86bd51db16de38f, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 26
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 3
+    narration: []
+    script: 
+  - name: Janice
+    longText: Interesting. Is Gwanghwamun that gate over there?
+    img: {fileID: 2800000, guid: e87d8e2e19d2821489afc0cbafdf8254, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 27
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 1
+    mode: 0
+    narration: []
+    script: 
+  - name: Han
+    longText: Yes. We are going to get off the car now.
+    img: {fileID: 2800000, guid: 6189b0500e7de244a9b5f0a35822fd6e, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 28
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Janice
+    longText: But why is this place so crowded? Is there any event here today?
+    img: {fileID: 2800000, guid: e87d8e2e19d2821489afc0cbafdf8254, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 29
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 1
+    mode: 0
+    narration: []
+    script: 
+  - name: Han
+    longText: "As far as I know, no.\r\n"
+    img: {fileID: 2800000, guid: 6189b0500e7de244a9b5f0a35822fd6e, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 30
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Janice
+    longText: Then what is that big crowd?
+    img: {fileID: 2800000, guid: ecad5b8a47d7c884e9bd530449ae3e50, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 31
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 1
+    mode: 0
+    narration: []
+    script: 
+  - name: Han
+    longText: I think there is a demonstration going on. Many demonstrations are staged
+      at Gwanghwamun because this place can seat big crowd and there are several embassies
+      and public institution near here.
+    img: {fileID: 2800000, guid: 6189b0500e7de244a9b5f0a35822fd6e, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 32
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Janice
+    longText: Then what are they protesting for?
+    img: {fileID: 2800000, guid: e87d8e2e19d2821489afc0cbafdf8254, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 33
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 1
+    mode: 0
+    narration: []
+    script: 
+  - name: People
+    longText: "Protect woman\u2019s right!"
+    img: {fileID: 0}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 34
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Janice
+    longText: "What does that mean? Can you translate their words?\r\n"
+    img: {fileID: 2800000, guid: e87d8e2e19d2821489afc0cbafdf8254, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 35
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 1
+    mode: 0
+    narration: []
+    script: 
+  - name: Han
+    longText: 'They are protesting to raise social status of women in Korea. You heard
+      of #Me Too movement, right?'
+    img: {fileID: 2800000, guid: 648b074ae00117b41872942536a86064, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 36
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Janice
+    longText: 'Yes. It was very hot topic for last few weeks. '
+    img: {fileID: 2800000, guid: ecad5b8a47d7c884e9bd530449ae3e50, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 37
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 1
+    mode: 0
+    narration: []
+    script: 
+  - name: Han
+    longText: 'There was big #Me Too movement in Korea, too. It started as a female
+      prosecutor claimed she was sexually molested by her colleague. Starting from
+      her, gender inequality is rising as hot issue in Korea. '
+    img: {fileID: 2800000, guid: 6189b0500e7de244a9b5f0a35822fd6e, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 38
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Janice
+    longText: "So that demonstration is to achieve gender equality.\r\n"
+    img: {fileID: 2800000, guid: ecad5b8a47d7c884e9bd530449ae3e50, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 39
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 1
+    mode: 0
+    narration: []
+    script: 
+  - name: Han
+    longText: Yes. Unlike in the past, women are standing and raising their voices
+      to report afterimages of gender inequality and to fix them.
+    img: {fileID: 2800000, guid: 6189b0500e7de244a9b5f0a35822fd6e, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 40
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Janice
+    longText: I think it is very cool, and definitely essential for better society.
+    img: {fileID: 2800000, guid: e87d8e2e19d2821489afc0cbafdf8254, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 41
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 1
+    mode: 0
+    narration: []
+    script: 
+  - name: Han
+    longText: Also, I think victims of gender inequality are not only limited to women.
+      Men can also suffer from stereotypes from gender inequality. Have you ever experienced
+      gender inequality?
+    img: {fileID: 2800000, guid: 6189b0500e7de244a9b5f0a35822fd6e, type: 3}
+    choices:
+    - shortText: Sure I have.
+      next: 48
+      editor: 0
+    - shortText: Actually, I don't know what words and actions reveal gendar inequality
+      next: 42
+      editor: 0
+    choiceMode: 0
+    links: []
+    next: 0
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 1
+    narration: []
+    script: 
+  - name: Han
+    longText: "People mostly don\u2019t realize gender inequality, but its afterimages
+      are hidden in several moments in our daily lives."
+    img: {fileID: 2800000, guid: 6189b0500e7de244a9b5f0a35822fd6e, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 43
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Janice
+    longText: Such as?
+    img: {fileID: 2800000, guid: e87d8e2e19d2821489afc0cbafdf8254, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 44
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 1
+    mode: 0
+    narration: []
+    script: 
+  - name: Han
+    longText: "Parents scolding their boys for crying like girls, and feeling awkward
+      for female pilot and male nurse\u2026. There are all result of gender stereotypes."
+    img: {fileID: 2800000, guid: 6189b0500e7de244a9b5f0a35822fd6e, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 45
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Janice
+    longText: "Those are all what I\u2019ve seen and experienced!\r\n"
+    img: {fileID: 2800000, guid: e87d8e2e19d2821489afc0cbafdf8254, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 46
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 1
+    mode: 0
+    narration: []
+    script: 
+  - name: Han
+    longText: 'and to be solved. '
+    img: {fileID: 2800000, guid: 503df18535e52404f86bd51db16de38f, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 47
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Janice
+    longText: "Right. To be solved.\r\n"
+    img: {fileID: 2800000, guid: ecad5b8a47d7c884e9bd530449ae3e50, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 52
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 1
+    mode: 0
+    narration: []
+    script: 
+  - name: Han
+    longText: How was the situation exactly?
+    img: {fileID: 2800000, guid: 503df18535e52404f86bd51db16de38f, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 49
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Janice
+    longText: "You know, minor words and actions driven from rooted stereotypes. Like,
+      \u2018Boys should not cry\u2019...\r\n"
+    img: {fileID: 2800000, guid: ecad5b8a47d7c884e9bd530449ae3e50, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 50
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 1
+    mode: 0
+    narration: []
+    script: 
+  - name: Han
+    longText: Right.
+    img: {fileID: 2800000, guid: 6189b0500e7de244a9b5f0a35822fd6e, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 51
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Janice
+    longText: 'I think gender inequality should be resolved for united, equal society. '
+    img: {fileID: 2800000, guid: e87d8e2e19d2821489afc0cbafdf8254, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 52
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 1
+    mode: 0
+    narration: []
+    script: 
+  - name: 
+    longText: (at the hotel)
+    img: {fileID: 0}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 53
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Janice
+    longText: 'Thank you for great guiding, Han. Your explanations were very helpful
+      and easy to understand. Especially, #Me Too movement in Korea and crowd at Gwanghwamun
+      were impressive to me. '
+    img: {fileID: 2800000, guid: ecad5b8a47d7c884e9bd530449ae3e50, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 54
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 1
+    mode: 0
+    narration: []
+    script: 
+  - name: Han
+    longText: "It was such a pleasure to guide you. Visit Korea once more! Your trip
+      is too tight and short! \r\n"
+    img: {fileID: 2800000, guid: 6189b0500e7de244a9b5f0a35822fd6e, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 55
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Janice
+    longText: 'Hahaha! I will visit with more money and time next time. '
+    img: {fileID: 2800000, guid: e87d8e2e19d2821489afc0cbafdf8254, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 56
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 1
+    mode: 0
+    narration: []
+    script: 
+  - name: Han
+    longText: Have a safe flight tomorrow, Jack. Bye!
+    img: {fileID: 2800000, guid: 503df18535e52404f86bd51db16de38f, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 57
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Janice
+    longText: "Bye, Han! Thank you!\r\n"
+    img: {fileID: 2800000, guid: e87d8e2e19d2821489afc0cbafdf8254, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 58
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 1
+    mode: 0
+    narration: []
+    script: 
+  - name: 
+    longText: '--- in the room ---'
+    img: {fileID: 0}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 59
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Janice
+    longText: (My first trip in Korea has ended. It was very impressive and meaningful.
+      Especially, I got to look back on society around me. Can it be called equal?
+      Between black and white? Rich and poor? Women and men? I felt shameful and regretful
+      of my ignorance towards inequality and discrimination.)
+    img: {fileID: 2800000, guid: ecad5b8a47d7c884e9bd530449ae3e50, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 60
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 1
+    mode: 0
+    narration: []
+    script: 
+  - name: 
+    longText: "(Jack lying on the bed)\r\n"
+    img: {fileID: 0}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 61
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 0
+    narration: []
+    script: 
+  - name: Janice
+    longText: "What could resolve discrimination? \r\n"
+    img: {fileID: 2800000, guid: e87d8e2e19d2821489afc0cbafdf8254, type: 3}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 62
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 1
+    mode: 0
+    narration: []
+    script: 
+  - name: 
+    longText: (!Notice!) Try to write your own solution to gender inequality and other
+      discriminations around the world. Issues of gender inequality and discrimination
+      are mentioned in SDG#5 and SDG#10, and they are becoming big obstacles to united
+      world. How could this issue be solved? What means are needed to achieve these
+      SDGs?
+    img: {fileID: 0}
+    choices: []
+    choiceMode: 1
+    links: []
+    next: 62
+    editor: 0
+    pos: 1
+    passwords: []
+    incorrect: 0
+    exit:
+      shortText: Exit
+      next: 0
+      editor: 0
+    align: 0
+    mode: 3
+    narration: []
+    script: UnityEngine.SceneManagement.SceneManager.LoadScene("HashTag");
+  bools: 00000000
+  ints: 00000000000000000000000000000000
+  strings:
+  - 
+  - 
+  - 
+  - 
+  backgroundImages:
+  - {fileID: 21300000, guid: 9f533b41f4d131b41a0f8d680ccb57c0, type: 3}
+  - {fileID: 21300000, guid: 087de8c7e7772314880016f132fb907e, type: 3}
+  - {fileID: 21300000, guid: 79168d326813c3448bb9d415c57c6928, type: 3}
+  - {fileID: 21300000, guid: 8cb86762b4607f347a7f4cd2ecf6797a, type: 3}
+  background: {fileID: 2042786203}
+--- !u!4 &1600073488
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1600073486}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 355.1392, y: 258.02634, z: 8.5}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1626782713
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1034869506}
+    m_Modifications:
+    - target: {fileID: 224134530569732466, guid: 35834dfd281332f43ad00ed686f2f409,
+        type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224134530569732466, guid: 35834dfd281332f43ad00ed686f2f409,
+        type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224134530569732466, guid: 35834dfd281332f43ad00ed686f2f409,
+        type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224134530569732466, guid: 35834dfd281332f43ad00ed686f2f409,
+        type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224134530569732466, guid: 35834dfd281332f43ad00ed686f2f409,
+        type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224134530569732466, guid: 35834dfd281332f43ad00ed686f2f409,
+        type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224134530569732466, guid: 35834dfd281332f43ad00ed686f2f409,
+        type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 224134530569732466, guid: 35834dfd281332f43ad00ed686f2f409,
+        type: 2}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224134530569732466, guid: 35834dfd281332f43ad00ed686f2f409,
+        type: 2}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224134530569732466, guid: 35834dfd281332f43ad00ed686f2f409,
+        type: 2}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224134530569732466, guid: 35834dfd281332f43ad00ed686f2f409,
+        type: 2}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224134530569732466, guid: 35834dfd281332f43ad00ed686f2f409,
+        type: 2}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224134530569732466, guid: 35834dfd281332f43ad00ed686f2f409,
+        type: 2}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224134530569732466, guid: 35834dfd281332f43ad00ed686f2f409,
+        type: 2}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224134530569732466, guid: 35834dfd281332f43ad00ed686f2f409,
+        type: 2}
+      propertyPath: m_AnchorMax.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 224134530569732466, guid: 35834dfd281332f43ad00ed686f2f409,
+        type: 2}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 224134530569732466, guid: 35834dfd281332f43ad00ed686f2f409,
+        type: 2}
+      propertyPath: m_Pivot.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 224134530569732466, guid: 35834dfd281332f43ad00ed686f2f409,
+        type: 2}
+      propertyPath: m_Pivot.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 114335622257322326, guid: 35834dfd281332f43ad00ed686f2f409,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 9f533b41f4d131b41a0f8d680ccb57c0,
+        type: 3}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 35834dfd281332f43ad00ed686f2f409, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1 &2042786202
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1874081898904120, guid: 35834dfd281332f43ad00ed686f2f409,
+    type: 2}
+  m_PrefabInternal: {fileID: 1626782713}
   serializedVersion: 5
   m_Component:
   - component: {fileID: 2042786205}
@@ -493,8 +3137,9 @@ GameObject:
 --- !u!114 &2042786203
 MonoBehaviour:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabParentObject: {fileID: 114335622257322326, guid: 35834dfd281332f43ad00ed686f2f409,
+    type: 2}
+  m_PrefabInternal: {fileID: 1626782713}
   m_GameObject: {fileID: 2042786202}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -509,7 +3154,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: 9f533b41f4d131b41a0f8d680ccb57c0, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -520,14 +3165,16 @@ MonoBehaviour:
 --- !u!222 &2042786204
 CanvasRenderer:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabParentObject: {fileID: 222907835168898204, guid: 35834dfd281332f43ad00ed686f2f409,
+    type: 2}
+  m_PrefabInternal: {fileID: 1626782713}
   m_GameObject: {fileID: 2042786202}
 --- !u!224 &2042786205
 RectTransform:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabParentObject: {fileID: 224134530569732466, guid: 35834dfd281332f43ad00ed686f2f409,
+    type: 2}
+  m_PrefabInternal: {fileID: 1626782713}
   m_GameObject: {fileID: 2042786202}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
